@@ -9,8 +9,8 @@
 # Using payu sync is recommend to copy data from ephemeral scratch space to
 # longer term storage
 sync:
-    enable: False # set path below and change to true
-    path: null # Set to location on /g/data (e.g. /g/data/PROJECT/USER/EXPERIMENT)
+    enable: True # set path below and change to true
+    path: /g/data/ol01/access-om3-output/access-om3-025/MC_25km_jra_ryf-1.0-beta # Set to location on /g/data (e.g. /g/data/PROJECT/USER/EXPERIMENT)
     restart: True
 
 #Model software version
