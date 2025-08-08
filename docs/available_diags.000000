@@ -2455,7 +2455,7 @@
     ! units: m2
     ! standard_name: square_of_sea_surface_height_above_geoid
     ! cell_methods: xh:mean yh:mean area:mean
-"SSH"  [Unused]
+"SSH"  [Used]
     ! modules: {ocean_model,ocean_model_d2}
     ! long_name: Sea Surface Height
     ! units: m
