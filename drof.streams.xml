@@ -2,7 +2,7 @@
 <file id="stream" version="2.0">
   <metadata>
     <File_type>DROF xml file provides river runoff data</File_type>
-    <date_generated>2025-09-15 15:31:51</date_generated>
+    <date_generated>2025-09-15 16:14:53</date_generated>
     <history>Created by aek156 (Andrew Kiss) on 2025-09-15, using https://github.com/ACCESS-NRI/om3-scripts/blob/c1415cab348fb564694c2a23dfcae948f77cf331/data_stream_xml_generation/generate_xml_drof.py: /g/data/vk83/apps/om3-scripts/data_stream_xml_generation/generate_xml_drof.py 1958 2024</history>
   </metadata>
   <stream_info name="JRA55do.FRIVER">
@@ -13,7 +13,7 @@
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2023</year_last>
+    <year_last>2024</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-drof-ESMFmesh.nc</meshfile>
@@ -99,7 +99,7 @@
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2023</year_last>
+    <year_last>2024</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-drof-ESMFmesh.nc</meshfile>
