@@ -1,5 +1,7 @@
 # access-om3-experiments
 
+To get write access, you need to create an issue and request access, please use this issue template.
+
 ### Branch name conventions
 Branches in this repository use the following naming convention:
 ```
