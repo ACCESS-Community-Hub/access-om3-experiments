@@ -1,18 +1,8 @@
-# access-om3-experiments
+# ACCESS-OM3 Experiments
+
+This repository is central location to store the automatically generated payu run-logs from ACCESS-OM3 experiments. Please all experiments which are being shared.
 
 To get write access, you need to create an issue and request access, please use [this issue template](https://github.com/ACCESS-Community-Hub/access-om3-experiments/issues/new?template=add-user-request-to--access-om3-experiments--repository-.md).
 
 ### Branch name conventions
-Branches in this repository use the following naming convention:
-```
-<GH-user-name>-<dev/test>-<YYYYMMDD>-<number>
-```
-where:
-- `<GH-user-name>` is the GitHub user name of the person running the experiment
-- `<dev/test>` is the type of experiment, where:
-    - `dev` refers to experiments which are anticipated to make their way into the final model, e.g. spin-up simulations
-    - `test` refers experiments used for testing different features or model changes, e.g. a parameter perturbation experiment
-- `<YYYYMMDD>` is the date that the experiment started running.
-- `<number>` is used to distinguish experiments run on the same date.
-
-For example, `Chrisb13-test-20250305-3` would refer to the third "test" experiment run by @chrisb13 on 2025/03/05.
+Branches in this repository use the experiment name, as defined the `name:` field in `metadata.yaml` for the experiment 
