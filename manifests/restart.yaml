@@ -1,3 +1,58 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/access-om3.cice.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/access-om3.cice.r.1901-01-01-00000.nc
+  hashes:
+    binhash: 443a9e1d461c2c80ff242d9097cc357f
+    md5: 6b3a18a2c0e8db8285d42bfac8e479ff
+work/access-om3.cpl.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/access-om3.cpl.r.1901-01-01-00000.nc
+  hashes:
+    binhash: c1ae0201869a0d760a37a979d48e1f24
+    md5: 51d953136629b6d913e4f2e137ad0895
+work/access-om3.datm.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/access-om3.datm.r.1901-01-01-00000.nc
+  hashes:
+    binhash: 7b7aab4e0cfbfea0de570bc9beff7010
+    md5: 5d611bdad83ee20c059a1d70b5e24b50
+work/access-om3.drof.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/access-om3.drof.r.1901-01-01-00000.nc
+  hashes:
+    binhash: f7a2b45d670d24aa008005de671315b4
+    md5: 03df84d2630fb48b4aa86a876d2ba417
+work/access-om3.mom6.r.1901-01-01-00000.nc:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/access-om3.mom6.r.1901-01-01-00000.nc
+  hashes:
+    binhash: 8a5b4b3cec9bf766c1ead83193f65368
+    md5: c95a8fbbf28bfac338be9b4b89c55afd
+work/ocean_wombatlite_airsea_flux.res.nc:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/ocean_wombatlite_airsea_flux.res.nc
+  hashes:
+    binhash: 26d2cbb315994a559c1fe3d53aea6f03
+    md5: 24d5c58844c504a9e22d675889326249
+work/rpointer.atm:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/rpointer.atm
+  hashes:
+    binhash: 3e5086a4c53952341729986ea7e37bb0
+    md5: 27b9497bb722e90e6800014f4c37f772
+work/rpointer.cpl:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/rpointer.cpl
+  hashes:
+    binhash: a030dbda6da6259a1360b6c3da4a789b
+    md5: 2bc9d4f79a64e7898accd6647c4d677c
+work/rpointer.ice:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/rpointer.ice
+  hashes:
+    binhash: 020bcf789666442e75e7220a5b873bef
+    md5: e9c3c58fc10dd4114d2079fec8d2bfc8
+work/rpointer.ocn:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/rpointer.ocn
+  hashes:
+    binhash: 2857ec3d559576c7d4a3f45673bcd969
+    md5: fa1f63fe8fde20bdaa108866d1fc6319
+work/rpointer.rof:
+  fullpath: /scratch/tm70/ds0092/access-om3/archive/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c/restart000/rpointer.rof
+  hashes:
+    binhash: 455e891f75ca1e7fdcc798c2f799c9aa
+    md5: 52f906041c01a134d4e1349bc653ca44
