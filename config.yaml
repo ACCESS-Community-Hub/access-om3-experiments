@@ -9,8 +9,8 @@
 # Using payu sync is recommend to copy data from ephemeral scratch space to 
 # longer term storage
 sync:
-    enable: False # set path below and change to true
-    path: null # Set to location on /g/data (e.g. /g/data/PROJECT/USER/EXPERIMENT)
+    enable: True
+    path: /g/data/ol01/outputs/access-om3-100km/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c
     restart: True
 
 #Model software version
@@ -27,6 +27,7 @@ mem: 960GB
 
 walltime: 04:00:00
 jobname: 100km_jra55do_ryf_wombatlite
+experiment: MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c
 
 model: access-om3
 exe: access-om3-MOM6-CICE6
@@ -58,13 +59,13 @@ input:
     - /g/data/vk83/configurations/inputs/JRA-55/RYF/v1-6/data
  
 collate: false
-runlog: false
+runlog: true
 metadata: 
-    enable: false
+    enable: true
 manifest:
   reproduce:
-    exe: false
-    inputs: false
+    exe: true
+    inputs: true
 
 userscripts:
     archive: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
