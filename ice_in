@@ -96,7 +96,7 @@
   ! These fields are on by default (in ice_history_mechred.F90) but lets turn them off
   !-----------------------------------
   f_dardg1dt  = 'x', f_dardg2dt   = 'x'
-  f_dvirdgdt  = 'x'
+  f_dvirdgdt  = 'm'
 /
 &icefields_pond_nml
 /

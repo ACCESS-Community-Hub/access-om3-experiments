@@ -206,12 +206,19 @@ diag_table:
             thkcello: # Cell Thickness
             Kd_interface: # Total diapycnal diffusivity at interfaces
             Kd_ePBL: # ePBL diapycnal diffusivity at interfaces
+            khth_struct: # long_name: Vertical structure of thickness diffusivity
+            tnkebto: # Integrated Tendency of Ocean Mesoscale Eddy KE from Parameterized Eddy Advection
+            KHTH_u: # Parameterized mesoscale eddy advection diffusivity at U-point
+            KHTH_v: # Parameterized mesoscale eddy advection diffusivity at V-point
+            diftrblo: # Ocean Tracer Diffusivity due to Parameterized Mesoscale Advection
+            diftrelo: # Epipycnal tracer diffusivity at tracer cell center
 
     'monthly 2d fields':
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 2d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
         fields:
+            hfibthermds: # Latent heat flux into ocean due to melting of icebergs
             hfrunoffds: # Heat content (relative to 0C) of liquid+solid runoff into ocean
             hfrainds: # Heat content (relative to 0degC) of liquid+frozen precip entering ocean
             net_heat_coupler: # Surface ocean heat flux from SW+LW+latent+sensible+seaice_melt_heat (via the coupler)
