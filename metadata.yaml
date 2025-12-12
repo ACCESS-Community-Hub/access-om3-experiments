@@ -1,29 +1,31 @@
-contact: Add your name here
-email: Add your email address here
-created: Add the date you started the experiment here (YYYY-MM-DD)
+contact: dougiesquire
+email: dougiesquire@gmail.com
+created: '2025-12-12'
 description: |-
-    25km ACCESS-OM3+WOMBATlite global configuration under the RYF9091 Repeat
-    Year Forcing strategy outlined by Stewart et al (2020), 
-    https://doi.org/10.1016/j.ocemod.2019.101557.
-    Initial conditions are WOA23 temperature and salinity.
-    Run with JRA55-do v1.6.0 RYF9091 (1 May 1990 - 30 April 1991) repeated forcing.
-    Spin up starts from a nominal year of 1 Jan 1900.
-    This experiment uses a prerelease version of the configuration (f3ef108). It
-    was run for testing/development purposes
+  25km ACCESS-OM3+WOMBATlite global configuration under the RYF9091 Repeat
+  Year Forcing strategy outlined by Stewart et al (2020),
+  https://doi.org/10.1016/j.ocemod.2019.101557.
+  Initial conditions are WOA23 temperature and salinity.
+  Run with JRA55-do v1.6.0 RYF9091 (1 May 1990 - 30 April 1991) repeated forcing.
+  Spin up starts from a nominal year of 1 Jan 1900.
+  This experiment uses a prerelease version of the configuration (81ad20e). It
+  was run for testing/development purposes
 notes: |-
   ACCESS-NRI and COSIMA request that users of this model acknowledge those organisations 
   following the examples at https://www.access-nri.org.au/resources/acknowledging-us/ 
   and https://cosima.org.au/index.php/get-involved/
 keywords:
-  - JRA55
-  - access-om3
-  - repeat-year
-  - global
+- JRA55
+- access-om3
+- repeat-year
+- global
 realm:
-  - ocean
-  - seaIce
-  - ocnBgchem
+- ocean
+- seaIce
+- ocnBgchem
 nominal_resolution: 25 km
 license: CC-BY-4.0
 model: ACCESS-OM3
-url: https://github.com/ACCESS-NRI/access-om3-configs/tree/dev-MC_25km_jra_ryf+wombatlite
+url: https://github.com/ACCESS-NRI/access-om3-configs.git
+experiment_uuid: c4347f5a-24d9-4f9a-8c29-cc5596cab954
+name: MC_25km_jra_ryf+wombatlite-81ad20e-c4347f5a

@@ -10,7 +10,7 @@
 # longer term storage
 sync:
     enable: False # set path below and change to true
-    path: null # Set to location on /g/data (e.g. /g/data/PROJECT/USER/EXPERIMENT)
+    path: /g/data/ol01/outputs/access-om3-25km/MC_25km_jra_ryf+wombatlite-81ad20e-c4347f5a
     restarts: True
     exclude_uncollated: False
 
@@ -28,6 +28,7 @@ jobfs: 10GB
 mem: 13000GB
 walltime: 8:00:00
 jobname: 25km_jra55do_ryf_wombatlite
+experiment: MC_25km_jra_ryf+wombatlite-81ad20e-c4347f5a
 
 model: access-om3
 exe: access-om3-MOM6-CICE6
@@ -59,7 +60,7 @@ input:
     - /g/data/vk83/configurations/inputs/JRA-55/RYF/v1-6/data
     - /g/data/vk83/prerelease/configurations/inputs/access-om3/share/grids/global.25km/2025.11.27/mask_table.1038.63x56
 
-runlog: false
+runlog: true
 metadata: 
     enable: true
 manifest:
