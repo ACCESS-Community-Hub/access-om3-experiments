@@ -11,7 +11,8 @@
 sync:
     enable: True
     path: /g/data/ol01/outputs/access-om3-100km/MC_100km_jra_ryf+wombatlite-1e74abf-11f9df5c
-    restart: True
+    restarts: True
+    exclude_uncollated: False
 
 #Model software version
 modules:
