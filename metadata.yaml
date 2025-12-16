@@ -1,10 +1,11 @@
-contact: Andrew Kiss
+contact: Andy Hogg
 email: Andy.Hogg@anu.edu.au
 created: '2025-12-16'
 description: |-
   25km ACCESS-OM3 global configuration under interannual forcing.
   Initial conditions are WOA23 practical temperature and practical salinity.
   Run with JRA55-do v1.6.0 interannually-varying forcing, 1 Jan 1958 - 31 Dec 2023.
+  Here I'm modifying the GM parameters to be the same as GFDL OM5.
 notes: |-
   ACCESS-NRI and COSIMA request that users of this model acknowledge those organisations 
   following the examples at https://www.access-nri.org.au/resources/acknowledging-us/ 
