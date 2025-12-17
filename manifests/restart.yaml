@@ -1,1368 +1,1368 @@
 format: yamanifest
 version: 1.0
 ---
-work/access-om3.cice.r.1987-01-01-00000.nc:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.cice.r.1987-01-01-00000.nc
-  hashes:
-    binhash: ccbb4e16ca0207d2ed8631f085ff66ef
-    md5: 09982ae2579ba55c94ec2d7e66a51673
-work/access-om3.cpl.r.1987-01-01-00000.nc:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.cpl.r.1987-01-01-00000.nc
-  hashes:
-    binhash: 58edcab88e225bc29db31dd88938c3a8
-    md5: fb9bf1758fd061d9afd3a797a4bfd47a
-work/access-om3.datm.r.1987-01-01-00000.nc:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.datm.r.1987-01-01-00000.nc
-  hashes:
-    binhash: 6b93be35c3158aea497908e27bd8fb68
-    md5: 8610ad00e16422ca7d24919aa2ef168d
-work/access-om3.drof.r.1987-01-01-00000.nc:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.drof.r.1987-01-01-00000.nc
-  hashes:
-    binhash: 7eb1299bf9d1095cc2ab0ab537170b90
-    md5: e76288eeb54e2cddb15aa983c76c34da
-work/access-om3.mom6.r.1987-01-01-00000.nc.0002:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0002
-  hashes:
-    binhash: c9182e1d05e78d035fccc3fb53b86de9
-    md5: 561c143e30eba0845e28277e6dca0a9d
-work/access-om3.mom6.r.1987-01-01-00000.nc.0003:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0003
-  hashes:
-    binhash: 42f08dafef7fd4add5269bcc2c9b241c
-    md5: 2f78d381a46391f021c3db80f09aa5c0
-work/access-om3.mom6.r.1987-01-01-00000.nc.0004:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0004
-  hashes:
-    binhash: 2c5160b665d65338c8a4a026386068d7
-    md5: fc31d571f138cd6e6e15206089f49fd1
-work/access-om3.mom6.r.1987-01-01-00000.nc.0005:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0005
-  hashes:
-    binhash: a07e828026d07094bba54fa93606d240
-    md5: 42d6dfea5a6741ab6fd318983d3bfdba
-work/access-om3.mom6.r.1987-01-01-00000.nc.0006:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0006
-  hashes:
-    binhash: e0df4a77fc3117b7badb60640d692512
-    md5: 8fe039aaceb1ebd5f5c696ef69059ffb
-work/access-om3.mom6.r.1987-01-01-00000.nc.0009:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0009
-  hashes:
-    binhash: 9f9d1fd4ddd7931e183c24abea002932
-    md5: f05f37a31502b0549d9eaf2ce8522861
-work/access-om3.mom6.r.1987-01-01-00000.nc.0010:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0010
-  hashes:
-    binhash: ece05f0e22316cc5be2dfd3f9b981d1d
-    md5: 7dc85e9b1439c48bdb09b03b87789769
-work/access-om3.mom6.r.1987-01-01-00000.nc.0011:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0011
-  hashes:
-    binhash: 9df9b998dcfc8d5d4d3b1babd3d89362
-    md5: 6d53828a860da7d6002ec1789729f91f
-work/access-om3.mom6.r.1987-01-01-00000.nc.0012:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0012
-  hashes:
-    binhash: b0dfa73668d8a4ef9be5375ca687d57b
-    md5: bef8a9026a023f90b21b99e457c2c49c
-work/access-om3.mom6.r.1987-01-01-00000.nc.0013:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0013
-  hashes:
-    binhash: fef3464ee1d2f120302a7c1511ba0c9a
-    md5: 2133a7d89170013959ce1f8580698bdf
-work/access-om3.mom6.r.1987-01-01-00000.nc.0014:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0014
-  hashes:
-    binhash: d3ebba4caec7368f6c4214998854874d
-    md5: 43b7afda8f8348c20630b04a0a5d1202
-work/access-om3.mom6.r.1987-01-01-00000.nc.0015:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0015
-  hashes:
-    binhash: 29a175e9e6b0ab606866e10cb8bb7e3d
-    md5: 11875bd1918a273606c1afe277b0e813
-work/access-om3.mom6.r.1987-01-01-00000.nc.0016:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0016
-  hashes:
-    binhash: 4dc4996b3b9706c2672fdcc84ed3f315
-    md5: 918c83ae2b99b73444584e5b4c8f8075
-work/access-om3.mom6.r.1987-01-01-00000.nc.0017:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0017
-  hashes:
-    binhash: 0eaeac858bc5d83f26c65509fc9a7654
-    md5: 007d515459ade79efedfca96842c1dfc
-work/access-om3.mom6.r.1987-01-01-00000.nc.0018:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0018
-  hashes:
-    binhash: 7520ebd4021ab9600b195323ac114790
-    md5: 5d6f340fccb473c3b98b9b642f79f065
-work/access-om3.mom6.r.1987-01-01-00000.nc.0019:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0019
-  hashes:
-    binhash: e1b24e6bc69043e303f158035ac92762
-    md5: f08d343e3d2ff31a29689c0e7de1ac7e
-work/access-om3.mom6.r.1987-01-01-00000.nc.0020:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0020
-  hashes:
-    binhash: d68613d822c5cdfad5ca71742e12d27d
-    md5: 3cd17f45df4b6aeb54ef8046e6909b4e
-work/access-om3.mom6.r.1987-01-01-00000.nc.0021:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0021
-  hashes:
-    binhash: 4040f33bdc562c600a86f1f8887e4229
-    md5: e4597202e053b632fc0c9d30b8d425dd
-work/access-om3.mom6.r.1987-01-01-00000.nc.0022:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0022
-  hashes:
-    binhash: e5cd727ce9093750f23550cbaaa7f841
-    md5: 6322d65b30963dfd4225a7799c7b8b8a
-work/access-om3.mom6.r.1987-01-01-00000.nc.0023:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0023
-  hashes:
-    binhash: 3644322c004b8b098dec30ad6bd84e52
-    md5: 785496eb02ea32322a6461b73b8c9095
-work/access-om3.mom6.r.1987-01-01-00000.nc.0024:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0024
-  hashes:
-    binhash: bdbfcd0c51d55995414227a76b47f584
-    md5: e948782c6c5e9c7c48b25c2912f5de9e
-work/access-om3.mom6.r.1987-01-01-00000.nc.0025:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0025
-  hashes:
-    binhash: e9d11bd2f4fa3b46ce9272a8542cb67b
-    md5: f129e9774cd4010f42f1ac7bd354853d
-work/access-om3.mom6.r.1987-01-01-00000.nc.0026:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0026
-  hashes:
-    binhash: e6fc33341c5c4ebf983465bc1ceaa54d
-    md5: 6ce1ac8f9f6c2528b18e061ae81b0e09
-work/access-om3.mom6.r.1987-01-01-00000.nc.0027:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0027
-  hashes:
-    binhash: 7c9b6c2ca5830ddfeee661a9a72373ab
-    md5: 904d7bfdf4db8c4335384a3f23ea818d
-work/access-om3.mom6.r.1987-01-01-00000.nc.0028:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0028
-  hashes:
-    binhash: 649f0d44b2456e8a63b3e6d255906121
-    md5: e1cfe92bba796b2efdcf39a1c2f0c4fd
-work/access-om3.mom6.r.1987-01-01-00000.nc.0029:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0029
-  hashes:
-    binhash: 06abf3d152af36209b768171ed56c382
-    md5: 352cc1ebc76e9776c93f4cd787d0de43
-work/access-om3.mom6.r.1987-01-01-00000.nc.0030:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0030
-  hashes:
-    binhash: a025dca46405cb1176ecf2b2bf2fce21
-    md5: 9411899871a291037608bc4d394708f3
-work/access-om3.mom6.r.1987-01-01-00000.nc.0031:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0031
-  hashes:
-    binhash: 7511d9daeaf324517b8efa37aa995ef4
-    md5: 87e7c7e0b49621af77d163a617bffc42
-work/access-om3.mom6.r.1987-01-01-00000.nc.0032:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0032
-  hashes:
-    binhash: b9e8f795ef57a944fb0dc856775435bb
-    md5: 7d006048853ae8dad37b1d40cb9521eb
-work/access-om3.mom6.r.1987-01-01-00000.nc.0033:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0033
-  hashes:
-    binhash: 189d1885a7eb7dd96833ddc0b59a59b2
-    md5: 2462d16d59700f2808854aff0dc99e5d
-work/access-om3.mom6.r.1987-01-01-00000.nc.0034:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0034
-  hashes:
-    binhash: 3f413c564de7bad831c09317e534c802
-    md5: ff2484977252939d4cd87a48d7fe286b
-work/access-om3.mom6.r.1987-01-01-00000.nc.0035:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0035
-  hashes:
-    binhash: 81606313aeaf97aade0c133872d7dc71
-    md5: da0c637f4483dacbf2f242d34427d747
-work/access-om3.mom6.r.1987-01-01-00000.nc.0036:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0036
-  hashes:
-    binhash: b91eba58946095a26e9a373041a0753f
-    md5: 7ab89778caf479ea0e75c09289cd355c
-work/access-om3.mom6.r.1987-01-01-00000.nc.0037:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0037
-  hashes:
-    binhash: 06f37a3004033c3002e750d2ebb0613d
-    md5: e00fb1e901fd1ab1c36a27e1f8ed0f2a
-work/access-om3.mom6.r.1987-01-01-00000.nc.0038:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0038
-  hashes:
-    binhash: 5d603292df39f4e9c71ae1673907584e
-    md5: bb862d7f476a6eae8319091b3bb45aa4
-work/access-om3.mom6.r.1987-01-01-00000.nc.0039:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0039
-  hashes:
-    binhash: a7cd41a01b727498c1c461fa954b3226
-    md5: c4fd42e5737ddc5bae048fd484d2ec30
-work/access-om3.mom6.r.1987-01-01-00000.nc.0040:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0040
-  hashes:
-    binhash: 063ee10e25cf600860eb11be6a4430a4
-    md5: c4a765feaa793ab3114cdd1c5dac0bc6
-work/access-om3.mom6.r.1987-01-01-00000.nc.0041:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0041
-  hashes:
-    binhash: a0668835eb5a381e87beedc65f21fa9a
-    md5: 7f8d1088da6998d3d954c852d692f1db
-work/access-om3.mom6.r.1987-01-01-00000.nc.0042:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0042
-  hashes:
-    binhash: b58e74f750d4d400b520388c9e93ce6b
-    md5: f60ca77aee0aac05b6d1bed817c96065
-work/access-om3.mom6.r.1987-01-01-00000.nc.0043:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0043
-  hashes:
-    binhash: a272b1085a525d92b419f62ac6f1d337
-    md5: e2708aeb2de36d5e944d61a05e8b2604
-work/access-om3.mom6.r.1987-01-01-00000.nc.0044:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0044
-  hashes:
-    binhash: a082dbe3af7cf08a1fe7e0782a695fc8
-    md5: 412ab6baf878dd8d81e3fa0ffda68ed5
-work/access-om3.mom6.r.1987-01-01-00000.nc.0045:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0045
-  hashes:
-    binhash: bbe197eabfe64b0ec7702a5146fb23cf
-    md5: fcd1f18854605894806ead1001cecd98
-work/access-om3.mom6.r.1987-01-01-00000.nc.0046:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0046
-  hashes:
-    binhash: f1008655181e5eaf5ce44d375e074b0a
-    md5: 2cd12ac399a42a52ed9fb309f115db59
-work/access-om3.mom6.r.1987-01-01-00000.nc.0047:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0047
-  hashes:
-    binhash: d735be5816272c9066678c34ffd3bc5c
-    md5: 109d9f6e7aa31e251dcf9c06ddd1aca2
-work/access-om3.mom6.r.1987-01-01-00000.nc.0048:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0048
-  hashes:
-    binhash: d4e8349107470103c2565723ed054aeb
-    md5: acc07669fbc1ce90658a3338a62334da
-work/access-om3.mom6.r.1987-01-01-00000.nc.0049:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0049
-  hashes:
-    binhash: 30879bc1b8e5319a0c0d5d9c539972cf
-    md5: 406da3ed0ec02c606c6ff03f88511b24
-work/access-om3.mom6.r.1987-01-01-00000.nc.0050:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0050
-  hashes:
-    binhash: 1111c4014d8847dff7ea1f25af927e2d
-    md5: 707db68f2814f1f009627699be165537
-work/access-om3.mom6.r.1987-01-01-00000.nc.0051:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0051
-  hashes:
-    binhash: e0369592c44b88314f6e080c7eaed44d
-    md5: a37f4e7b29c2eb2afa2492d9c0d29746
-work/access-om3.mom6.r.1987-01-01-00000.nc.0052:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0052
-  hashes:
-    binhash: 1d2222796dbc64a6da792109b7fbd847
-    md5: 1c824cb0acd951fcdd987c1cbbeb4963
-work/access-om3.mom6.r.1987-01-01-00000.nc.0053:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0053
-  hashes:
-    binhash: 37074d8325a59b9784794d248494ae06
-    md5: 88e9f6e00fde9d3c01888443b7387dea
-work/access-om3.mom6.r.1987-01-01-00000.nc.0055:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0055
-  hashes:
-    binhash: c124c4f259ce6c68a37f3a54b5759e32
-    md5: ef7ca4c45bbb35ebe13d668410f1b61b
-work/access-om3.mom6.r.1987-01-01-00000.nc.0056:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0056
-  hashes:
-    binhash: 7a1943b539d5b4e3f1989a33f4fbc0a2
-    md5: 3578575eeef93008cb0fa00152d9fba0
-work/access-om3.mom6.r.1987-01-01-00000.nc.0057:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0057
-  hashes:
-    binhash: 699f51f5d0c9a625fd46a49d942f2514
-    md5: 3dcbfb552e119d68a2c08eb5fd5a0dfe
-work/access-om3.mom6.r.1987-01-01-00000.nc.0058:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0058
-  hashes:
-    binhash: 5ed79683c6f670ce8403a0a77652a4f7
-    md5: 27b59c2334e153bc77c5314237d7e6eb
-work/access-om3.mom6.r.1987-01-01-00000.nc.0059:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0059
-  hashes:
-    binhash: ef576fa7df21c3011d59b7754a22ed2d
-    md5: c57b6ea0e5140a18766a26b033e41fd4
-work/access-om3.mom6.r.1987-01-01-00000.nc.0060:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0060
-  hashes:
-    binhash: 70376da9f9768a264ce7988a32f97711
-    md5: 05ec36084e13ce9a98ed0542ffa11cff
-work/access-om3.mom6.r.1987-01-01-00000.nc.0061:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0061
-  hashes:
-    binhash: b4c8ef6d4df084140507cc4ca136f64a
-    md5: c23f063c5dcbaa95fa47308c63cdc109
-work/access-om3.mom6.r.1987-01-01-00000.nc.0062:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0062
-  hashes:
-    binhash: 818b77ea634ae59f53cef0ff3a65f8c7
-    md5: 57fe11a22cf65ed1ea75cc418ba3d23d
-work/access-om3.mom6.r.1987-01-01-00000.nc.0063:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0063
-  hashes:
-    binhash: b80f53d3cb0a9ec011d44ab66ed7172d
-    md5: 7de675325afa80cb47a724c58cdb9aad
-work/access-om3.mom6.r.1987-01-01-00000.nc.0064:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0064
-  hashes:
-    binhash: b185fd2bb47426643c994d0b1da1f0e0
-    md5: 1f826e4226e2ef377a34021bcec1bba1
-work/access-om3.mom6.r.1987-01-01-00000.nc.0065:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0065
-  hashes:
-    binhash: 036076740183adfae34abe24b747679b
-    md5: 0af19dc96aaadd9b655ac05f6549ad8b
-work/access-om3.mom6.r.1987-01-01-00000.nc.0066:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0066
-  hashes:
-    binhash: 58ad12a18b73d4bcad0e675fa9908332
-    md5: 787f29b54dd3b7334add1993dd8d6796
-work/access-om3.mom6.r.1987-01-01-00000.nc.0068:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0068
-  hashes:
-    binhash: ca72739aa5cf81970d3577087c4660e3
-    md5: 66a337fc15e5d19e95c3b01ad26190f1
-work/access-om3.mom6.r.1987-01-01-00000.nc.0069:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0069
-  hashes:
-    binhash: f35282f5d8c48207069ca97a8a7de8ff
-    md5: 45d8e6d18733b0c03cf7a16ad1b996d8
-work/access-om3.mom6.r.1987-01-01-00000.nc.0070:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0070
-  hashes:
-    binhash: b0e9e7b8cb9c648a38d2e54933887c2e
-    md5: 0aa4f0d1b641f656ca87d82a05076d05
-work/access-om3.mom6.r.1987-01-01-00000.nc.0071:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000.nc.0071
-  hashes:
-    binhash: 7c47644a0de136b44e19d973e334c828
-    md5: 2726660951add926459f3d959e2c980d
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0002:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0002
-  hashes:
-    binhash: e2deed5f19c6388ec98ef1581b45e8a5
-    md5: f7a378f0257a1378c84126d94678577b
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0003:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0003
-  hashes:
-    binhash: ab312472f55dbedceb0efe3fbea761b9
-    md5: 76bd0f8d64d59e6c966f4e992040beca
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0004:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0004
-  hashes:
-    binhash: 7c3f26902e581c61cf881c4220d50a79
-    md5: 3bf50cb0c80f6428bd1538774159ffbd
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0005:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0005
-  hashes:
-    binhash: d31edbeda3f6bb714400b2aa420692ba
-    md5: 330382cd2c9162eeff5902058953b4bb
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0006:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0006
-  hashes:
-    binhash: 072954f0c8c8f68c8a2a50c04d0fa918
-    md5: 835480ca4505e23d734fb2ae339a9f7b
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0009:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0009
-  hashes:
-    binhash: 42ced7a295d03aa92b54fd1d7bb5d85c
-    md5: cb990cd0037c0ae0ffec350d39abec1a
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0010:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0010
-  hashes:
-    binhash: 729956dff4ae2dcad8cef503009bc729
-    md5: 08104099c93aa101fa3194fea94e0966
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0011:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0011
-  hashes:
-    binhash: 0b6cc6781e600e2550147c6ad800b590
-    md5: 81408845fb21852d9ef7dabd388ae7ad
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0012:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0012
-  hashes:
-    binhash: ad4994418fdb809a4b2f9ae7092b342a
-    md5: 627ff0e56f06761798c657c4ffeb208b
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0013:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0013
-  hashes:
-    binhash: 4d69d560517edeaa3fd19443af090b6a
-    md5: 5ae07280d6c45b3ddf89eb8b4bba9e9f
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0014:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0014
-  hashes:
-    binhash: 99aebc4bf93b544ac9c70097015c5e5a
-    md5: 84bd001e02955313acb9e10c6038fb97
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0015:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0015
-  hashes:
-    binhash: 41052e10f957941cef887a74dbb08d47
-    md5: b1e1700eabce0a1b7695a4323b4fcaa4
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0016:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0016
-  hashes:
-    binhash: 490b56dc22b1da06fb5faf6919042d48
-    md5: a48787b6b3cfe1cdfe1105aaee893406
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0017:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0017
-  hashes:
-    binhash: 50a28599330bd3ecdeab66ac9651489d
-    md5: cbead6ccd418d65db11e3a396b8caa01
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0018:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0018
-  hashes:
-    binhash: 719775558bab3ff043f170a7cef3b8d3
-    md5: df25e7f8bcff5ff7ca61809bad9c991e
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0019:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0019
-  hashes:
-    binhash: be27b0f72d31d991cfaabce70a3ab3da
-    md5: c0c54de09749bcb2303cff585398958b
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0020:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0020
-  hashes:
-    binhash: 86ef739a83ad1c6c71f4bd521fd94686
-    md5: 380fd117b2c40e7991921ac71665a598
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0021:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0021
-  hashes:
-    binhash: df69df4298065e56512f65279af9d84a
-    md5: b2d90ce8f240f2e88f3cd6ed7cec3e0b
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0022:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0022
-  hashes:
-    binhash: 8d27828fd770c4f2bbc76b1583e62bd0
-    md5: 2aba226d348fb701b6e6f984faca6abf
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0023:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0023
-  hashes:
-    binhash: a0a75751840010d19541fb7e6576882d
-    md5: a303dc42028da698d38e2efb97e0a4c9
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0024:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0024
-  hashes:
-    binhash: b975d9f880b01bfc80335500d29487de
-    md5: f561aa55aaf85852075f03bc0bdafb25
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0025:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0025
-  hashes:
-    binhash: b5bf49f42a1d8673a28019e6a01024a7
-    md5: 6b313a1efe59b90465f755f3ca9e9810
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0026:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0026
-  hashes:
-    binhash: 23b80dffd248efa031f0f725744df25e
-    md5: 0c8f32cfc44ecafbc0caf8e584da549e
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0027:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0027
-  hashes:
-    binhash: 0ce204d475c1b4e4490b9cccf26df7ca
-    md5: 7efc3d9e5259ba0c43da11551658fcf6
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0028:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0028
-  hashes:
-    binhash: e87e7d63248cffb757005d7184c1016e
-    md5: ef55521489cf55a01c6e575afa00b329
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0029:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0029
-  hashes:
-    binhash: 8a9571196adc20b24bd21eb243db6e8a
-    md5: 6acc9650042cbb1a49900370ab50a50a
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0030:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0030
-  hashes:
-    binhash: 97fcd73f27a959f6d880d4a4d4e8140f
-    md5: 2767471f4963918b7dd032e9c33679a7
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0031:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0031
-  hashes:
-    binhash: a56c2e33e0d6a7b31285f2c93e947ec7
-    md5: b3da844500a7d027728fb3a3d6f1ff80
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0032:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0032
-  hashes:
-    binhash: 0acf34ec93ea2329e5a7027e435ed04b
-    md5: bff855255b4a206e806aef67d78e48cf
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0033:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0033
-  hashes:
-    binhash: 20e229df44d90230420ac79446683d89
-    md5: d017f35ee4d950c5a5f9b826993471f3
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0034:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0034
-  hashes:
-    binhash: 0f404ae32e8350becfd839a3d09ef3ab
-    md5: 98df3aa094e05057b14ce0f746ad0643
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0035:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0035
-  hashes:
-    binhash: 5f37d2aec647bdb485d5ae17326f6cab
-    md5: b3c8895b9020dbd07155872fd0349f3c
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0036:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0036
-  hashes:
-    binhash: a44c6124f5f68faefaf824846cb12d9b
-    md5: b53f3b6105e33dfcfa9d64f62b1cb4d6
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0037:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0037
-  hashes:
-    binhash: 31020be4e7ee2623b7e09efe9eb70cea
-    md5: 5b17b43a7f2a5374544d6f349b41045c
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0038:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0038
-  hashes:
-    binhash: f4470a3a42ee0387c5735e64fe2bcaf9
-    md5: fa9b96ccc1cdbec0540e884f7d11318a
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0039:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0039
-  hashes:
-    binhash: 5633b7b3f883c5961d99e612cc5a507e
-    md5: fe3822d20332e8e1d0d5c7bd6e9c5f4a
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0040:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0040
-  hashes:
-    binhash: ba1516f1174106609068635ae128f402
-    md5: 457aeb468032d5f72ac81f9445885907
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0041:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0041
-  hashes:
-    binhash: b3dce22e39cc6e9583b3554ffbef283b
-    md5: 546282309adb0396231a11a1b12eb4f3
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0042:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0042
-  hashes:
-    binhash: 153318b34ab7849ad6eb780a575ceab7
-    md5: 0b6b8cea28842849dc1d7e02bcf7ec3e
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0043:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0043
-  hashes:
-    binhash: 45babff61b17556fa9a43e08c76dc46d
-    md5: 857e8333e2a79cfbe84c7275bf779916
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0044:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0044
-  hashes:
-    binhash: eab5dda2cef936fe1932d7aaa5aa2406
-    md5: 8b41085b24dcea5c6bca40f144d06c4d
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0045:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0045
-  hashes:
-    binhash: 2db1c2f63d7c0f86d86b0f3236141fe4
-    md5: 1bdd4816dd3e975dfe5a8bc7463fc9e2
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0046:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0046
-  hashes:
-    binhash: 0c369198f2dc036369af3e2758986519
-    md5: 5a8c8739844e3385973c429eeb0fc77a
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0047:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0047
-  hashes:
-    binhash: 390dbade9dc14088526f654a9292faf4
-    md5: ea707aa5dca43d20feb932ff204efa39
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0048:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0048
-  hashes:
-    binhash: dd33962e2a15cd52ff333a278e9cbfee
-    md5: c189062cfc8a5976a1450ba346c07340
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0049:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0049
-  hashes:
-    binhash: 4e58236f0c6b9eb6181844d77d450d3a
-    md5: b96e4ac5b79964fb55968c37bec5a885
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0050:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0050
-  hashes:
-    binhash: 60803fc993b36b5cf17d2e0110449369
-    md5: f517ac1cc3d1b9882ef4eba99ef07f39
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0051:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0051
-  hashes:
-    binhash: 8ed3d738e79e3d5041e30507e4602146
-    md5: 50aa0e093b2f8401e5fe75809fcfb140
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0052:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0052
-  hashes:
-    binhash: db4135bdc5cb55adbb36d2e63822e3bb
-    md5: 1daf2699cb2e6b3de69bff31a36ef079
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0053:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0053
-  hashes:
-    binhash: f8643a1c7a55c86637876073407de229
-    md5: 03a3df997fd7d2de86d741d0b98c7da4
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0055:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0055
-  hashes:
-    binhash: c5ea15a38ed564897d32795514df37f4
-    md5: bfa1a7c1dde19a2ce57e648d9266257f
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0056:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0056
-  hashes:
-    binhash: 84bbf54a10b9f8257e0bf39006ebe517
-    md5: 0be01091be98aa077a1563781f287e55
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0057:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0057
-  hashes:
-    binhash: 1eac7bd42f2ee064c7a101fa827c0dc4
-    md5: f8fec31e832377aef71c03f663f0ccd3
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0058:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0058
-  hashes:
-    binhash: b09ff1737555b5859f3ad9b67ceaea6f
-    md5: c1cdb8ecac2eb56e170ebefe73bffb3e
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0059:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0059
-  hashes:
-    binhash: 28db0c408eb1a736d823f1cb0651dc10
-    md5: 1b4fbb460b198218dbc68bb8de89184c
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0060:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0060
-  hashes:
-    binhash: 6c076b9e886adbe21dc6bd515d22c249
-    md5: b6f535fc75b3c82684daa6bf2e6ba29e
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0061:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0061
-  hashes:
-    binhash: 40adaf75c593857645f873975561b196
-    md5: 1a3fc3398cc6de224f14ce68f87af149
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0062:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0062
-  hashes:
-    binhash: 5813971152d11be5b4460f182e1c8f30
-    md5: 4e5cfae537a14465b36cb5a24d2a7983
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0063:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0063
-  hashes:
-    binhash: 4c2e22460505caddfac47534f99de6ec
-    md5: fa34df205c16bdf326e6fdf44e9534f2
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0064:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0064
-  hashes:
-    binhash: 529f91ae42083c98f8897b5a47564e21
-    md5: 33328b79407617805cf369aab080dbc6
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0065:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0065
-  hashes:
-    binhash: 3514a1466a47e8f3e8ed08964cffd17a
-    md5: 8e45221e915fc511d69c89e52aa9464e
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0066:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0066
-  hashes:
-    binhash: 98025ee5fa0b06a7262a083cefa39b7f
-    md5: 4ebbddc15191641ffc475961cce21f0f
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0068:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0068
-  hashes:
-    binhash: 8c61bf7aad0079a60fc803c19367e2cd
-    md5: 74b31a5de7b773ed182ee946940a0e19
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0069:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0069
-  hashes:
-    binhash: 18451c628af76a5413b6c34b7662f751
-    md5: d2c63c6f63ead72dd18ef2bf7dfeafca
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0070:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0070
-  hashes:
-    binhash: f4a7b54424e41ecbb9627c662ca01445
-    md5: f80897ea81e7ed0dfb69af484fd8c42e
-work/access-om3.mom6.r.1987-01-01-00000_1.nc.0071:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_1.nc.0071
-  hashes:
-    binhash: 02a27f163db65f9a931af11fc22e56d2
-    md5: ca22cf1b53ce0498de01632ab14bdd66
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0002:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0002
-  hashes:
-    binhash: 367131ad5ac266754eedc0fab0978bbf
-    md5: 08b89c71151ac90d2e1bfa03d39b9cbc
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0003:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0003
-  hashes:
-    binhash: a06d120d38fcb39cbf5bfd9c4a754950
-    md5: ed61e1e51f1a6d80ab6573f02ad0ecfa
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0004:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0004
-  hashes:
-    binhash: 8d975801600154c3214a1772af872765
-    md5: 33e519704693a5760d3f8753b0011e3a
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0005:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0005
-  hashes:
-    binhash: 8950621a299cf6bdde0ab1432c56d5c5
-    md5: 023b72cc64f9333ccb5bb5302177cace
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0006:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0006
-  hashes:
-    binhash: d70c8ca960a34d3015def8df57b3bce3
-    md5: 5a66e64afd27baa8ccd5a2e53228f75e
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0009:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0009
-  hashes:
-    binhash: cde12105dc1aacabdfbe4ac56f9df6f4
-    md5: 6382700880d690d97a6099dd6c1ad986
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0010:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0010
-  hashes:
-    binhash: 1d20b8746eeeacd807cc4937731c54a9
-    md5: 1ca6f39c1add99c565558cf01762b968
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0011:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0011
-  hashes:
-    binhash: a7d384a3342264621d0ade57edf679bb
-    md5: 9d46b906b378cda2d0a910d7d8ea8677
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0012:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0012
-  hashes:
-    binhash: ec28e1ba1cedf93ea0818d76996fdf7f
-    md5: 5fc43b8d6563821b37b5514677a2108a
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0013:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0013
-  hashes:
-    binhash: 2e41925c3eba06580635afc0faebf5cc
-    md5: 6fa5ecb7a960cfe6ef0714b05568b331
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0014:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0014
-  hashes:
-    binhash: 649f97aad184d913f5b449b5cefc16c9
-    md5: 061c99a0a2df45344e54c01a5c0d486e
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0015:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0015
-  hashes:
-    binhash: 2e07495730fb5b7f5faa5bdd957a81a9
-    md5: 06fa971d1d0043ba7c999d5e249cb1a2
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0016:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0016
-  hashes:
-    binhash: d94ba6ef837945789672e58e86f3a79f
-    md5: 00d894afff91716c90d31ec042c9b4a7
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0017:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0017
-  hashes:
-    binhash: e91f8deecd3313a3f65b11ecf5012e7c
-    md5: 36b022cb1a4b13398b5b00d57a89d9a4
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0018:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0018
-  hashes:
-    binhash: c4cc5bcae7ca37db58210ba81bc1de6c
-    md5: e3bb82655ca3b6802aa6acc92f98e48a
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0019:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0019
-  hashes:
-    binhash: 0d3cd1b6cab94c157c165dc1cdcbad44
-    md5: 578edd77151f91028e23903f2777ae8d
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0020:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0020
-  hashes:
-    binhash: d00554bc33e74a32b92bc8e31eb02b18
-    md5: 7bad346744d90450220ae0be3dbee290
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0021:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0021
-  hashes:
-    binhash: 402355c306515e3b137e457661bab1f0
-    md5: 8752c106cf7e6d6a663b60f0c6e5c456
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0022:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0022
-  hashes:
-    binhash: 2bf5c06c51245cd77ff40c54919b884e
-    md5: e633ea83112e797febc7e1cb055ecaab
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0023:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0023
-  hashes:
-    binhash: 2a8fc06ea22898c8949ec2bb53970f0c
-    md5: 542a75f9c83e797c2d4349b386fd8cb9
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0024:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0024
-  hashes:
-    binhash: 94054604ca121d751ef146bb9b7b03dc
-    md5: 5af35f6c00d10b15ac1201d6fa1d1af8
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0025:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0025
-  hashes:
-    binhash: 9ed1d983ea1f41c8fc82c8f9b9925573
-    md5: e4f6cd55e51874805af73cc5bc97501b
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0026:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0026
-  hashes:
-    binhash: 6e3fc5b2a62f0115dda803854eb11546
-    md5: 6c2a5507d2f8556fcd1c6aabd0ff1858
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0027:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0027
-  hashes:
-    binhash: 3e04a1166945e150ddb9f9827b10cfdb
-    md5: cdb9cc04c89a3c910a8b4fc89c88cc36
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0028:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0028
-  hashes:
-    binhash: cc7b971b228a6e04cd0ed1ac7a905088
-    md5: 051ae4e95b1c8ea7df1794ac640da2b9
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0029:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0029
-  hashes:
-    binhash: 7fc88135bcc5541344df46c44e2c879d
-    md5: 55764c7b510e82c27a5b377480df4067
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0030:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0030
-  hashes:
-    binhash: 98e1b5fc1ead99555e088058dc9ca13c
-    md5: 873599b75a865e0cd134585a7ddbcef8
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0031:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0031
-  hashes:
-    binhash: 19eda12b66e52ed0fd531ae76654f28c
-    md5: 50babdb9f48336855388c1d2a0ceb6a6
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0032:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0032
-  hashes:
-    binhash: 4e69df72d0f1ca9828326555e2fad285
-    md5: cd003f32cfcb03e746cac741d269fb83
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0033:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0033
-  hashes:
-    binhash: 6a761cd9deeecc2feb86920af7feec2e
-    md5: 9c8d959c3ae6fed313fbbfc8803030a9
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0034:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0034
-  hashes:
-    binhash: a355bc6014337612a60fd1c45d0854d8
-    md5: 9ae6415ef645610e02cda6313a446d73
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0035:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0035
-  hashes:
-    binhash: 439303f936090ac4b4927125ab9dd608
-    md5: e4e9209650cfefdb0387d2043221f7f5
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0036:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0036
-  hashes:
-    binhash: 6d2a6ef7f5973442cc1c52a382af001e
-    md5: c9c12b8c2551c8bd17528676e28a4f8e
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0037:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0037
-  hashes:
-    binhash: f5f3dddd67a13d49583117e58a4710bc
-    md5: 55f4fcbd092ef14c6c7197ac48089a04
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0038:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0038
-  hashes:
-    binhash: 6016d45ddc91d80d49de8e0cb5ce6615
-    md5: 9d56ede01407659b3c0d52ca4327a1ff
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0039:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0039
-  hashes:
-    binhash: f64fb34ed1b72af3bcea511da254005e
-    md5: 7700fb5da27ca7ea52b16ceadc4c8cfd
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0040:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0040
-  hashes:
-    binhash: 62983e36a2b39ea657cf0cdfd16ca0fd
-    md5: f7c565d9e35bd9ee5071982f83d6180b
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0041:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0041
-  hashes:
-    binhash: 5b2060698036f7b94ed728429a1c13f8
-    md5: 13e4d834c921a44b439dd393df1235db
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0042:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0042
-  hashes:
-    binhash: 33614dc1826e89fd0e7933a778cfa02d
-    md5: 043e1998f1a9c13beccb0eea6ded87ae
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0043:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0043
-  hashes:
-    binhash: b7625b2be65361fc34ffe087456aa570
-    md5: 449b5c0367a193a23b45d5acb75a7280
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0044:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0044
-  hashes:
-    binhash: 209027a26f2596a862c46cac54049a58
-    md5: 1f20b9a3556b1768ece96c483c6374fd
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0045:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0045
-  hashes:
-    binhash: 848cf65791d12c2695004671c8fe4d15
-    md5: 62da294dd2a076f9160062cf320d41b8
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0046:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0046
-  hashes:
-    binhash: 57c4d855f83fc5d5363a1997a29ed49b
-    md5: 7bdfa47abe2995bb0efb24ef99a030b5
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0047:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0047
-  hashes:
-    binhash: 984527e904305a79f8f5e1a40bd7b835
-    md5: 378d758d7eb389a58a0cdebf5904d802
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0048:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0048
-  hashes:
-    binhash: 72bc8221a4ae0211e1055ee443805767
-    md5: 0a0188ee45f1ce0bc130b69f5f708b6d
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0049:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0049
-  hashes:
-    binhash: 0d1cc21df4f71a85b10afb2d73176a73
-    md5: 1261c17f6dae1734361f4c5877903994
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0050:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0050
-  hashes:
-    binhash: 86d5fad878965e21e6e0737a78b932c6
-    md5: 2e8213d3e29d695bb781f3b34d4e55b0
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0051:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0051
-  hashes:
-    binhash: 5cf81cb226b9b32e8a6443e027874026
-    md5: fb036deeb1aa44bcab895d5b1b0bc67e
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0052:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0052
-  hashes:
-    binhash: 2db794b75f1a4f49c15341d7620288f4
-    md5: a142125feb8842eea08addd967fd1e2a
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0053:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0053
-  hashes:
-    binhash: c5ea2e40cd77b67610ffcb662fa8bd36
-    md5: 647840d21a3fb6126fd7f15823741750
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0055:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0055
-  hashes:
-    binhash: 42eb18335ef347e6516d5f50fb5d4b72
-    md5: d8c43c3c9b7d12641760fd9f9e0b7348
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0056:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0056
-  hashes:
-    binhash: 1ca2a46485293ab1ee1431bc726b2329
-    md5: 2ae84898c7da52cb3ae6e5b35cf35d63
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0057:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0057
-  hashes:
-    binhash: 700d66e275033dd7e892962a5cbfbd76
-    md5: 5373798b069c5160421a0152048edcbd
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0058:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0058
-  hashes:
-    binhash: 826a754177192211034f908ca5265e7a
-    md5: 6a5af2b1d2bbde8bfe09f2808006396f
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0059:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0059
-  hashes:
-    binhash: a5bf974a1ce3e7f4b991df77d2514770
-    md5: 298b4fc89f290fc5f6b221811a05e842
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0060:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0060
-  hashes:
-    binhash: c25870a25e699f79f9e0ee320d5f71f2
-    md5: 4827d299b5672a3f725c66ae317cc373
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0061:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0061
-  hashes:
-    binhash: 6fa727ac282f60cf249d7e8798bd9807
-    md5: 0a0264bc504d7c07df7c4d5303084436
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0062:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0062
-  hashes:
-    binhash: dad98fd969cb37af952a53fb7f8727df
-    md5: 605f8b6aa44256f771b1d39f6906ec4e
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0063:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0063
-  hashes:
-    binhash: 892ca5cd191773b99c2960539e87ef07
-    md5: adb7347beb84cb785dfb2bb3d873a524
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0064:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0064
-  hashes:
-    binhash: ba06bbd0ab12741d4de5c94f721e3d99
-    md5: aba840ecb2a05896a946d72fad7e239f
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0065:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0065
-  hashes:
-    binhash: 46e124a7cd5110b4bc896f27c8fc4e52
-    md5: 5e7767447f4b83347d53b2cb04f5e720
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0066:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0066
-  hashes:
-    binhash: 0b2c132164e755715001e79bb1ad5d46
-    md5: e21a3cc180ec0cff4e63dfd82bb3856e
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0068:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0068
-  hashes:
-    binhash: ef607ad190fc1fb2ea36bea75cb1de38
-    md5: d18757e6155f453d221a563f81dd745a
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0069:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0069
-  hashes:
-    binhash: 96b8f88abf28d3f6cd0b9774a52a4905
-    md5: 28ef5d8ca8e44ba4d84e7e4cf9c514b0
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0070:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0070
-  hashes:
-    binhash: 202a926f578668b2b4c86687834fabcc
-    md5: d8abb8f826acbedead0a24f48cad31ab
-work/access-om3.mom6.r.1987-01-01-00000_2.nc.0071:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_2.nc.0071
-  hashes:
-    binhash: c15ec47a12894042077849416c3017b8
-    md5: c31e20e14679b246b8b03d1bbf2a0cbc
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0002:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0002
-  hashes:
-    binhash: deaa307cc1041ebffde5927cab1e1081
-    md5: d0b394dd674b68004483045d3b568c55
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0003:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0003
-  hashes:
-    binhash: def40cc88ac9b7024668fed4adb9487e
-    md5: 107e6cc3833e89e020bbe2030d91795a
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0004:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0004
-  hashes:
-    binhash: c16a8eaada4d3a1d17a3e0a083e1e654
-    md5: 12b71cbe3c42ca6af8a74bd619683a07
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0005:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0005
-  hashes:
-    binhash: 122bc56c714271ec8d70fb76d49e08da
-    md5: 4fbf40197a444df339bc5dd8fe87ff3e
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0006:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0006
-  hashes:
-    binhash: 582ee4c7319daa145a3962244b8966f9
-    md5: 05e4e8d1547b42367bd934bb37c5a2b5
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0009:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0009
-  hashes:
-    binhash: 9749c6fcc68e4b148a3fccb7f1bf3cbc
-    md5: 0c8f7b0c056485ebe068c543634f730f
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0010:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0010
-  hashes:
-    binhash: d13ae02355cbf3923e657b2f9aa63794
-    md5: 4ad09a681e02358cb4e778c17a9aad2d
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0011:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0011
-  hashes:
-    binhash: 962ad96032aa2bd5e82c0899a89b5ee1
-    md5: 984e1e727160cfad31029d4491b7b074
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0012:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0012
-  hashes:
-    binhash: d4dcf7dbf266d6e2c60831190a1f8c89
-    md5: a6809ec93200092144d56bed1cd05906
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0013:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0013
-  hashes:
-    binhash: 4969cf4154cd276c431c90814c89d21e
-    md5: 42ba5f2adf49a0ada1dd1d23ad3963bd
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0014:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0014
-  hashes:
-    binhash: bedd4fa4532a44bf84531e0a656b8e47
-    md5: ff3da01bc48896a4bab77782cb9389d6
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0015:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0015
-  hashes:
-    binhash: 40439faf339a7e2ecdd8d993d802d524
-    md5: 4d23b83b62e09d5172831062ed9b18d0
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0016:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0016
-  hashes:
-    binhash: 48e37ad0106d0fc38035c830ad6e65e1
-    md5: 001b4e76858ffbeb4d20285dc3010eaa
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0017:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0017
-  hashes:
-    binhash: 613c8e2ce65a0f2ab8a3f8ddce76332e
-    md5: 7c547691a56079440d826f4449d74a0c
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0018:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0018
-  hashes:
-    binhash: a65eaed0cda194f44ebfc2248a053ffb
-    md5: d6c203b8e38c827f49c052e1d34b8564
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0019:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0019
-  hashes:
-    binhash: c31eb11514e5453371c0664f30ea00d4
-    md5: 67f7b25cb1aab91be94c05dc309dec3d
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0020:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0020
-  hashes:
-    binhash: 9c3148ac47430f3aadc1ddcaac2833bc
-    md5: e688d7f8126f35fc3d9e1f78bda7405c
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0021:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0021
-  hashes:
-    binhash: a7b833a41e0d5d1e2f67966614f829e3
-    md5: 95e37426cbcc7a3aac8e44b4bff9ada3
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0022:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0022
-  hashes:
-    binhash: 57a3f65c2e004bd58988e7c5671669ab
-    md5: adaa52a0eb4db157c7fc0f3b421ee3bf
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0023:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0023
-  hashes:
-    binhash: de0e04cbaffe3579eeda97a1df4e082d
-    md5: 6b9fa7ea46f4b7703cdd4b19db8cd537
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0024:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0024
-  hashes:
-    binhash: f913ea4062c3627af45661cb6e084df1
-    md5: 3b4c693f7716a12198f159afc23b4123
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0025:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0025
-  hashes:
-    binhash: 69c62906c87e1e8bd5ca08330d72573a
-    md5: a116bdbdcba9b6ffdd76b15d1a2bcd43
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0026:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0026
-  hashes:
-    binhash: c4ca6e51d7bfbbc0fed3694512d6b7c4
-    md5: b048fa79e0bf621fd884ac2f3c771772
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0027:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0027
-  hashes:
-    binhash: ed398f03e55e3646e23cddfd867ec163
-    md5: e5e9e0ee2b76e4f1f1b3b80555001e72
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0028:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0028
-  hashes:
-    binhash: e999ad9f092625de18eacc084d4bdb5f
-    md5: 9cc83a73b877e5393ffc71751adfed9b
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0029:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0029
-  hashes:
-    binhash: 5f2e76be80f2efe365e31daa4c4984be
-    md5: ff86081d13f8328623431cec45559f62
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0030:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0030
-  hashes:
-    binhash: 14f5c32746fee56e267cbb51980d6ba4
-    md5: 3f4fd86cfd01cf805428537e1a86e001
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0031:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0031
-  hashes:
-    binhash: d7f852cab8bb5b2790f278b3b0a2d783
-    md5: dfb7ee85ac280c1095b07389c0b36a83
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0032:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0032
-  hashes:
-    binhash: cdf6484e30a73e33ceb86d0dab635654
-    md5: 3fcfd51420ce819921253fbc07af5b26
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0033:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0033
-  hashes:
-    binhash: c04917112fc5222af840636b2cea7754
-    md5: 80c23eb591a2937c755c76bea49e7e5e
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0034:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0034
-  hashes:
-    binhash: 4b1e062688127b4d0f56d4f3c7d18e00
-    md5: 4f59986a0a0bfb0b905e398ca6d825a3
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0035:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0035
-  hashes:
-    binhash: 5efdeb2ab0758565d641b7cb7e7fb5f2
-    md5: 61ffb3d5ba11575bb81e06ac1429f0a0
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0036:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0036
-  hashes:
-    binhash: 4c8cb801e12b06bc987114fe6fe5c32c
-    md5: e02572c54316e2038ff9bb0365017d36
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0037:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0037
-  hashes:
-    binhash: 159def8d6a038582cd379678424a3ae1
-    md5: 640eb0e36b712936931fba6d8201baf7
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0038:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0038
-  hashes:
-    binhash: 19413af7d9ebbe6c2b64bab139d657a9
-    md5: d7a2d8739f67e2a058de8cf7d83da542
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0039:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0039
-  hashes:
-    binhash: 2dff01667bea45f2d2712599ffd7bdb0
-    md5: 310e8698c35eceaf598e514b9c74715f
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0040:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0040
-  hashes:
-    binhash: 7c186a0abeca4eb825c71530cfae5a54
-    md5: 39429e3c26177c7b482dd78838a68494
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0041:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0041
-  hashes:
-    binhash: ccd3bb9c090cc95a509f549613bc6728
-    md5: c191f7404fcb027cf0c3725b6dcf3c24
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0042:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0042
-  hashes:
-    binhash: 3f6e8cdb955ac8a365a810ee17e263df
-    md5: cbab66345ed1a5ed814eff25cf4ad31a
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0043:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0043
-  hashes:
-    binhash: e6a893baa5c5e78ad1016f92dda1f4c1
-    md5: 96193672cfc00107841eda310ef4e8f1
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0044:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0044
-  hashes:
-    binhash: 5576accfc14001f6cb54969582c18cb4
-    md5: c69b6bb34298307bc24773727d5ce238
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0045:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0045
-  hashes:
-    binhash: 3c078ad822d7cbf1a4f0082c2d8869d3
-    md5: 0d30ae4724585cf1747681f5a6f92a70
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0046:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0046
-  hashes:
-    binhash: 7b4eed1b0fb72d6580634f71a5d6e576
-    md5: 54eb832aa504ee4a310eceb610d3b35f
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0047:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0047
-  hashes:
-    binhash: 684b110754b8580feeb83b7bc474001c
-    md5: 671f1ca1f5cf6f7c1a3fa149802a8d19
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0048:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0048
-  hashes:
-    binhash: 50f30d3b6e65884f8575ce86237e0439
-    md5: 354f15358ae6c6525fb6b5c1f3c75c5b
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0049:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0049
-  hashes:
-    binhash: 5b3870a0becd47824ba42f68821db076
-    md5: 3d08c3b713892a9f9cb246ebaec14058
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0050:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0050
-  hashes:
-    binhash: 5349c629c3b58b2fb13a656e48e8534f
-    md5: c38c8c7e950b7ba14ac41d2686efefaa
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0051:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0051
-  hashes:
-    binhash: 5011a18309dcd1ef79279fb022ef66cc
-    md5: 2e0182836fc8474902453e5ee117c029
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0052:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0052
-  hashes:
-    binhash: bc2aafdea9881b7d4a0d8aa947829d48
-    md5: 7ead33f5f6e6e0633c48dac85ca95efc
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0053:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0053
-  hashes:
-    binhash: 4a7a857102d07aff4ce5d5bccffa0cf3
-    md5: 0dcaa7859e6c0a8b0b2f6c4b3a38a8c9
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0055:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0055
-  hashes:
-    binhash: 9c98b6e5be28849376dfd6620ed481e2
-    md5: 9946942e420196e7cb66c87495b91435
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0056:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0056
-  hashes:
-    binhash: e7457700773b84529feaaf28efeb1d1c
-    md5: 59f38ebd5a2a04630b96989fe2b29ff5
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0057:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0057
-  hashes:
-    binhash: 7e14a14bbea5e4e17705c21106983086
-    md5: d0d3bba2c63c163b62972029797253b9
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0058:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0058
-  hashes:
-    binhash: 77257f0f1c5e329052ceb2be2cef8adf
-    md5: 3f4237b9a8e26689387f2a2b7fbd3f44
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0059:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0059
-  hashes:
-    binhash: f0aaa9984511d0fdb613c73ba00b3e6b
-    md5: c19f5a7478bf1d896e638e1475790af6
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0060:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0060
-  hashes:
-    binhash: 317a5caf21ad3294ee2357e0d8fd19b7
-    md5: 5993b3d64416360ae9230aae1a1f3b24
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0061:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0061
-  hashes:
-    binhash: d43033d7593972f64d38ccbf62d0d172
-    md5: 055a8880c1678d111f1749f6f3217587
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0062:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0062
-  hashes:
-    binhash: 2afe1e6610ac0637613a3f7bd3aa004a
-    md5: ce0b63f632da0e0b83d4cf98dab7dae8
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0063:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0063
-  hashes:
-    binhash: a6b4bf50eea961c2c81afd60715a2c24
-    md5: 63817d325d68d97159cc2d4653c2ccf9
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0064:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0064
-  hashes:
-    binhash: 293864c5a2c0264e999738180adb2631
-    md5: d8bcc802d5867f947f3321d0a2b93d8f
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0065:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0065
-  hashes:
-    binhash: 54fb4e4f7451a236194000798152167c
-    md5: cef3277a2f294ccdbdf9eaeada3c4a58
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0066:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0066
-  hashes:
-    binhash: c2fa61afa0d02af8fe23ae196e0fe2d9
-    md5: c52b6a535fe32716de2910eae40969c6
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0068:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0068
-  hashes:
-    binhash: 189873a75402780fbfdbaf85af1228ca
-    md5: 6afbcb5f605339f52ec68eb6bc2f2c80
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0069:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0069
-  hashes:
-    binhash: 70464d632ee02c61b8247af70ea7a78d
-    md5: 87891a59f89465813ab03caf4fa84fd3
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0070:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0070
-  hashes:
-    binhash: c2e92fff1198fee608f2618161f61b47
-    md5: ae867022bda73ae1feebc0084b0f785a
-work/access-om3.mom6.r.1987-01-01-00000_3.nc.0071:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/access-om3.mom6.r.1987-01-01-00000_3.nc.0071
-  hashes:
-    binhash: 91f8728d07c27b8b04b704bb1fd9acd1
-    md5: f37a6adc829b127804015b84d81f9548
+work/access-om3.cice.r.1988-01-01-00000.nc:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.cice.r.1988-01-01-00000.nc
+  hashes:
+    binhash: 1eceb489876875e2726e8117ef4b584a
+    md5: d135ba165963b5585b0631b5c4c585d6
+work/access-om3.cpl.r.1988-01-01-00000.nc:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.cpl.r.1988-01-01-00000.nc
+  hashes:
+    binhash: a3aba59b11f23280b6025bc78a941045
+    md5: 8858a253f489014f208e564046cbb45d
+work/access-om3.datm.r.1988-01-01-00000.nc:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.datm.r.1988-01-01-00000.nc
+  hashes:
+    binhash: c82f506899e6a6cf53593cbb7f466fed
+    md5: a9da509b9781b5c0b254167c815fbeb2
+work/access-om3.drof.r.1988-01-01-00000.nc:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.drof.r.1988-01-01-00000.nc
+  hashes:
+    binhash: 6cfed6642a10fb959234674dfebc4f5e
+    md5: a3ba4f79b89897a1b67cc4bd7b184d26
+work/access-om3.mom6.r.1988-01-01-00000.nc.0002:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0002
+  hashes:
+    binhash: 1eb445b27b27a07913d31780d8856592
+    md5: 34e391a653b91a2991aabe05484d1fed
+work/access-om3.mom6.r.1988-01-01-00000.nc.0003:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0003
+  hashes:
+    binhash: c5b0b56621379598fb0ceac49be8763f
+    md5: 1ad1e0c726dc299b817a1258278f7576
+work/access-om3.mom6.r.1988-01-01-00000.nc.0004:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0004
+  hashes:
+    binhash: 776a88fa067e89048d42c2132904c1f1
+    md5: 212f85af291fd1b88f4f081c02214cfa
+work/access-om3.mom6.r.1988-01-01-00000.nc.0005:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0005
+  hashes:
+    binhash: c3e3883810810176478bf707dbc6ca19
+    md5: 12b6f109d804e45a41b02931c94cbdf7
+work/access-om3.mom6.r.1988-01-01-00000.nc.0006:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0006
+  hashes:
+    binhash: dc817fcd53cd8438705c3e5dbf52ac9e
+    md5: 29fa3469e5dada8ca6bf9cef3c945fdb
+work/access-om3.mom6.r.1988-01-01-00000.nc.0009:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0009
+  hashes:
+    binhash: 51aadc6540aae3ec27dc883bed772c90
+    md5: 4ec5bbe3e26892d15ff30d42efe129d8
+work/access-om3.mom6.r.1988-01-01-00000.nc.0010:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0010
+  hashes:
+    binhash: 71b54c21b316e023cf9c2e40b78742b5
+    md5: e542dcfe44197e85fc748b218b94fac2
+work/access-om3.mom6.r.1988-01-01-00000.nc.0011:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0011
+  hashes:
+    binhash: 748b65af348b8e632839be17b9551fe1
+    md5: f144b9847ebdc6b1386b8c1b160027c1
+work/access-om3.mom6.r.1988-01-01-00000.nc.0012:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0012
+  hashes:
+    binhash: 02b5dfee3f45ce2580102b867bc6ce1a
+    md5: df5bb0f5f843ce818755c589970072b1
+work/access-om3.mom6.r.1988-01-01-00000.nc.0013:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0013
+  hashes:
+    binhash: 3ecab8bc91ecaa7ff808b893005af583
+    md5: a956d73ba911d9f3883561e3940dd00c
+work/access-om3.mom6.r.1988-01-01-00000.nc.0014:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0014
+  hashes:
+    binhash: 13775aa28c338ee27be42b9e087e13cc
+    md5: c660f6f5408bd8384c3b0002dbb08202
+work/access-om3.mom6.r.1988-01-01-00000.nc.0015:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0015
+  hashes:
+    binhash: 6a049b7f15e0b33f678421550b294563
+    md5: 6567f4a3e5507dbb0f511ada54d4d814
+work/access-om3.mom6.r.1988-01-01-00000.nc.0016:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0016
+  hashes:
+    binhash: 5802c37831ae12ba9729d468f8cffb6d
+    md5: 5cbbdfe3202c987ecca25d23fefaaed4
+work/access-om3.mom6.r.1988-01-01-00000.nc.0017:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0017
+  hashes:
+    binhash: 7e85eb18fd315c993d9288ffa33ad8f5
+    md5: 6a671910b8b6ad0af6356135febbc0bb
+work/access-om3.mom6.r.1988-01-01-00000.nc.0018:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0018
+  hashes:
+    binhash: dd502bb624a7f3f934431746da4cbb22
+    md5: 0dcedbde7189a6d6ab8d1749bebdc977
+work/access-om3.mom6.r.1988-01-01-00000.nc.0019:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0019
+  hashes:
+    binhash: 9d527a1fbfe43b05a9e72788f8b143ac
+    md5: cf73eb30ea75b51846ec6588b39c55e6
+work/access-om3.mom6.r.1988-01-01-00000.nc.0020:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0020
+  hashes:
+    binhash: d97167fdd716bb7571aedb5287c78798
+    md5: 45689c2022c8f6bb9f0d9817c036c580
+work/access-om3.mom6.r.1988-01-01-00000.nc.0021:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0021
+  hashes:
+    binhash: 945fdd3d78bcbc4abe724d3dbc2d8e49
+    md5: edfaa7c7da4570ec01bd810b16ab23d1
+work/access-om3.mom6.r.1988-01-01-00000.nc.0022:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0022
+  hashes:
+    binhash: b9c07ab93e1be71b2e39328c48c8852d
+    md5: efff0062ec3922fbae0993ae4c91a732
+work/access-om3.mom6.r.1988-01-01-00000.nc.0023:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0023
+  hashes:
+    binhash: edc9643a110f9d71b9ba024e954fbf27
+    md5: e6338776decf4a71906f6e3356ccf575
+work/access-om3.mom6.r.1988-01-01-00000.nc.0024:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0024
+  hashes:
+    binhash: ebdbde6fb6d089917d08cee958dcfad0
+    md5: 621b48940bab309e38248f4ddd1e9581
+work/access-om3.mom6.r.1988-01-01-00000.nc.0025:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0025
+  hashes:
+    binhash: b084cdba80d0b0d94612c10d7db017e3
+    md5: 60bbbf93484cff7ebcfe001d8de24bd5
+work/access-om3.mom6.r.1988-01-01-00000.nc.0026:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0026
+  hashes:
+    binhash: 0adf222d168c07c3377617c822a97b3a
+    md5: d752be9f60a393a5219c14c18d16fe54
+work/access-om3.mom6.r.1988-01-01-00000.nc.0027:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0027
+  hashes:
+    binhash: 94502451589f2ba0a309ef77b2f3eae4
+    md5: 7f6b3250bfe4324d402242cb36ca7b0b
+work/access-om3.mom6.r.1988-01-01-00000.nc.0028:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0028
+  hashes:
+    binhash: c044779fdf667049793c47f7cfcff9a8
+    md5: 8772bd1414687b0b2f04a93925cab4d0
+work/access-om3.mom6.r.1988-01-01-00000.nc.0029:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0029
+  hashes:
+    binhash: 589d826277353d0910917575c6925333
+    md5: 29427797a9c97372dc0619b30c9b92fe
+work/access-om3.mom6.r.1988-01-01-00000.nc.0030:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0030
+  hashes:
+    binhash: 89e92c47fe3bf3a7b611aa7ddaa73b65
+    md5: da3af9a0cd182aa220a2e73a50aa0ead
+work/access-om3.mom6.r.1988-01-01-00000.nc.0031:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0031
+  hashes:
+    binhash: 14d73d332a861ab668be7093b00afe3f
+    md5: 557b1f419c7603beb6a2faac899f656e
+work/access-om3.mom6.r.1988-01-01-00000.nc.0032:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0032
+  hashes:
+    binhash: 1f07aae3754de9adbadbd824ccfef84d
+    md5: feaca71bbdc0deb685ed41c2194aaf3f
+work/access-om3.mom6.r.1988-01-01-00000.nc.0033:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0033
+  hashes:
+    binhash: 4e36ee19df33074bf0c245a6db956220
+    md5: 72de19b0eec006d3d52105a88ae72b27
+work/access-om3.mom6.r.1988-01-01-00000.nc.0034:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0034
+  hashes:
+    binhash: 69556fcab49f719529777efc908236d6
+    md5: 5304f81ef34d1c075df8fdfd26174824
+work/access-om3.mom6.r.1988-01-01-00000.nc.0035:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0035
+  hashes:
+    binhash: 7ef4a6ca65c5e517ff77205f8a45f9f4
+    md5: 1678422f09c6aab2ab3e8b60f3a28b90
+work/access-om3.mom6.r.1988-01-01-00000.nc.0036:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0036
+  hashes:
+    binhash: 5718b8cdb68dad212d00e08abcbe9cc0
+    md5: 405ef4266c5533f5ee47fad6358d72f3
+work/access-om3.mom6.r.1988-01-01-00000.nc.0037:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0037
+  hashes:
+    binhash: 971ffa23f5929e41db0ffe826b7ab85c
+    md5: 316ab464db2ffed5b50d99f2c58c7988
+work/access-om3.mom6.r.1988-01-01-00000.nc.0038:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0038
+  hashes:
+    binhash: 76bb0f1deb9edaa768abc6c175c91221
+    md5: 2c8e24433016e59bdd630c8898cbcf4f
+work/access-om3.mom6.r.1988-01-01-00000.nc.0039:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0039
+  hashes:
+    binhash: 4ca3c1ecfbc942318e32cd55a17482ea
+    md5: e06fd57bab790565b2cb3cdfe097a147
+work/access-om3.mom6.r.1988-01-01-00000.nc.0040:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0040
+  hashes:
+    binhash: 2828eb87a27daa03435117d324218bcc
+    md5: 1b4feaebcaafd0cf706a16ef69c35e69
+work/access-om3.mom6.r.1988-01-01-00000.nc.0041:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0041
+  hashes:
+    binhash: 663d0e2fb74e65bc1d1f55b3c2cccd7e
+    md5: be171ba222dcdf2ed3e2b0f98873a770
+work/access-om3.mom6.r.1988-01-01-00000.nc.0042:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0042
+  hashes:
+    binhash: 114740fda208ef54536e97624b67e6d7
+    md5: 63819af023abdadb397b2307a19cdd4d
+work/access-om3.mom6.r.1988-01-01-00000.nc.0043:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0043
+  hashes:
+    binhash: 074f0f3ef27d1dd2dd4eef95261e0fd5
+    md5: 86bf01ccc71bc322ecadb039ecbdf662
+work/access-om3.mom6.r.1988-01-01-00000.nc.0044:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0044
+  hashes:
+    binhash: 067c9ac8e231cd0e5ea0a17c575c1f3f
+    md5: b554b0b4a672d295242960cb0a6c670b
+work/access-om3.mom6.r.1988-01-01-00000.nc.0045:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0045
+  hashes:
+    binhash: 304b6ea6867e85bf26ab2caaef7c77cb
+    md5: 646bfc4963e1ce2aec8dc5ec0fc9cad4
+work/access-om3.mom6.r.1988-01-01-00000.nc.0046:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0046
+  hashes:
+    binhash: 5d070605dcacb6cbf7d460daa4450e4e
+    md5: de053d83b6a88e0f4216df8519fd5fdc
+work/access-om3.mom6.r.1988-01-01-00000.nc.0047:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0047
+  hashes:
+    binhash: 46d43dfb312d4fbe40ab2b9d3ecbc8b2
+    md5: 47c89ac4a091796675fafeb3c1c17b1e
+work/access-om3.mom6.r.1988-01-01-00000.nc.0048:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0048
+  hashes:
+    binhash: 09ee441c6e082ce57a31bac4cd580677
+    md5: 66d4a1f6d6a2056f187c429135003143
+work/access-om3.mom6.r.1988-01-01-00000.nc.0049:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0049
+  hashes:
+    binhash: 0d7c479403279bd59ed8a54b1c081bb7
+    md5: 1d0ab03f2941c72c9d391763c587e62d
+work/access-om3.mom6.r.1988-01-01-00000.nc.0050:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0050
+  hashes:
+    binhash: eadd778fd67c79094d8388bdb9a96ba2
+    md5: 7166cdfcd1b9745e558bbcd7a6bd0a98
+work/access-om3.mom6.r.1988-01-01-00000.nc.0051:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0051
+  hashes:
+    binhash: 0961cfad6b43b3d2c97a2c8321c13743
+    md5: bfef9fcd083bd2c72ed61f20d603bd31
+work/access-om3.mom6.r.1988-01-01-00000.nc.0052:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0052
+  hashes:
+    binhash: 47b98a22ce33df330059c88386513332
+    md5: 4a13ab80296a83b2f522ef129515fc32
+work/access-om3.mom6.r.1988-01-01-00000.nc.0053:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0053
+  hashes:
+    binhash: 1d4669e0a4a79250c4df3002b15e5be5
+    md5: a168fdf8326c7db411871309524edd0d
+work/access-om3.mom6.r.1988-01-01-00000.nc.0055:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0055
+  hashes:
+    binhash: 15513be1b66647f7f542a7eb127ec461
+    md5: 2731cb9d13bed4585ce63fde749733c2
+work/access-om3.mom6.r.1988-01-01-00000.nc.0056:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0056
+  hashes:
+    binhash: d5100257b212edc08cbc13b78d18fca6
+    md5: 83c2eccaef038545078480ab73f0bd95
+work/access-om3.mom6.r.1988-01-01-00000.nc.0057:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0057
+  hashes:
+    binhash: 326bdd41d02c21082643aeba06f7c0ca
+    md5: 96564aafc7f0dc3a11bca165c2d2354f
+work/access-om3.mom6.r.1988-01-01-00000.nc.0058:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0058
+  hashes:
+    binhash: 2500f26395e363686fea9777f3e02a32
+    md5: 14c58baf992ca8954c658e5262757e5d
+work/access-om3.mom6.r.1988-01-01-00000.nc.0059:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0059
+  hashes:
+    binhash: 24175c4f654be0200be74225ffc3ea30
+    md5: a97756633e8c1d985607016aa5863d01
+work/access-om3.mom6.r.1988-01-01-00000.nc.0060:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0060
+  hashes:
+    binhash: cd6437e63faeff56b883c2f5d63b045e
+    md5: 624bd6a4ac659cbfc64e7edd51419853
+work/access-om3.mom6.r.1988-01-01-00000.nc.0061:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0061
+  hashes:
+    binhash: d3e03a536d7da7af5ba52f322e1a4721
+    md5: 343442571e9387183e171b5f80b609b8
+work/access-om3.mom6.r.1988-01-01-00000.nc.0062:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0062
+  hashes:
+    binhash: 71a26fd29646400ce5471d6abc65de4b
+    md5: 0f94bf7cab79c2fac9dec18ad9c502d3
+work/access-om3.mom6.r.1988-01-01-00000.nc.0063:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0063
+  hashes:
+    binhash: 2cbc5da98eef21839dbc99094baf5280
+    md5: 276e182d766e39b24303b13015df1e3d
+work/access-om3.mom6.r.1988-01-01-00000.nc.0064:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0064
+  hashes:
+    binhash: a5ef26f37e2c9c69c8a6661c48050587
+    md5: 83ab53ff797e0ca2af16e59fda288eba
+work/access-om3.mom6.r.1988-01-01-00000.nc.0065:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0065
+  hashes:
+    binhash: 752094b5c972d061be43f4046ff5b673
+    md5: cebd713038f98330db509d26897e0a42
+work/access-om3.mom6.r.1988-01-01-00000.nc.0066:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0066
+  hashes:
+    binhash: 58eb65d7bc02d0194b5f084be6580790
+    md5: 8f4408a076e87a67b84d206983901350
+work/access-om3.mom6.r.1988-01-01-00000.nc.0068:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0068
+  hashes:
+    binhash: 60b4b0ee90d57b4be3ca8462f19a05dd
+    md5: b590f7426c8b6a4103b41652ac25f43f
+work/access-om3.mom6.r.1988-01-01-00000.nc.0069:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0069
+  hashes:
+    binhash: 65448eec966b80d1dd71a127eded6d29
+    md5: 70aac3d765d0387de230efcd6e3cd0ed
+work/access-om3.mom6.r.1988-01-01-00000.nc.0070:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0070
+  hashes:
+    binhash: 8a11352e886e2d6a0bb0b9613caa79ca
+    md5: e22445bb30ccd5c614af54e967532574
+work/access-om3.mom6.r.1988-01-01-00000.nc.0071:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000.nc.0071
+  hashes:
+    binhash: c274a3e15f8861c6a5e5ad66dca93fb3
+    md5: 74ba431f44ac0749ba93b0559fdc163c
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0002:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0002
+  hashes:
+    binhash: 719cbe9a84de979a6a83ec10390c2442
+    md5: f391a257350ca9d0241638cecd5d6582
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0003:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0003
+  hashes:
+    binhash: 7663efc6ef48b8ddfa0b8694622e944d
+    md5: 84ff0114c480342ddda5e9cd29197d54
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0004:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0004
+  hashes:
+    binhash: fa1ea85d8a74d19baff5ce7b27a497da
+    md5: c3c2816e5b928ce037aeca0a9c7e5645
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0005:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0005
+  hashes:
+    binhash: 7485e4ac644d343c2e0378753da4b634
+    md5: 9d621026d2e82aeabd075c19eaa05f02
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0006:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0006
+  hashes:
+    binhash: 65efd188ccc658ded37bce9eabfdc359
+    md5: 6beb49bbc52fe007d0792e2eecfc36cc
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0009:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0009
+  hashes:
+    binhash: d37b286be03280cf3baf972c29282f48
+    md5: b990e44b839b691b3a5e6b4ed8a2d06d
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0010:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0010
+  hashes:
+    binhash: 2fa1fd073e39f1708010d0a6088edceb
+    md5: bed909a9cea03694553f2fdba5b58c51
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0011:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0011
+  hashes:
+    binhash: 4f8c594d8f1cb1e8a683fe0b0bd5d962
+    md5: 2e20c10296ded6eeff84e1698a7aa43a
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0012:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0012
+  hashes:
+    binhash: a8bb72673e8261ace94ecfb09c2a235e
+    md5: 7979978ab7db0dee32248a3fa027f0d5
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0013:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0013
+  hashes:
+    binhash: c895506248fc1a84fa0db1a26c4c414c
+    md5: c9e29e9caae5e807da9414d33a008c51
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0014:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0014
+  hashes:
+    binhash: 1174cad7dd88a76a67eced019002941d
+    md5: a42a30ea0cac6a810b1939925f6ac5f8
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0015:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0015
+  hashes:
+    binhash: e947c1ebbc357e81d2e0286b7a52ab8e
+    md5: af37fee5122680034b1574b8e9c3fac3
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0016:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0016
+  hashes:
+    binhash: f52506881d71d4618dc544d334fd3951
+    md5: 6bb4ec88d1ebe6b4a0ec5924bfdce726
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0017:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0017
+  hashes:
+    binhash: 4c5a8b8e54d40a1ea778683909a52147
+    md5: 5695090c6f1aa48886ba5a18ce82d5bc
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0018:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0018
+  hashes:
+    binhash: 440e6d657cfe79d3fb7767b6b7f3a2e9
+    md5: 87039bc984a11d16e58aaf1970f469b5
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0019:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0019
+  hashes:
+    binhash: 729850270f6ba3becd41b26910cd930f
+    md5: 53c46f9f8ede7756310dcaa1fae536a3
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0020:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0020
+  hashes:
+    binhash: 5898c04a52f35ed5997ef29a557d316c
+    md5: 011f3aa1e7ed667e3b33b5fb7140a0b0
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0021:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0021
+  hashes:
+    binhash: 18ec81670ca73451d7b63e080425973c
+    md5: b9a06d702fbd6826395b1073306c5f33
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0022:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0022
+  hashes:
+    binhash: 4d9558befb9c8dbaecb3fc8ee789ebad
+    md5: 5af8126c9f60ddc36d7cb87138b12e57
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0023:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0023
+  hashes:
+    binhash: a8a2f175e92b81a46b5ee3bc80d88cfb
+    md5: d0498051bab220123982e8191d3d6103
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0024:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0024
+  hashes:
+    binhash: 30f1b973fec9c90ab0cf7cdd00eabd1c
+    md5: 198c3b85e2aecbe7a30c6e37c5f21fd1
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0025:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0025
+  hashes:
+    binhash: 57a1d77402b6c71240a32b093ccff59a
+    md5: 9ed2bb3170e9b6e06a5ddc2015e9cb11
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0026:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0026
+  hashes:
+    binhash: b00d98198b0c955280dcc0cf55df4b94
+    md5: d822371ffa8bcf3034857759c73971a1
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0027:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0027
+  hashes:
+    binhash: 95cc14259554e72a893ea017116c3753
+    md5: d2813a6a9175b318823195f927f84662
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0028:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0028
+  hashes:
+    binhash: b7e83f5b1aa211b73d1d6f2944c184b8
+    md5: 45eb86432f047d52c419ef309ef6eeb7
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0029:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0029
+  hashes:
+    binhash: a3170b0dafb533364bd9a4da003fd1c2
+    md5: 473e056e64bc3b9bd2fadd7f616735f7
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0030:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0030
+  hashes:
+    binhash: 19f3bd0dd943cef57e40f2159b63f5c9
+    md5: 4a8cce4af7fe28d7651e0530caceab0b
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0031:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0031
+  hashes:
+    binhash: d00125328322b4c4730a1dcb387c7d11
+    md5: 6474db2f126c785753e3d2cdcb05e760
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0032:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0032
+  hashes:
+    binhash: b10a9daf137ad2e20ad2ba22cb6c8091
+    md5: d407a732e59e62dbba1973cecfbab2ba
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0033:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0033
+  hashes:
+    binhash: 89ef12edfc5529f18538ca24bf178d8d
+    md5: 9bc9c7d3b40d50ee28b2df1668f99866
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0034:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0034
+  hashes:
+    binhash: 2ba716453c303151f6cd310b3cb07702
+    md5: b5cce34ef197d84310c792b21889dded
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0035:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0035
+  hashes:
+    binhash: 5375c4b43d6440101b0199870ddb7fbc
+    md5: 594840a2426d83906e73d328c668a22d
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0036:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0036
+  hashes:
+    binhash: c9612b866eaa2bbffd301d15c7bbb818
+    md5: 223cad196fbab5bd7604e33815d3e6e1
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0037:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0037
+  hashes:
+    binhash: fd2b9fb8bb0fba4b7ec6e72322ed956d
+    md5: 64176a4bfed03100b703d53ddcf63a8b
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0038:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0038
+  hashes:
+    binhash: d19be4b527e5dbfaeea28ff8458516b5
+    md5: a4f51d854387bcd0010419d17b5b0022
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0039:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0039
+  hashes:
+    binhash: bc3acb25c91f89800e899fe99db47ebc
+    md5: a5e7e608498acb68e3394ea9a9962e87
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0040:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0040
+  hashes:
+    binhash: 97987e1104cdbc7686432e0f4109667e
+    md5: f7c5eb341ef47e52a8d62b98330de31a
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0041:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0041
+  hashes:
+    binhash: d5b506de4d8515185ebf943f7c0a1ad3
+    md5: 3fd008f98e07c6dd3a17b615db20a9ee
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0042:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0042
+  hashes:
+    binhash: dbb38652866411c55b3d4acea742b04d
+    md5: 28068eaf73a84fa69cbf52f55542d36a
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0043:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0043
+  hashes:
+    binhash: ba4a984444483e6b80b6b6aabc121397
+    md5: fe5b98d773c3d56b4e5da6461585c671
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0044:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0044
+  hashes:
+    binhash: 813d90139decab884cb867d0d8a091c7
+    md5: 12641b969626f57f6c849a8acadc25ae
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0045:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0045
+  hashes:
+    binhash: eee5de4d7763df5ade8aa340f6bdda9a
+    md5: 6ecacde3d23524c8d5733eacc4e7703e
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0046:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0046
+  hashes:
+    binhash: f8f842be5ea61a304c09f5636c90b28e
+    md5: b9dcdf8de47ef00d54f5e440d2defb9e
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0047:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0047
+  hashes:
+    binhash: a16213764df51587248367ce7cd91951
+    md5: 8a86fa2e5611730321240a7791368fc8
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0048:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0048
+  hashes:
+    binhash: 64b56c825ca1b3d8cbde7a98693865e6
+    md5: d6295b49772f474e92c6e3ba2ba0d689
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0049:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0049
+  hashes:
+    binhash: 0c8cb2438d5375ce3c6b73b41c34e31c
+    md5: ed69dac64de18a4f9f5cca767b5c2805
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0050:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0050
+  hashes:
+    binhash: d75ed1501d1b39d80058a1141371b3e9
+    md5: 828c4a787c836366c5240071215b6c97
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0051:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0051
+  hashes:
+    binhash: d6fb63ff731eb353bcf5e77852812326
+    md5: 92edfa00c317ef317f9267334438278a
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0052:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0052
+  hashes:
+    binhash: b69062596a920396fffc500d64034eb3
+    md5: cfad691e8faab406226a2fd625908abd
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0053:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0053
+  hashes:
+    binhash: e5827413453338aaa09ff138080554f8
+    md5: 2e4a38bc5328e94342110b4b4c3a0aab
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0055:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0055
+  hashes:
+    binhash: dddb86f8aa962cb10e0624817ab4ff66
+    md5: 72b34d1f9372b18c5f2b0040a5066c7b
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0056:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0056
+  hashes:
+    binhash: 01c89275bb7a2f41b55fe39b5b95b812
+    md5: ddf816e4ca96626ae111c8fc52f178f6
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0057:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0057
+  hashes:
+    binhash: aaeb2ce2705db52cdb7c345f90d4e83f
+    md5: 860aad2691fea5745f388507661aa29e
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0058:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0058
+  hashes:
+    binhash: ea5b13d4a30a5793f4424e39d8b689fb
+    md5: 028def4ddfa7f26ec6af96c3d89baa2c
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0059:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0059
+  hashes:
+    binhash: 1c2f1b4476b1ff80f840010e2647ad68
+    md5: 0dc5c19182c2f43801e32adafe039f1f
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0060:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0060
+  hashes:
+    binhash: ad760a3ff04766da7b019c709af18bef
+    md5: cb067441f82c524894b8387c48e45a19
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0061:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0061
+  hashes:
+    binhash: 257a49f9c84726692b0bc4dafb17951f
+    md5: f4784b5b725e350766a1978cce714d49
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0062:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0062
+  hashes:
+    binhash: 21139536c134efa11a2a8f3d2bb33527
+    md5: e59b3a1e74ce930e873d7038add00d62
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0063:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0063
+  hashes:
+    binhash: 0c14b847c10554384e38fe2b4856ab1c
+    md5: b3057415b82b2da49e7ac696694efcab
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0064:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0064
+  hashes:
+    binhash: d975bd29614ca8b566245de20b8e5fba
+    md5: 728bf03622af0109c86b3d1f832403c5
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0065:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0065
+  hashes:
+    binhash: 232a3e063476492cfb9a0af5de0e78b0
+    md5: 3cbbccf6df8cc41bb4e1e883aa7821bf
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0066:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0066
+  hashes:
+    binhash: 4323a027cb3f3b3cd4c134b06d02ee40
+    md5: ff03e59338106f9df3f70b88a546a573
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0068:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0068
+  hashes:
+    binhash: 30e79ebbe31ad5f649c707c8dd9b68eb
+    md5: 1c4808a49921c8c50481dfa7a44abaf0
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0069:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0069
+  hashes:
+    binhash: 2200c760f504e7dce2fdc3716fd1a8e3
+    md5: 58cedfdd1d6e96988662bd88c2d9f082
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0070:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0070
+  hashes:
+    binhash: 61000d10dd5121f6642ff7d93d811daa
+    md5: 7ca9f5bede8d8e4406fd3d52321f35e0
+work/access-om3.mom6.r.1988-01-01-00000_1.nc.0071:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_1.nc.0071
+  hashes:
+    binhash: 6e17ecc7bfc76d6893c9d2647af8632b
+    md5: 7ab23b303796ed141656c329c9692b4d
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0002:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0002
+  hashes:
+    binhash: 275fb68e0f96483cbc7391a916aef30a
+    md5: db019cf74fddd9bc55f462589e22f69a
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0003:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0003
+  hashes:
+    binhash: 564130574f600463bfa604918b49cfb8
+    md5: d6b3cd513615f495f5df2eccf994c47b
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0004:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0004
+  hashes:
+    binhash: 0d6a146dc0fd99c91e5869bcf43ef2af
+    md5: de34d41df8768fb8ecf36aa3ccfa7e02
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0005:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0005
+  hashes:
+    binhash: 9d129d7705bc38fa2beee8cc0b9d9790
+    md5: 5d674ddb7c6beb22976becb4310264fc
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0006:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0006
+  hashes:
+    binhash: d0bf86de138c75b0ad4252a71225b979
+    md5: e863610d59de171b0eecf45542b64aba
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0009:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0009
+  hashes:
+    binhash: fbb5e4c45326939e4935a4d16388cd49
+    md5: ab62897368425bff994f1c64ecfec25f
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0010:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0010
+  hashes:
+    binhash: 483568aa5007cc1e14f8c3fcb8fcd476
+    md5: 6b8320f5ad1dae64552d191b509b054c
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0011:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0011
+  hashes:
+    binhash: a338d47b5c5105572620061bbc2e0b2e
+    md5: 6decdb6ce4190c461e5c8232058311ca
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0012:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0012
+  hashes:
+    binhash: cc50146609a70e1c3d85174f2654637c
+    md5: f8a925e0929dbbfa887f4df231929d72
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0013:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0013
+  hashes:
+    binhash: 40800b1bdf36ba43b54cd0cd49c0bf3c
+    md5: 9cac173c9c76773fc2884e0b058c64fe
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0014:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0014
+  hashes:
+    binhash: 00cfc31720aad3a42ccdf652efcd4912
+    md5: 5d8a27ddf4cdc3d3a09188facd0e2763
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0015:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0015
+  hashes:
+    binhash: d7ff919ab12f336402d97889ae5f62db
+    md5: 1c02d9568ddcd3722a88b6c1944a2ea2
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0016:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0016
+  hashes:
+    binhash: a185371ab95fee626066f16d17bbf8c5
+    md5: 41d8fb24f043d9657ed273ad7283282d
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0017:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0017
+  hashes:
+    binhash: 28d0c38e55d484f8e01ff1937273578f
+    md5: a21204d2c058e46100771a18df974ca6
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0018:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0018
+  hashes:
+    binhash: 7f785fbeeece5bcbbd53482205415823
+    md5: e5b65aae5a0e50b9cf2340910760704c
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0019:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0019
+  hashes:
+    binhash: 46e1bf65887930a099e2e355e96fb790
+    md5: a014430755117175fa29271ec913208f
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0020:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0020
+  hashes:
+    binhash: af2cae1dde4868273a96382e18d09609
+    md5: 4111c733267dfb098f2cb6a53bf27727
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0021:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0021
+  hashes:
+    binhash: 318d8980be2f4f1cac68192340e72630
+    md5: 4e7799d871f2811db2198212394922ce
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0022:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0022
+  hashes:
+    binhash: 107a22929ca633d060eceab89c731942
+    md5: 554cf74606450d1c383c46dba494a9b3
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0023:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0023
+  hashes:
+    binhash: 22c748f303b351138a3df4103c6b80f6
+    md5: e49db3bbc09113dc05295f40e49383f9
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0024:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0024
+  hashes:
+    binhash: 502a3eee8022ca4f12d6651df60dac43
+    md5: f076ab398c888682caea05e94a1c0ea3
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0025:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0025
+  hashes:
+    binhash: 4e7458d1bf22c4f0d761c11d4cb9c31c
+    md5: 820dbf54a7e8acfd0f571cfffbdd2d03
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0026:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0026
+  hashes:
+    binhash: 89f3ced0220c62319a792db7af530df8
+    md5: 10bf9d938c699819d0eb0d0852ebb75d
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0027:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0027
+  hashes:
+    binhash: 192ccde7c02b06e641fe61c3823b33ed
+    md5: eaceeeb36eaa40d4729431e52bd61067
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0028:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0028
+  hashes:
+    binhash: 8d93a073ba9f04ddb574f1765ec91e77
+    md5: 91c5e2b12e40f92f0d0f9dacbe6efb22
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0029:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0029
+  hashes:
+    binhash: 7490c3e5ffe15154a7f5cac578fbe552
+    md5: 665da928e6eed84fdd499e6d93bfc4c6
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0030:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0030
+  hashes:
+    binhash: 73701c40d4e952094d5b268961540801
+    md5: 6af3e8532d1271081125b67b52ac602b
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0031:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0031
+  hashes:
+    binhash: edbddbc3d5672ace681cf3aa05c02e0d
+    md5: 8147a8530a3c034389de5a8abe6f640a
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0032:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0032
+  hashes:
+    binhash: d29cdd1b9f7dd941ef04dfda33060669
+    md5: 5ed818499e3cd8ab7dbf2daea20930fc
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0033:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0033
+  hashes:
+    binhash: bbf8583b62ab1160cadee5eccab95f5f
+    md5: a69e703b7f3c475229e59993a1fa3a15
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0034:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0034
+  hashes:
+    binhash: 5d5d2ea80d827d2f60c1948a310f9eff
+    md5: b2c82bd22e0ada86c1403991d4229171
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0035:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0035
+  hashes:
+    binhash: f6c98ac92bb9d9fba943d4c093b75eea
+    md5: dda6b6e867f7cd804342bedb2ec25d0b
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0036:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0036
+  hashes:
+    binhash: 131f90b4bcccd67df2a96bf29f2e390e
+    md5: 9dbcad8f5e20901811ca1a7dc3ef3fbc
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0037:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0037
+  hashes:
+    binhash: 8a6f05f8d5c853e738cee713c7975e12
+    md5: 7aaa79dfd30f305cded2a2ce7da82ec9
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0038:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0038
+  hashes:
+    binhash: 2a4a22ae5c72be949ee8d54fc064726f
+    md5: 56ac57b54d6f100c5ff1f327fe3aef29
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0039:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0039
+  hashes:
+    binhash: ad87d3c85b01a06d0368e5bc05304bb8
+    md5: 6d23023cb6e8e7c7b285d7b19f0b1969
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0040:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0040
+  hashes:
+    binhash: aaf8d4b6a2d7fe4287ef551c10847e3e
+    md5: 52f0c978dda52c7b110b716b33a7c8d8
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0041:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0041
+  hashes:
+    binhash: 8498941943f0e1758e37792eca8a1dd4
+    md5: a543ff0b5c53b0115b36c9195e142fda
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0042:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0042
+  hashes:
+    binhash: 06d81c91e82f2852a3d47b50d2122c5f
+    md5: 9ea7ff4720ec32649e5e39161fb0c60b
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0043:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0043
+  hashes:
+    binhash: 7a05f8c7695b25d686eb95c77477300d
+    md5: aed7ac991ea84685a3bd1345d7ad0320
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0044:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0044
+  hashes:
+    binhash: da371c82890d9d7bc428be29339fd37a
+    md5: 16e99d11cb1a0b9b77d4eace421a233c
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0045:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0045
+  hashes:
+    binhash: ff84030b72fb45c2496dfc3c13916e5c
+    md5: e98d22fe4ed5663c08f1983674037eee
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0046:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0046
+  hashes:
+    binhash: d4436236f32604980448c2d9093784ae
+    md5: 872816a9a1d9fcf7f6ced7dd0e8ea2bf
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0047:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0047
+  hashes:
+    binhash: 90bf15f1d87668561cbdafcaffc96b31
+    md5: 9e657c490acfee7bfbdbc510441647af
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0048:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0048
+  hashes:
+    binhash: ce6d9df69c4dbc530177be7dc304bf2e
+    md5: 3d42a23dce6bb5380a4dc6af4c49f31a
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0049:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0049
+  hashes:
+    binhash: bb38593270fea3ebf1d72c2dedd3383e
+    md5: bb7740e4360af03b43979a4c232538cd
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0050:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0050
+  hashes:
+    binhash: 7977c4dfe75cfdd50b3a96ccf347668e
+    md5: 39a0f041c773ddadcd5767491e559a43
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0051:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0051
+  hashes:
+    binhash: 8ff56e45cfec2853f84987f658e049d3
+    md5: 16d761e30093d0bfa291847813397ced
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0052:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0052
+  hashes:
+    binhash: 9d7b884c12dd258f4e4113a81692b71e
+    md5: 8975b61e3de6d7fcff94504052a5328a
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0053:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0053
+  hashes:
+    binhash: 9cf6a48615a952f4d8ddfe5b4412666c
+    md5: 007516a4cff68221882caa4af6833b68
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0055:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0055
+  hashes:
+    binhash: 3e2edd3795a6353479ede3b802277744
+    md5: 261de6199eb1ab7635ec83a40730954f
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0056:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0056
+  hashes:
+    binhash: f6020ba24813e706786d239b2dcddc8a
+    md5: 5ac7461207c8d19234285dee1a844a8f
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0057:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0057
+  hashes:
+    binhash: 3599d3a9ac914cff42ea6b1bd8f473cf
+    md5: aa1cde262a948cc71c0c8c2e1f4008ec
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0058:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0058
+  hashes:
+    binhash: 54c55c80b785c092b39ad1e38f493a0b
+    md5: 89b4a1fd3f1a26ae7dcfa8c99bf0b972
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0059:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0059
+  hashes:
+    binhash: eb385266532916c2a74599b58111d9c4
+    md5: e8648037611a139ccbaa81874b0c18a6
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0060:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0060
+  hashes:
+    binhash: e4718c3cdcae178edef8f9eb71d5b6ac
+    md5: a78b425f47e96acdbb86dac5a5c28b06
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0061:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0061
+  hashes:
+    binhash: c05fc7e1fa204b79d7a4f0c4f763a5cf
+    md5: c401660113ee960dab714681e1fa57e5
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0062:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0062
+  hashes:
+    binhash: b808dc419f0598ec77da5b3b8a6aed6d
+    md5: 776e177381e824986e2b0ee243c9dc7d
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0063:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0063
+  hashes:
+    binhash: e5ab281ab83d06fbaf9853933e92caeb
+    md5: ed9b9451a05eaee9882086f20298704a
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0064:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0064
+  hashes:
+    binhash: 9160da666e454e3b4db32e9c3cf678ba
+    md5: 0a68991f22aacc366e171f28d08541b0
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0065:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0065
+  hashes:
+    binhash: 0429ba8df0648515fcfbc95091934755
+    md5: be7a67d6d3087921137238aeee5550ae
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0066:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0066
+  hashes:
+    binhash: bdfde4f0e991efa9fa2ff63f1af347b3
+    md5: 426393314e43dbef7d0c70562f5b7695
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0068:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0068
+  hashes:
+    binhash: ea1a2da06d27d5cd9461ed72e7ae0c4a
+    md5: 141e4d81e82b08c070d5f371418c0499
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0069:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0069
+  hashes:
+    binhash: a679bac34ced198adb2af4165e9cbdaf
+    md5: 98150f2855343a8391b181bb7ebb0d4c
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0070:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0070
+  hashes:
+    binhash: 366fb2a339ae15a8742a801b14c3d719
+    md5: 26b1b6623f58243014ffe8a1ae886885
+work/access-om3.mom6.r.1988-01-01-00000_2.nc.0071:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_2.nc.0071
+  hashes:
+    binhash: 2b72c966561a2b36fdc4e54764da3176
+    md5: 48103c3b1b7fcba43f77ade88ade8241
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0002:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0002
+  hashes:
+    binhash: 176050c82a22601ce98cc104792e60b0
+    md5: c83bda7ca6c7156ee75fc70dfe7e9d23
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0003:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0003
+  hashes:
+    binhash: c0b70157ab80662946404d12800f64a7
+    md5: ecb70f87b9703e3ec9e66f274e106802
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0004:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0004
+  hashes:
+    binhash: d4b482e64ea069e6ad01b960ecf46571
+    md5: 141e46a47ae6f9509d20ad4320a49614
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0005:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0005
+  hashes:
+    binhash: 01a4e90bc85641f21498b155c56afaf7
+    md5: 28378da28b7d29e6ce1c13a407c1089e
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0006:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0006
+  hashes:
+    binhash: 449ae9753a1ac3762673e841766f4b50
+    md5: 711cea113892a8588bb17ce77f9e0a3e
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0009:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0009
+  hashes:
+    binhash: 4e4a1feb1021f32cfca9bd7eebaeb122
+    md5: 69152e71627568ec454e6fce2d6a2af0
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0010:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0010
+  hashes:
+    binhash: 40f47d5ece7dd34b136f1e0a24e4a411
+    md5: 74c700403013028037a92f88f0854297
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0011:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0011
+  hashes:
+    binhash: 29707a3bfa5291cfeef1648b4eafe024
+    md5: 3cef8d8186605f4d265833346cd067dc
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0012:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0012
+  hashes:
+    binhash: 70fab94186e796caf24b6ff4a6022a71
+    md5: 0180c590dc5b4e7de984b1ca1a24000c
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0013:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0013
+  hashes:
+    binhash: 9b7fb2682e85876a929081b52219e422
+    md5: 0464f149f67f7577263099f1046314a8
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0014:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0014
+  hashes:
+    binhash: b1ea4169d8e4e83d3f2002a338f1107e
+    md5: 90488fdf0b68a53f79a3123297535993
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0015:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0015
+  hashes:
+    binhash: f5a8d72e664fcedf9c8a9ad1a67b74b5
+    md5: 7d6b5d4ce3d7415853e8eaaad81769ca
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0016:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0016
+  hashes:
+    binhash: 6a0f6bf45312ec4873b0ae75650e8bde
+    md5: a7850a75b24012eb0a22c3ed87700fc0
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0017:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0017
+  hashes:
+    binhash: d2320926b2599e3d7dd52075fe21392d
+    md5: df667d2e3d0935b2973be1d310efc9be
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0018:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0018
+  hashes:
+    binhash: 79cbb986b407003765011f46ac5c4664
+    md5: 65f54a5e55556d84b5bbf43301bd5377
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0019:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0019
+  hashes:
+    binhash: 54564e7f78562b537260a3649461f8f1
+    md5: 9f320f4c3d2611d48517620db4d42544
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0020:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0020
+  hashes:
+    binhash: d3cee81c1d4776593281e97eccb0cabd
+    md5: aa4287adf6667814f24369ab91aa8d08
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0021:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0021
+  hashes:
+    binhash: 79115d8066e578f456565a44d2dc4024
+    md5: c5348c51548463f19a77fb1ab8f112dc
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0022:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0022
+  hashes:
+    binhash: 84f5013962ee95b2a65169991f5f4418
+    md5: df8c13be75399358125f1ed43aa202a1
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0023:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0023
+  hashes:
+    binhash: 48700e1d05b62e4bbefabcfe1491e23b
+    md5: 4fabec7379435201fab45a8dfde31c20
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0024:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0024
+  hashes:
+    binhash: c6bf2632af900a1531049d3488629ff4
+    md5: e00665388c694507063acafef6809982
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0025:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0025
+  hashes:
+    binhash: 04e764494e4ebba7c6a8af3effa41d84
+    md5: b578aa99719e9f195fda1a4326bd3763
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0026:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0026
+  hashes:
+    binhash: 872157c6398fdb82cb4f4fd1e2504c7e
+    md5: 5d9939b4b8788efeecf3f20e1eb066fe
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0027:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0027
+  hashes:
+    binhash: de32a324a3d7c0959f49d60c357362a1
+    md5: fdbce9843245d1de971e28a620c22ec1
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0028:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0028
+  hashes:
+    binhash: 00cece8ab6178c74871197d80549c807
+    md5: f07acb29e9957a8f61ffeec82253e72f
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0029:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0029
+  hashes:
+    binhash: eac72e0fc22851f16a13c9309465ac8f
+    md5: ec3ea7a82fdc96c1ef82dbaacacb1aef
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0030:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0030
+  hashes:
+    binhash: 1801d0477b1df01d33ac85032d1b610d
+    md5: 254246a84c940ca083c211f48d16b50d
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0031:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0031
+  hashes:
+    binhash: 0947b2d1ce3f1ff43b6d943bbffc625c
+    md5: 060e055068aefc7f39b3afa38b449d01
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0032:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0032
+  hashes:
+    binhash: 2eef4c62fbf2414a38c5089baf3f08b0
+    md5: 279c8b535528fae925f5934f4e220d7b
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0033:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0033
+  hashes:
+    binhash: 9ea260d23f8156ea6cb6392f3d320fd7
+    md5: 2afdb667c2d17c205e9975f41bc455f3
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0034:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0034
+  hashes:
+    binhash: 9342fafdb54df064f5fd5187947864f6
+    md5: 5c92c0cc4d6e015b987f453d2028959c
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0035:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0035
+  hashes:
+    binhash: 2a1572a2cd206a876a9adf1a4b58404c
+    md5: 2d4c005318d2708ee21ed90c415e75c6
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0036:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0036
+  hashes:
+    binhash: a600fb73b95e0cc9ef9f6d2df5e51bbc
+    md5: 1afabd8decbe09dddcd2829c870daea4
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0037:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0037
+  hashes:
+    binhash: 7769f315773a3239c6f3d1c39912326d
+    md5: a4269860ae266d63b488c3101d054ea2
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0038:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0038
+  hashes:
+    binhash: 1c0bf425d45d330a40d6879a9a318319
+    md5: f24e4d9b87582b59f83f32f842a35262
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0039:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0039
+  hashes:
+    binhash: 3fc147466020077947545fa6d07df38c
+    md5: fa361810867e49790e37bb5e385b7df0
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0040:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0040
+  hashes:
+    binhash: 7b8ee73757c6f670b3f4678202d2fdc6
+    md5: 05340a689dc3ba0308091e7ded5bfd40
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0041:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0041
+  hashes:
+    binhash: 7aebe57529a3dfd351d4d81f50dfb60d
+    md5: df3a894831319b26bdc09827db47747a
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0042:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0042
+  hashes:
+    binhash: 195e4924e9f17bf526a6adf6bb310d3b
+    md5: 662a68ed9401937a840dd378f9c20303
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0043:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0043
+  hashes:
+    binhash: d1b5d860b56a13b0ce908f56dfd9b433
+    md5: 33c14f2481a73c72185e94676f9adb01
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0044:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0044
+  hashes:
+    binhash: 742d2979221df3f46969780b9fc125e0
+    md5: 64fec39ac78e5ae56c86b5a83af6b7b5
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0045:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0045
+  hashes:
+    binhash: 71a4add467a89e848bfd917baefe0462
+    md5: 75c71303e64875f7bc4b5178edf7acb7
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0046:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0046
+  hashes:
+    binhash: 9490c02705fd0b116c2186bb89974066
+    md5: 2dd3b97e0b2ce4b0de9440b4db01b7e8
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0047:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0047
+  hashes:
+    binhash: 9b315c23810a8509ab33cfe16467a9e2
+    md5: 0facd57d92faff7080485ed1d4b458bf
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0048:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0048
+  hashes:
+    binhash: 269d978e5a5ba728b8f3d4c606fc1d4f
+    md5: bb221d01e60073fc40c3f4b540e1a0c6
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0049:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0049
+  hashes:
+    binhash: c516dce710cabb5a08935bd30bb544c8
+    md5: 504bd27f77cc1d28815d82735050a615
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0050:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0050
+  hashes:
+    binhash: 9dfb82288c38f6804bbd305bf13be1ec
+    md5: 89d65b7c01d032a2cbfd199ce24f385f
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0051:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0051
+  hashes:
+    binhash: f25aa78dc9e2f5b66bff6ad2b0953439
+    md5: 790209ff76d293e2de6fd2d9080b700e
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0052:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0052
+  hashes:
+    binhash: de383af5de13df4340dc27308e1b0701
+    md5: 5f761d52bbde2289f96f3f7e9209e2b7
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0053:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0053
+  hashes:
+    binhash: 1aa16c7e0d63c321cc595225e703d01d
+    md5: 2a50509dcd37835bb84efaae42e16291
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0055:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0055
+  hashes:
+    binhash: 764ddae661d1ce94453d4b09954f8d1b
+    md5: 1e5dba9d3b4c25df2cc448f449a9950f
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0056:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0056
+  hashes:
+    binhash: 4178f455e70cec892bb5c89397f9c80e
+    md5: c19e5359acc87c9926bcf3bbe69aa9d8
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0057:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0057
+  hashes:
+    binhash: c90cf66b65df21b2d3996fe090d45ed5
+    md5: e0f8bc18e48fa7eb52ab9ff37552d5a8
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0058:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0058
+  hashes:
+    binhash: cb1b8acff714f047df08e03b13b6ec26
+    md5: d065d6cc114c62cb93c55650e3463a0c
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0059:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0059
+  hashes:
+    binhash: 9727b4f3ce81c8b2e55afd60d3b95201
+    md5: 82b74495f6b6aade8468f9bd4b0bab6e
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0060:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0060
+  hashes:
+    binhash: a94f0a32991a0d3e4f83c20da9276edc
+    md5: 1c6e0c3c0250af4ddb13528dd6e35036
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0061:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0061
+  hashes:
+    binhash: cd949ceef46143e3cb7d5c5602251bce
+    md5: b1f5d9bf2ea3a87b7f028423b5314698
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0062:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0062
+  hashes:
+    binhash: 86682680b48b4108d38a56fb23dd6afc
+    md5: 6d97c3cb8fd56c99a4957cda961b0004
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0063:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0063
+  hashes:
+    binhash: 03a2f7649299821806daaeae7769fef0
+    md5: e2704a971327db1f571b570e77c88f14
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0064:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0064
+  hashes:
+    binhash: aee3015114b5bdbe1b14ddc8bd56e60a
+    md5: 2b50ab318babba57b44b9897d9e2eab3
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0065:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0065
+  hashes:
+    binhash: 19be6640b987084f1a1b6644f04a82ac
+    md5: 7e8f6d54f9b522d9880eb9f44a6e08af
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0066:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0066
+  hashes:
+    binhash: 816dfc85219d7703cf738a3fefea43b2
+    md5: 60da3857f5070bd3f7beb4a75d4734e1
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0068:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0068
+  hashes:
+    binhash: d6787eac0440b1e6a4f289b9c3358506
+    md5: 0f5ef5365f795de85e246ba543d9c6fe
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0069:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0069
+  hashes:
+    binhash: 8fc0324ed2f27098c5ea19bd2bdabfc5
+    md5: 93f0f69fed84faf7d43b9533b3c74009
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0070:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0070
+  hashes:
+    binhash: d4f9f7413a5c56ad99acb3dc177f78b3
+    md5: d6572ecaaa3446747d9ce9b8408f50cd
+work/access-om3.mom6.r.1988-01-01-00000_3.nc.0071:
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/access-om3.mom6.r.1988-01-01-00000_3.nc.0071
+  hashes:
+    binhash: 0cb4767da79eaf6b75e1a1611c4ebc49
+    md5: d4a6d4262c817bb519badd7e8536483c
 work/rpointer.atm:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/rpointer.atm
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/rpointer.atm
   hashes:
-    binhash: beb32fd8a6aea8596b89b3dc5fbeb710
-    md5: d3da5cf399c8b90c4398b0e65efc8067
+    binhash: 04e7b5f9a059b8c64fc8132c84609ede
+    md5: a4062b857c53fb9a3c112caf0c698edb
 work/rpointer.cpl:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/rpointer.cpl
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/rpointer.cpl
   hashes:
-    binhash: 692d2b080e3e6f6acec28dcad2fe2e4f
-    md5: 8218ae45400ef07846bd8a2135ffc93e
+    binhash: 2ab1d9e0ba242db2df1317e4d9b35b88
+    md5: 7a64fceb4563301359b911bf0e55c3d2
 work/rpointer.ice:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/rpointer.ice
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/rpointer.ice
   hashes:
-    binhash: d0232cd36036af4cea6aa4ffd4729e6f
-    md5: 15c9ce99705c543130596801331b84fe
+    binhash: 7d7fd949b6942f46159b7b6fe1386cc3
+    md5: 27d3876c621eae913d67695992dc3eba
 work/rpointer.ocn:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/rpointer.ocn
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/rpointer.ocn
   hashes:
-    binhash: f4eb442c4762165642195bba3a9ab6c0
-    md5: cbfa52126a7a6808ee8c981c89595604
+    binhash: a9d316bf6392f3d7afc54b8a269df6ad
+    md5: bee109652e69c1154cb4dfcab0eb4699
 work/rpointer.rof:
-  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart028/rpointer.rof
+  fullpath: /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart029/rpointer.rof
   hashes:
-    binhash: 758dc92432673d3980d0c7b5902606d6
-    md5: 9e6b1ec8e9fba0f7a7dd03cc3c200d29
+    binhash: 34a747bdbcf5936470d66243cc7fe7e0
+    md5: 6139a317b475d5fd598b1f830cbf0326
