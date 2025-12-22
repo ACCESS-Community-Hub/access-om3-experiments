@@ -2,7 +2,7 @@
 
 # If submitting to a different project to your default, uncomment line below 
 # and change project code as appropriate; also set shortpath below
-project: x77
+project: tm70
 # Force payu to always find, and save, files in this scratch project directory
 shortpath: /scratch/x77
 
@@ -10,7 +10,7 @@ shortpath: /scratch/x77
 # longer term storage
 sync:
     enable: True
-    path: /g/data/ol01/outputs/access-om3-25km/MC_25km_jra_iaf-1.0-beta-5165c0f8
+    path: /g/data/ol01/outputs/access-om3-25km/MC_25km_jra_iaf-1.0-beta-gm2-5dc49da6
     restart: True
     exclude_uncollated: false
 
