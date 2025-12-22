@@ -1,6 +1,6 @@
 contact: Andrew Kiss
-email: 31054815+aekiss@users.noreply.github.com
-created: '2025-12-09'
+email: Andy.Hogg@anu.edu.au
+created: '2025-12-22'
 description: |-
   25km ACCESS-OM3 global configuration under interannual forcing.
   Initial conditions are WOA23 practical temperature and practical salinity.
@@ -20,10 +20,10 @@ realm:
 nominal_resolution: 25 km
 license: CC-BY-4.0
 model: ACCESS-OM3
-url: https://github.com/aekiss/access-om3-configs/tree/MC_25km_jra_iaf-1.0-beta-5165c0f8
+url: git@github.com:ACCESS-Community-Hub/access-om3-experiments.git
 version: 1.0-beta
-experiment_uuid: 5165c0f8-ac1c-4574-a41a-5e489eebef5e
-name: MC_25km_jra_iaf-1.0-beta-5165c0f8
+experiment_uuid: 5dc49da6-e41c-4385-ac9f-7c60c8bc6d54
+name: MC_25km_jra_iaf_alt-1.0-beta-gm2-5dc49da6
 schema_version:  # The version of the schema (string)
 long_description: # Long description of the experiment (string)
 frequency: # The frequency(/ies) included in the experiment (string)
