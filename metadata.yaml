@@ -1,6 +1,6 @@
 contact: Andy Hogg
 email: Andy.Hogg@anu.edu.au
-created: '2025-12-16'
+created: '2026-01-05'
 description: |-
   25km ACCESS-OM3 global configuration under interannual forcing.
   Initial conditions are WOA23 practical temperature and practical salinity.
@@ -23,12 +23,12 @@ license: CC-BY-4.0
 model: ACCESS-OM3
 url: git@github.com:ACCESS-Community-Hub/access-om3-experiments.git
 version: 1.0-beta
-experiment_uuid: d968c801-19b7-4738-bbdb-8d873c9c0113
-name: MC_25km_jra_iaf-1.0-beta-gm1-d968c801
+experiment_uuid: da330542-c3d6-479c-a32b-bda0f7bd2e06
+name: MC_25km_jra_iaf-1.0-beta-gm3-da330542
 schema_version:  # The version of the schema (string)
 long_description: # Long description of the experiment (string)
 frequency: # The frequency(/ies) included in the experiment (string)
 variable: # The variable(s) included in the experiment (string)
 reference: # Citation or reference information (string)
-parent_experiment: # experiment_uuid for parent experiment if appropriate (string)
+parent_experiment: d968c801-19b7-4738-bbdb-8d873c9c0113 # experiment_uuid for parent experiment if appropriate (string)
 related_experiments: # experiment_uuids for any related experiment(s) (string)
