@@ -2,25 +2,26 @@
 
 # If submitting to a different project to your default, uncomment line below 
 # and change project code as appropriate; also set shortpath below
-project: ol01
+project: tm70
 # Force payu to always find, and save, files in this scratch project directory
 shortpath: /scratch/x77
 
 # Using payu sync is recommend to copy data from ephemeral scratch space to 
 # longer term storage
 sync:
-    enable: True
-    path: /g/data/ol01/outputs/access-om3-25km/MC_25km_jra_iaf-1.0-beta-gm1-d968c801
-    restart: True
-    exclude_uncollated: false
+  enable: true
+  path: 
+    /g/data/ol01/outputs/access-om3-25km/MC_25km_jra_iaf-1.0-beta-gm3-da330542
+  restart: true
+  exclude_uncollated: false
 
 #Model software version
 modules:
-    use:
-        - /g/data/vk83/modules
-    load:
-        - access-om3/2025.08.001
-        - model-tools/mppnccombine-fast
+  use:
+  - /g/data/vk83/modules
+  load:
+  - access-om3/2025.08.001
+  - model-tools/mppnccombine-fast
 
 queue: normalsr
 ncpus: 2704
@@ -32,34 +33,34 @@ jobname: 025km_jra_iaf
 model: access-om3
 exe: access-om3-MOM6-CICE6
 input:
-    - /g/data/vk83/configurations/inputs/access-om3/cice/grids/global.25km/2025.11.27/kmt.nc
-    - /g/data/vk83/configurations/inputs/access-om3/mom/grids/mosaic/global.25km/2025.09.02/ocean_hgrid.nc
-    - /g/data/vk83/configurations/inputs/access-om3/mom/grids/vertical/global.25km/2025.03.12/ocean_vgrid.nc
-    - /g/data/vk83/configurations/inputs/access-om3/mom/initial_conditions/global.25km/2025.10.24/woa23_ts_01_mom.nc
-    - /g/data/vk83/configurations/inputs/access-om3/mom/surface_salt_restoring/global.25km/2025.10.24/salt_sfc_restore.nc
-    - /g/data/vk83/configurations/inputs/access-om3/mom/tidal_external_files/global.25km/2025.09.03/bottom_roughness.nc
-    - /g/data/vk83/configurations/inputs/access-om3/mom/tidal_external_files/global.25km/2025.09.03/tideamp.nc
-    - /g/data/vk83/configurations/inputs/access-om3/share/grids/global.25km/2025.11.27/topog.nc
-    - /g/data/vk83/configurations/inputs/access-om3/mom/chlorophyll/global.25km/2025.11.21/chl_globcolour_monthly_clim.nc
-    - /g/data/vk83/configurations/inputs/access-om3/share/meshes/global.25km/2025.11.27/access-om3-25km-ESMFmesh.nc
-    - /g/data/vk83/configurations/inputs/access-om3/share/meshes/global.25km/2025.11.27/access-om3-25km-nomask-ESMFmesh.nc
-    - /g/data/vk83/configurations/inputs/access-om3/share/meshes/share/2024.09.16/JRA55do-datm-ESMFmesh.nc
-    - /g/data/vk83/configurations/inputs/access-om3/share/meshes/share/2024.09.16/JRA55do-drof-ESMFmesh.nc
-    - /g/data/vk83/configurations/inputs/access-om3/cmeps/remap_weights/global.25km/2025.11.27/access-om3-25km-rof-remap-weights.nc
-    - /g/data/qv56/replicas/input4MIPs/CMIP6Plus/OMIP/MRI/MRI-JRA55-do-1-6-0/
-    - /g/data/vk83/configurations/inputs/access-om3/share/grids/global.25km/2025.11.27/mask_table.1038.63x56
+- /g/data/vk83/configurations/inputs/access-om3/cice/grids/global.25km/2025.11.27/kmt.nc
+- /g/data/vk83/configurations/inputs/access-om3/mom/grids/mosaic/global.25km/2025.09.02/ocean_hgrid.nc
+- /g/data/vk83/configurations/inputs/access-om3/mom/grids/vertical/global.25km/2025.03.12/ocean_vgrid.nc
+- /g/data/vk83/configurations/inputs/access-om3/mom/initial_conditions/global.25km/2025.10.24/woa23_ts_01_mom.nc
+- /g/data/vk83/configurations/inputs/access-om3/mom/surface_salt_restoring/global.25km/2025.10.24/salt_sfc_restore.nc
+- /g/data/vk83/configurations/inputs/access-om3/mom/tidal_external_files/global.25km/2025.09.03/bottom_roughness.nc
+- /g/data/vk83/configurations/inputs/access-om3/mom/tidal_external_files/global.25km/2025.09.03/tideamp.nc
+- /g/data/vk83/configurations/inputs/access-om3/share/grids/global.25km/2025.11.27/topog.nc
+- /g/data/vk83/configurations/inputs/access-om3/mom/chlorophyll/global.25km/2025.11.21/chl_globcolour_monthly_clim.nc
+- /g/data/vk83/configurations/inputs/access-om3/share/meshes/global.25km/2025.11.27/access-om3-25km-ESMFmesh.nc
+- /g/data/vk83/configurations/inputs/access-om3/share/meshes/global.25km/2025.11.27/access-om3-25km-nomask-ESMFmesh.nc
+- /g/data/vk83/configurations/inputs/access-om3/share/meshes/share/2024.09.16/JRA55do-datm-ESMFmesh.nc
+- /g/data/vk83/configurations/inputs/access-om3/share/meshes/share/2024.09.16/JRA55do-drof-ESMFmesh.nc
+- /g/data/vk83/configurations/inputs/access-om3/cmeps/remap_weights/global.25km/2025.11.27/access-om3-25km-rof-remap-weights.nc
+- /g/data/qv56/replicas/input4MIPs/CMIP6Plus/OMIP/MRI/MRI-JRA55-do-1-6-0/
+- /g/data/vk83/configurations/inputs/access-om3/share/grids/global.25km/2025.11.27/mask_table.1038.63x56
 
 runlog: true
-metadata: 
-    enable: true
+metadata:
+  enable: true
 manifest:
   reproduce:
-    exe: True
-    input: True
+    exe: true
+    input: true
 
 platform:
-    nodesize: 104
-    nodemem: 512
+  nodesize: 104
+  nodemem: 512
 
 collate:
   restart: true
@@ -71,9 +72,13 @@ collate:
   exe: mppnccombine-fast
 
 userscripts:
-    archive: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+  archive: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
 
-postscript: -v PROJECT,SCRIPTS_DIR=/g/data/vk83/apps/om3-scripts -lstorage=${PBS_NCI_STORAGE}+gdata/xp65 /g/data/vk83/apps/om3-scripts/payu_config/postscript.sh
+postscript: -v PROJECT,SCRIPTS_DIR=/g/data/vk83/apps/om3-scripts 
+  -lstorage=${PBS_NCI_STORAGE}+gdata/xp65 
+  /g/data/vk83/apps/om3-scripts/payu_config/postscript.sh
 
 restart_freq: 1YS
 payu_minimum_version: 1.1.7
+restart: 
+  /scratch/x77/amh157/access-om3/archive/MC_25km_jra_iaf-1.0-beta-gm1-d968c801/restart020
