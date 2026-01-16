@@ -184,7 +184,7 @@ SURFACE_ANSWER_DATE = 99991231  ! default = 99991231
 USE_DIABATIC_TIME_BUG = False   !   [Boolean] default = False
                                 ! If true, uses the wrong calendar time for diabatic processes, as was done in
                                 ! MOM6 versions prior to February 2018. This is not recommended.
-SAVE_INITIAL_CONDS = True       !   [Boolean] default = False
+SAVE_INITIAL_CONDS = False      !   [Boolean] default = False
                                 ! If true, write the initial conditions to a file given by IC_OUTPUT_FILE.
 IC_OUTPUT_FILE = "MOM_IC"       ! default = "MOM_IC"
                                 ! The file into which to write the initial conditions.
@@ -782,9 +782,9 @@ MEKE_GM_SRC_ALT = False         !   [Boolean] default = False
                                 ! streamfunction for the MEKE GM source term.
 MEKE_VISC_DRAG = True           !   [Boolean] default = True
                                 ! If true, use the vertvisc_type to calculate the bottom drag acting on MEKE.
-MEKE_KHTH_FAC = 0.2             !   [nondim] default = 0.0
+MEKE_KHTH_FAC = 0.5             !   [nondim] default = 0.0
                                 ! A factor that maps MEKE%Kh to KhTh.
-MEKE_KHTR_FAC = 0.2             !   [nondim] default = 0.0
+MEKE_KHTR_FAC = 0.5             !   [nondim] default = 0.0
                                 ! A factor that maps MEKE%Kh to KhTr.
 MEKE_KHMEKE_FAC = 1.0           !   [nondim] default = 0.0
                                 ! A factor that maps MEKE%Kh to Kh for MEKE itself.
@@ -797,7 +797,7 @@ MEKE_MIN_LSCALE = False         !   [Boolean] default = False
 MEKE_RD_MAX_SCALE = False       !   [Boolean] default = False
                                 ! If true, the length scale used by MEKE is the minimum of the deformation
                                 ! radius or grid-spacing. Only used if MEKE_OLD_LSCALE=True
-MEKE_VISCOSITY_COEFF_KU = 0.4   !   [nondim] default = 0.0
+MEKE_VISCOSITY_COEFF_KU = 1.0   !   [nondim] default = 0.0
                                 ! If non-zero, is the scaling coefficient in the expression forviscosity used to
                                 ! parameterize harmonic lateral momentum mixing byunresolved eddies represented
                                 ! by MEKE. Can be negative torepresent backscatter from the unresolved eddies.
