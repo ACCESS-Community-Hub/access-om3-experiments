@@ -68,7 +68,7 @@ metadata:
 manifest:
   reproduce:
     exe: true
-    input: true
+    input: false
 
 platform:
   nodesize: 104
