@@ -317,7 +317,7 @@ CHANNEL_CONFIG = "list"         ! default = "none"
                                 !       test case.
                                 !     file - Read open face widths everywhere from a
                                 !       NetCDF file on the model grid.
-CHANNEL_LIST_FILE = "./auxilary_input/MOM_channel_list" ! default = "MOM_channel_list"
+CHANNEL_LIST_FILE = "./INPUT/MOM_channel_list" ! default = "MOM_channel_list"
                                 ! The file from which the list of narrowed channels is read.
 CHANNEL_LIST_360_LON_CHECK = True !   [Boolean] default = True
                                 ! If true, the channel configuration list works for any longitudes in the range
@@ -389,7 +389,7 @@ RESTARTFILE = "MOM.res"         ! default = "MOM.res"
                                 ! The name-root of the restart file.
 MAX_FIELDS = 100                ! default = 100
                                 ! The maximum number of restart fields that can be used.
-RESTART_CHECKSUMS_REQUIRED = True !   [Boolean] default = True
+RESTART_CHECKSUMS_REQUIRED = False !   [Boolean] default = True
                                 ! If true, require the restart checksums to match and error out otherwise. Users
                                 ! may want to avoid this comparison if for example the restarts are made from a
                                 ! run with a different mask_table than the current run, in which case the
@@ -639,85 +639,10 @@ FATAL_INCONSISTENT_RESTART_TIME = False !   [Boolean] default = False
                                 ! If true and a time_in value is provided to MOM_initialize_state, verify that
                                 ! the time read from a restart file is the same as time_in, and issue a fatal
                                 ! error if it is not.  Otherwise, simply set the time to time_in if present.
-INIT_LAYERS_FROM_Z_FILE = True  !   [Boolean] default = False
-                                ! If true, initialize the layer thicknesses, temperatures, and salinities from a
-                                ! Z-space file on a latitude-longitude grid.
-
-! === module MOM_initialize_layers_from_Z ===
-TEMP_SALT_Z_INIT_FILE = "./INPUT/woa23_ts_01_mom.nc" ! default = "temp_salt_z.nc"
-                                ! The name of the z-space input file used to initialize temperatures (T) and
-                                ! salinities (S). If T and S are not in the same file, TEMP_Z_INIT_FILE and
-                                ! SALT_Z_INIT_FILE must be set.
-TEMP_Z_INIT_FILE = "./INPUT/woa23_ts_01_mom.nc" ! default = "./INPUT/woa23_ts_01_mom.nc"
-                                ! The name of the z-space input file used to initialize temperatures, only.
-SALT_Z_INIT_FILE = "./INPUT/woa23_ts_01_mom.nc" ! default = "./INPUT/woa23_ts_01_mom.nc"
-                                ! The name of the z-space input file used to initialize temperatures, only.
-Z_INIT_FILE_PTEMP_VAR = "ptemp" ! default = "ptemp"
-                                ! The name of the potential temperature variable in TEMP_Z_INIT_FILE.
-Z_INIT_FILE_SALT_VAR = "salt"   ! default = "salt"
-                                ! The name of the salinity variable in SALT_Z_INIT_FILE.
-Z_INIT_HOMOGENIZE = False       !   [Boolean] default = False
-                                ! If True, then horizontally homogenize the interpolated initial conditions.
-Z_INIT_ALE_REMAPPING = True     !   [Boolean] default = False
-                                ! If True, then remap straight to model coordinate from file.
-Z_INIT_REMAPPING_SCHEME = "PPM_IH4" ! default = "PPM_IH4"
-                                ! The remapping scheme to use if using Z_INIT_ALE_REMAPPING is True.
-Z_INIT_REMAP_GENERAL = True     !   [Boolean] default = False
-                                ! If false, only initializes to z* coordinates. If true, allows initialization
-                                ! directly to general coordinates.
-Z_INIT_REMAP_FULL_COLUMN = True !   [Boolean] default = True
-                                ! If false, only reconstructs profiles for valid data points. If true, inserts
-                                ! vanished layers below the valid data.
-Z_INIT_REMAP_OLD_ALG = False    !   [Boolean] default = False
-                                ! If false, uses the preferred remapping algorithm for initialization. If true,
-                                ! use an older, less robust algorithm for remapping.
-TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = True !   [Boolean] default = False
-                                ! If true, initial conditions are on the model horizontal grid. Extrapolation
-                                ! over missing ocean values is done using an ICE-9 procedure with vertical ALE
-                                ! remapping .
 Z_INIT_REMAPPING_USE_OM4_SUBCELLS = False !   [Boolean] default = False
                                 ! If true, use the OM4 remapping-via-subcells algorithm for initialization. See
                                 ! REMAPPING_USE_OM4_SUBCELLS for more details. We recommend setting this option
                                 ! to false.
-HOR_REGRID_ANSWER_DATE = 99991231 ! default = 99991231
-                                ! The vintage of the order of arithmetic for horizontal regridding.  Dates
-                                ! before 20190101 give the same answers as the code did in late 2018, while
-                                ! later versions add parentheses for rotational symmetry.  Dates after 20230101
-                                ! use reproducing sums for global averages.
-LAND_FILL_TEMP = 0.0            !   [degC] default = 0.0
-                                ! A value to use to fill in ocean temperatures on land points.
-LAND_FILL_SALIN = 35.0          !   [ppt] default = 35.0
-                                ! A value to use to fill in ocean salinities on land points.
-HORIZ_INTERP_TOL_TEMP = 0.001   !   [degC] default = 0.001
-                                ! The tolerance in temperature changes between iterations when interpolating
-                                ! from an input dataset using horiz_interp_and_extrap_tracer.  This routine
-                                ! converges slowly, so an overly small tolerance can get expensive.
-HORIZ_INTERP_TOL_SALIN = 0.001  !   [ppt] default = 0.001
-                                ! The tolerance in salinity changes between iterations when interpolating from
-                                ! an input dataset using horiz_interp_and_extrap_tracer.  This routine converges
-                                ! slowly, so an overly small tolerance can get expensive.
-DEPRESS_INITIAL_SURFACE = False !   [Boolean] default = False
-                                ! If true,  depress the initial surface to avoid huge tsunamis when a large
-                                ! surface pressure is applied.
-TRIM_IC_FOR_P_SURF = False      !   [Boolean] default = False
-                                ! If true, cuts way the top of the column for initial conditions at the depth
-                                ! where the hydrostatic pressure matches the imposed surface pressure which is
-                                ! read from file.
-REGRID_ACCELERATE_INIT = False  !   [Boolean] default = False
-                                ! If true, runs REGRID_ACCELERATE_ITERATIONS iterations of the regridding
-                                ! algorithm to push the initial grid to be consistent with the initial
-                                ! condition. Useful only for state-based and iterative coordinates.
-VELOCITY_CONFIG = "zero"        ! default = "zero"
-                                ! A string that determines how the initial velocities are specified for a new
-                                ! run:
-                                !     file - read velocities from the file specified
-                                !       by (VELOCITY_FILE).
-                                !     zero - the fluid is initially at rest.
-                                !     uniform - the flow is uniform (determined by
-                                !       parameters INITIAL_U_CONST and INITIAL_V_CONST).
-                                !     rossby_front - a mixed layer front in thermal wind balance.
-                                !     soliton - Equatorial Rossby soliton.
-                                !     USER - call a user modified routine.
 ODA_INCUPD = False              !   [Boolean] default = False
                                 ! If true, oda incremental updates will be applied everywhere in the domain.
 SPONGE = False                  !   [Boolean] default = False
@@ -851,19 +776,19 @@ EKE_SOURCE = "prog"             ! default = "prog"
                                 !   'dbclient': Retrieved from ML-database
 MEKE_DAMPING = 0.0              !   [s-1] default = 0.0
                                 ! The local depth-independent MEKE dissipation rate.
-MEKE_CD_SCALE = 0.0             !   [nondim] default = 0.0
+MEKE_CD_SCALE = 1.0             !   [nondim] default = 0.0
                                 ! The ratio of the bottom eddy velocity to the column mean eddy velocity, i.e.
                                 ! sqrt(2*MEKE). This should be less than 1 to account for the surface
                                 ! intensification of MEKE.
-MEKE_CB = 25.0                  !   [nondim] default = 25.0
+MEKE_CB = 0.0                   !   [nondim] default = 25.0
                                 ! A coefficient in the expression for the ratio of bottom projected eddy energy
                                 ! and mean column energy (see Jansen et al. 2015).
 MEKE_MIN_GAMMA2 = 1.0E-04       !   [nondim] default = 1.0E-04
                                 ! The minimum allowed value of gamma_b^2.
-MEKE_CT = 50.0                  !   [nondim] default = 50.0
+MEKE_CT = 0.0                   !   [nondim] default = 50.0
                                 ! A coefficient in the expression for the ratio of barotropic eddy energy and
                                 ! mean column energy (see Jansen et al. 2015).
-MEKE_GMCOEFF = 1.0              !   [nondim] default = -1.0
+MEKE_GMCOEFF = -1.0             !   [nondim] default = -1.0
                                 ! The efficiency of the conversion of potential energy into MEKE by the
                                 ! thickness mixing parameterization. If MEKE_GMCOEFF is negative, this
                                 ! conversion is not used or calculated.
@@ -879,17 +804,17 @@ MEKE_EQUILIBRIUM_ALT = False    !   [Boolean] default = False
 MEKE_EQUILIBRIUM_RESTORING = False !   [Boolean] default = False
                                 ! If true, restore MEKE back to its equilibrium value, which is calculated at
                                 ! each time step.
-MEKE_FRCOEFF = -1.0             !   [nondim] default = -1.0
+MEKE_FRCOEFF = 1.0              !   [nondim] default = -1.0
                                 ! The efficiency of the conversion of mean energy into MEKE.  If MEKE_FRCOEFF is
                                 ! negative, this conversion is not used or calculated.
-MEKE_BHFRCOEFF = -1.0           !   [nondim] default = -1.0
+MEKE_BHFRCOEFF = 1.0            !   [nondim] default = -1.0
                                 ! The efficiency of the conversion of mean energy into MEKE by the biharmonic
                                 ! dissipation.  If MEKE_bhFRCOEFF is negative, this conversion is not used or
                                 ! calculated.
 MEKE_GMECOEFF = -1.0            !   [nondim] default = -1.0
                                 ! The efficiency of the conversion of MEKE into mean energy by GME.  If
                                 ! MEKE_GMECOEFF is negative, this conversion is not used or calculated.
-MEKE_BGSRC = 1.0E-13            !   [W kg-1] default = 0.0
+MEKE_BGSRC = 0.0                !   [W kg-1] default = 0.0
                                 ! A background energy source for MEKE.
 MEKE_KH = -1.0                  !   [m2 s-1] default = -1.0
                                 ! A background lateral diffusivity of MEKE. Use a negative value to not apply
@@ -899,9 +824,9 @@ MEKE_K4 = -1.0                  !   [m4 s-1] default = -1.0
                                 ! bi-harmonic diffusion to MEKE.
 MEKE_DTSCALE = 1.0              !   [nondim] default = 1.0
                                 ! A scaling factor to accelerate the time evolution of MEKE.
-MEKE_POSITIVE = False           !   [Boolean] default = False
+MEKE_POSITIVE = True            !   [Boolean] default = False
                                 ! If true, it guarantees that MEKE will always be >= 0.
-MEKE_KHCOEFF = 1.0              !   [nondim] default = 1.0
+MEKE_KHCOEFF = 0.0              !   [nondim] default = 1.0
                                 ! A scaling factor in the expression for eddy diffusivity which is otherwise
                                 ! proportional to the MEKE velocity- scale times an eddy mixing-length. This
                                 ! factor must be >0 for MEKE to contribute to the thickness/ and tracer
@@ -914,22 +839,27 @@ MEKE_GM_SRC_ALT = False         !   [Boolean] default = False
                                 ! streamfunction for the MEKE GM source term.
 MEKE_VISC_DRAG = True           !   [Boolean] default = True
                                 ! If true, use the vertvisc_type to calculate the bottom drag acting on MEKE.
-MEKE_KHTH_FAC = 0.3             !   [nondim] default = 0.0
+MEKE_KHTH_FAC = 0.0             !   [nondim] default = 0.0
                                 ! A factor that maps MEKE%Kh to KhTh.
-MEKE_KHTR_FAC = 0.3             !   [nondim] default = 0.0
+MEKE_KHTR_FAC = 0.0             !   [nondim] default = 0.0
                                 ! A factor that maps MEKE%Kh to KhTr.
-MEKE_KHMEKE_FAC = 1.0           !   [nondim] default = 0.0
+MEKE_KHMEKE_FAC = 0.0           !   [nondim] default = 0.0
                                 ! A factor that maps MEKE%Kh to Kh for MEKE itself.
 MEKE_OLD_LSCALE = False         !   [Boolean] default = False
                                 ! If true, use the old formula for length scale which is a function of grid
                                 ! spacing and deformation radius.
-MEKE_MIN_LSCALE = False         !   [Boolean] default = False
+MEKE_MIN_LSCALE = True          !   [Boolean] default = False
                                 ! If true, use a strict minimum of provided length scales rather than harmonic
                                 ! mean.
+MEKE_LSCALE_MAX_VAL = 1.0E+07   !   [m] default = 1.0E+07
+                                ! The ceiling on the value of the MEKE length scale when MEKE_MIN_LSCALE=True.
+                                ! The default is the distance from the equator to the pole on Earth, as
+                                ! estimated by enlightenment era scientists, but should probably scale with
+                                ! RAD_EARTH.
 MEKE_RD_MAX_SCALE = False       !   [Boolean] default = False
                                 ! If true, the length scale used by MEKE is the minimum of the deformation
                                 ! radius or grid-spacing. Only used if MEKE_OLD_LSCALE=True
-MEKE_VISCOSITY_COEFF_KU = 0.6   !   [nondim] default = 0.0
+MEKE_VISCOSITY_COEFF_KU = -0.1  !   [nondim] default = 0.0
                                 ! If non-zero, is the scaling coefficient in the expression forviscosity used to
                                 ! parameterize harmonic lateral momentum mixing byunresolved eddies represented
                                 ! by MEKE. Can be negative torepresent backscatter from the unresolved eddies.
@@ -947,16 +877,16 @@ MEKE_FIXED_TOTAL_DEPTH = True   !   [Boolean] default = True
 MEKE_ALPHA_DEFORM = 0.0         !   [nondim] default = 0.0
                                 ! If positive, is a coefficient weighting the deformation scale in the
                                 ! expression for mixing length used in MEKE-derived diffusivity.
-MEKE_ALPHA_RHINES = 0.15        !   [nondim] default = 0.0
+MEKE_ALPHA_RHINES = 1.0         !   [nondim] default = 0.0
                                 ! If positive, is a coefficient weighting the Rhines scale in the expression for
                                 ! mixing length used in MEKE-derived diffusivity.
-MEKE_ALPHA_EADY = 0.15          !   [nondim] default = 0.0
+MEKE_ALPHA_EADY = 0.0           !   [nondim] default = 0.0
                                 ! If positive, is a coefficient weighting the Eady length scale in the
                                 ! expression for mixing length used in MEKE-derived diffusivity.
 MEKE_ALPHA_FRICT = 0.0          !   [nondim] default = 0.0
                                 ! If positive, is a coefficient weighting the frictional arrest scale in the
                                 ! expression for mixing length used in MEKE-derived diffusivity.
-MEKE_ALPHA_GRID = 0.0           !   [nondim] default = 0.0
+MEKE_ALPHA_GRID = 1.0           !   [nondim] default = 0.0
                                 ! If positive, is a coefficient weighting the grid-spacing as a scale in the
                                 ! expression for mixing length used in MEKE-derived diffusivity.
 MEKE_COLD_START = False         !   [Boolean] default = False
@@ -969,15 +899,19 @@ MEKE_BACKSCAT_RO_C = 0.0        !   [nondim] default = 0.0
 MEKE_BACKSCAT_RO_POW = 0.0      !   [nondim] default = 0.0
                                 ! The power in the Rossby number function for scaling the biharmonic frictional
                                 ! energy source.
-MEKE_ADVECTION_FACTOR = 0.0     !   [nondim] default = 0.0
+MEKE_ADVECTION_FACTOR = 1.0     !   [nondim] default = 0.0
                                 ! A scale factor in front of advection of eddy energy. Zero turns advection off.
                                 ! Using unity would be normal but other values could accommodate a mismatch
                                 ! between the advecting barotropic flow and the vertical structure of MEKE.
-MEKE_TOPOGRAPHIC_BETA = 0.0     !   [nondim] default = 0.0
+MEKE_ADVECTION_BUG = False      !   [Boolean] default = False
+                                ! If true, recover a bug in the calculation of the barotropic transport for the
+                                ! advection of MEKE.  With the bug, only the transports in the deepest layer are
+                                ! used.
+MEKE_TOPOGRAPHIC_BETA = 1.0     !   [nondim] default = 0.0
                                 ! A scale factor to determine how much topographic beta is weighed in computing
                                 ! beta in the expression of Rhines scale. Use 1 if full topographic beta effect
                                 ! is considered; use 0 if it's completely ignored.
-SQG_USE_MEKE = False            !   [Boolean] default = False
+SQG_USE_MEKE = True             !   [Boolean] default = False
                                 ! If true, the eddy scale of MEKE is used for the SQG vertical structure
 CDRAG = 0.003                   !   [nondim] default = 0.003
                                 ! CDRAG is the drag coefficient relating the magnitude of the velocity field to
@@ -995,7 +929,7 @@ USE_VARIABLE_MIXING = True      !   [Boolean] default = False
 USE_VISBECK = False             !   [Boolean] default = False
                                 ! If true, use the Visbeck et al. (1997) formulation for
                                 ! thickness diffusivity.
-RESOLN_SCALED_KH = True         !   [Boolean] default = False
+RESOLN_SCALED_KH = False        !   [Boolean] default = False
                                 ! If true, the Laplacian lateral viscosity is scaled away when the first
                                 ! baroclinic deformation radius is well resolved.
 DEPTH_SCALED_KHTH = False       !   [Boolean] default = False
@@ -1015,7 +949,7 @@ RESOLN_USE_EBT = False          !   [Boolean] default = False
 BACKSCAT_EBT_POWER = 0.0        !   [nondim] default = 0.0
                                 ! Power to raise EBT vertical structure to when backscatter has vertical
                                 ! structure.
-BS_USE_SQG_STRUCT = False       !   [Boolean] default = False
+BS_USE_SQG_STRUCT = True        !   [Boolean] default = False
                                 ! If true, the SQG vertical structure is used for backscatter on the condition
                                 ! that BS_EBT_power=0
 KHTH_USE_EBT_STRUCT = True      !   [Boolean] default = False
@@ -1056,6 +990,13 @@ RESOLN_N2_FILTER_DEPTH = -1.0   !   [m] default = -1.0
                                 ! The depth below which N2 is monotonized to avoid stratification artifacts from
                                 ! altering the equivalent barotropic mode structure.  This monotonzization is
                                 ! disabled if this parameter is negative.
+SQG_EXPO = 1.0                  !   [nondim] default = 1.0
+                                ! Nondimensional exponent coeffecient of the SQG mode that is used for the
+                                ! vertical struture of diffusivities.
+INTERPOLATED_SQG_STRUCTURE = True !   [Boolean] default = True
+                                ! If true, interpolate properties to velocity points and then interpolate the
+                                ! buoyancy frequencies and layer thicknesses back to tracer points when
+                                ! calculating the SQG vertical structure.
 VISBECK_MAX_SLOPE = 0.0         !   [nondim] default = 0.0
                                 ! If non-zero, is an upper bound on slopes used in the Visbeck formula for
                                 ! diffusivity. This does not affect the isopycnal slope calculation used within
@@ -1447,16 +1388,13 @@ KH = 0.0                        !   [m2 s-1] default = 0.0
                                 ! The background Laplacian horizontal viscosity.
 KH_BG_MIN = 0.0                 !   [m2 s-1] default = 0.0
                                 ! The minimum value allowed for Laplacian horizontal viscosity, KH.
-KH_VEL_SCALE = 0.01             !   [m s-1] default = 0.0
+KH_VEL_SCALE = 0.0              !   [m s-1] default = 0.0
                                 ! The velocity scale which is multiplied by the grid spacing to calculate the
                                 ! Laplacian viscosity. The final viscosity is the largest of this scaled
                                 ! viscosity, the Smagorinsky and Leith viscosities, and KH.
-KH_SIN_LAT = 2000.0             !   [m2 s-1] default = 0.0
+KH_SIN_LAT = 0.0                !   [m2 s-1] default = 0.0
                                 ! The amplitude of a latitudinally-dependent background viscosity of the form
                                 ! KH_SIN_LAT*(SIN(LAT)**KH_PWR_OF_SINE).
-KH_PWR_OF_SINE = 4.0            !   [nondim] default = 4.0
-                                ! The power used to raise SIN(LAT) when using a latitudinally dependent
-                                ! background viscosity.
 SMAGORINSKY_KH = False          !   [Boolean] default = False
                                 ! If true, use a Smagorinsky nonlinear eddy viscosity.
 LEITH_KH = False                !   [Boolean] default = False
@@ -2640,7 +2578,7 @@ SALT_RESTORE_VARIABLE = "asalt" ! default = "salt"
 SRESTORE_AS_SFLUX = True        !   [Boolean] default = False
                                 ! If true, the restoring of salinity is applied as a salt flux instead of as a
                                 ! freshwater flux.
-MAX_DELTA_SRESTORE = 1.0        !   [PSU or g kg-1] default = 999.0
+MAX_DELTA_SRESTORE = 10.0       !   [PSU or g kg-1] default = 999.0
                                 ! The maximum salinity difference used in restoring terms.
 MASK_SRESTORE_UNDER_ICE = False !   [Boolean] default = False
                                 ! If true, disables SSS restoring under sea-ice based on a frazil criteria

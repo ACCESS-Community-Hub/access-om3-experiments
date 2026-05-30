@@ -138,7 +138,7 @@ CHANNEL_CONFIG = "list"         ! default = "none"
                                 !       test case.
                                 !     file - Read open face widths everywhere from a
                                 !       NetCDF file on the model grid.
-CHANNEL_LIST_FILE = "./auxilary_input/MOM_channel_list" ! default = "MOM_channel_list"
+CHANNEL_LIST_FILE = "./INPUT/MOM_channel_list" ! default = "MOM_channel_list"
                                 ! The file from which the list of narrowed channels is read.
 FATAL_UNUSED_CHANNEL_WIDTHS = True !   [Boolean] default = False
                                 ! If true, trigger a fatal error if there are any channel widths in
@@ -165,6 +165,11 @@ PARALLEL_RESTARTFILES = True    !   [Boolean] default = False
                                 ! If true, the IO layout is used to group processors that write to the same
                                 ! restart file or each processor writes its own (numbered) restart file. If
                                 ! false, a single restart file is generated combining output from all PEs.
+RESTART_CHECKSUMS_REQUIRED = False !   [Boolean] default = True
+                                ! If true, require the restart checksums to match and error out otherwise. Users
+                                ! may want to avoid this comparison if for example the restarts are made from a
+                                ! run with a different mask_table than the current run, in which case the
+                                ! checksums will not match and cause crash.
 
 ! === module MOM_tracer_flow_control ===
 USE_IDEAL_AGE_TRACER = True     !   [Boolean] default = False
@@ -243,24 +248,6 @@ REMAPPING_USE_OM4_SUBCELLS = False !   [Boolean] default = True
                                 ! recommend setting this option to false.
 
 ! === module MOM_state_initialization ===
-INIT_LAYERS_FROM_Z_FILE = True  !   [Boolean] default = False
-                                ! If true, initialize the layer thicknesses, temperatures, and salinities from a
-                                ! Z-space file on a latitude-longitude grid.
-
-! === module MOM_initialize_layers_from_Z ===
-TEMP_SALT_Z_INIT_FILE = "./INPUT/woa23_ts_01_mom.nc" ! default = "temp_salt_z.nc"
-                                ! The name of the z-space input file used to initialize temperatures (T) and
-                                ! salinities (S). If T and S are not in the same file, TEMP_Z_INIT_FILE and
-                                ! SALT_Z_INIT_FILE must be set.
-Z_INIT_ALE_REMAPPING = True     !   [Boolean] default = False
-                                ! If True, then remap straight to model coordinate from file.
-Z_INIT_REMAP_GENERAL = True     !   [Boolean] default = False
-                                ! If false, only initializes to z* coordinates. If true, allows initialization
-                                ! directly to general coordinates.
-TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = True !   [Boolean] default = False
-                                ! If true, initial conditions are on the model horizontal grid. Extrapolation
-                                ! over missing ocean values is done using an ICE-9 procedure with vertical ALE
-                                ! remapping .
 
 ! === module MOM_diag_mediator ===
 NUM_DIAG_COORDS = 2             ! default = 1
@@ -337,28 +324,53 @@ DIAG_COORD_DEF_RHO2 = "RFNC1:76,999.5,1020.,1034.1,3.1,1041.,0.002" ! default = 
 USE_MEKE = True                 !   [Boolean] default = False
                                 ! If true, turns on the MEKE scheme which calculates a sub-grid mesoscale eddy
                                 ! kinetic energy budget.
-MEKE_GMCOEFF = 1.0              !   [nondim] default = -1.0
-                                ! The efficiency of the conversion of potential energy into MEKE by the
-                                ! thickness mixing parameterization. If MEKE_GMCOEFF is negative, this
-                                ! conversion is not used or calculated.
-MEKE_BGSRC = 1.0E-13            !   [W kg-1] default = 0.0
-                                ! A background energy source for MEKE.
-MEKE_KHTH_FAC = 0.3             !   [nondim] default = 0.0
-                                ! A factor that maps MEKE%Kh to KhTh.
-MEKE_KHTR_FAC = 0.3             !   [nondim] default = 0.0
-                                ! A factor that maps MEKE%Kh to KhTr.
-MEKE_KHMEKE_FAC = 1.0           !   [nondim] default = 0.0
-                                ! A factor that maps MEKE%Kh to Kh for MEKE itself.
-MEKE_VISCOSITY_COEFF_KU = 0.6   !   [nondim] default = 0.0
+MEKE_CD_SCALE = 1.0             !   [nondim] default = 0.0
+                                ! The ratio of the bottom eddy velocity to the column mean eddy velocity, i.e.
+                                ! sqrt(2*MEKE). This should be less than 1 to account for the surface
+                                ! intensification of MEKE.
+MEKE_CB = 0.0                   !   [nondim] default = 25.0
+                                ! A coefficient in the expression for the ratio of bottom projected eddy energy
+                                ! and mean column energy (see Jansen et al. 2015).
+MEKE_CT = 0.0                   !   [nondim] default = 50.0
+                                ! A coefficient in the expression for the ratio of barotropic eddy energy and
+                                ! mean column energy (see Jansen et al. 2015).
+MEKE_FRCOEFF = 1.0              !   [nondim] default = -1.0
+                                ! The efficiency of the conversion of mean energy into MEKE.  If MEKE_FRCOEFF is
+                                ! negative, this conversion is not used or calculated.
+MEKE_BHFRCOEFF = 1.0            !   [nondim] default = -1.0
+                                ! The efficiency of the conversion of mean energy into MEKE by the biharmonic
+                                ! dissipation.  If MEKE_bhFRCOEFF is negative, this conversion is not used or
+                                ! calculated.
+MEKE_POSITIVE = True            !   [Boolean] default = False
+                                ! If true, it guarantees that MEKE will always be >= 0.
+MEKE_KHCOEFF = 0.0              !   [nondim] default = 1.0
+                                ! A scaling factor in the expression for eddy diffusivity which is otherwise
+                                ! proportional to the MEKE velocity- scale times an eddy mixing-length. This
+                                ! factor must be >0 for MEKE to contribute to the thickness/ and tracer
+                                ! diffusivity in the rest of the model.
+MEKE_MIN_LSCALE = True          !   [Boolean] default = False
+                                ! If true, use a strict minimum of provided length scales rather than harmonic
+                                ! mean.
+MEKE_VISCOSITY_COEFF_KU = -0.1  !   [nondim] default = 0.0
                                 ! If non-zero, is the scaling coefficient in the expression forviscosity used to
                                 ! parameterize harmonic lateral momentum mixing byunresolved eddies represented
                                 ! by MEKE. Can be negative torepresent backscatter from the unresolved eddies.
-MEKE_ALPHA_RHINES = 0.15        !   [nondim] default = 0.0
+MEKE_ALPHA_RHINES = 1.0         !   [nondim] default = 0.0
                                 ! If positive, is a coefficient weighting the Rhines scale in the expression for
                                 ! mixing length used in MEKE-derived diffusivity.
-MEKE_ALPHA_EADY = 0.15          !   [nondim] default = 0.0
-                                ! If positive, is a coefficient weighting the Eady length scale in the
+MEKE_ALPHA_GRID = 1.0           !   [nondim] default = 0.0
+                                ! If positive, is a coefficient weighting the grid-spacing as a scale in the
                                 ! expression for mixing length used in MEKE-derived diffusivity.
+MEKE_ADVECTION_FACTOR = 1.0     !   [nondim] default = 0.0
+                                ! A scale factor in front of advection of eddy energy. Zero turns advection off.
+                                ! Using unity would be normal but other values could accommodate a mismatch
+                                ! between the advecting barotropic flow and the vertical structure of MEKE.
+MEKE_TOPOGRAPHIC_BETA = 1.0     !   [nondim] default = 0.0
+                                ! A scale factor to determine how much topographic beta is weighed in computing
+                                ! beta in the expression of Rhines scale. Use 1 if full topographic beta effect
+                                ! is considered; use 0 if it's completely ignored.
+SQG_USE_MEKE = True             !   [Boolean] default = False
+                                ! If true, the eddy scale of MEKE is used for the SQG vertical structure
 
 ! === module MOM_lateral_mixing_coeffs ===
 USE_VARIABLE_MIXING = True      !   [Boolean] default = False
@@ -366,12 +378,12 @@ USE_VARIABLE_MIXING = True      !   [Boolean] default = False
                                 ! be created even if the scheme is not used.  If KHTR_SLOPE_CFF>0 or
                                 ! KhTh_Slope_Cff>0, this is set to true regardless of what is in the parameter
                                 ! file.
-RESOLN_SCALED_KH = True         !   [Boolean] default = False
-                                ! If true, the Laplacian lateral viscosity is scaled away when the first
-                                ! baroclinic deformation radius is well resolved.
 RESOLN_SCALED_KHTH = True       !   [Boolean] default = False
                                 ! If true, the interface depth diffusivity is scaled away when the first
                                 ! baroclinic deformation radius is well resolved.
+BS_USE_SQG_STRUCT = True        !   [Boolean] default = False
+                                ! If true, the SQG vertical structure is used for backscatter on the condition
+                                ! that BS_EBT_power=0
 KHTH_USE_EBT_STRUCT = True      !   [Boolean] default = False
                                 ! If true, uses the equivalent barotropic structure as the vertical structure of
                                 ! thickness diffusivity.
@@ -466,13 +478,6 @@ MASS_WEIGHT_IN_PRESSURE_GRADIENT = True !   [Boolean] default = False
 ! === module MOM_hor_visc ===
 LAPLACIAN = True                !   [Boolean] default = False
                                 ! If true, use a Laplacian horizontal viscosity.
-KH_VEL_SCALE = 0.01             !   [m s-1] default = 0.0
-                                ! The velocity scale which is multiplied by the grid spacing to calculate the
-                                ! Laplacian viscosity. The final viscosity is the largest of this scaled
-                                ! viscosity, the Smagorinsky and Leith viscosities, and KH.
-KH_SIN_LAT = 2000.0             !   [m2 s-1] default = 0.0
-                                ! The amplitude of a latitudinally-dependent background viscosity of the form
-                                ! KH_SIN_LAT*(SIN(LAT)**KH_PWR_OF_SINE).
 AH_VEL_SCALE = 0.01             !   [m s-1] default = 0.0
                                 ! The velocity scale which is multiplied by the cube of the grid spacing to
                                 ! calculate the biharmonic viscosity. The final viscosity is the largest of this
@@ -808,7 +813,7 @@ SALT_RESTORE_VARIABLE = "asalt" ! default = "salt"
 SRESTORE_AS_SFLUX = True        !   [Boolean] default = False
                                 ! If true, the restoring of salinity is applied as a salt flux instead of as a
                                 ! freshwater flux.
-MAX_DELTA_SRESTORE = 1.0        !   [PSU or g kg-1] default = 999.0
+MAX_DELTA_SRESTORE = 10.0       !   [PSU or g kg-1] default = 999.0
                                 ! The maximum salinity difference used in restoring terms.
 USE_RIGID_SEA_ICE = True        !   [Boolean] default = False
                                 ! If true, sea-ice is rigid enough to exert a nonhydrostatic pressure that
