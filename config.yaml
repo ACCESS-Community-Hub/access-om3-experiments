@@ -9,8 +9,8 @@
 # Using payu sync is recommend to copy data from ephemeral scratch space to 
 # longer term storage
 sync:
-  enable: false     # set path below and change to true
-  base_path:        # Set to location on /g/data (e.g. /g/data/PROJECT/USER/)
+  enable: true     # set path below and change to true
+  path: /g/data/ol01/outputs/access-om3-25km/MC_25km_jra_iaf+wombatlite_bs1-mpudig-backscat1-4c21c151        # Set to location on /g/data (e.g. /g/data/PROJECT/USER/)
   restarts: true
   exclude_uncollated: false
 
@@ -32,8 +32,8 @@ jobname: 25km_jra_iaf_wombatlite
 model: access-om3
 exe: access-om3-MOM6-CICE6
 input:
-- /home/561/mp2135/access-om3/MC_25km_jra_iaf+wombatlite_bs1/auxilary_input/mask_table.1027.72x48
-- /home/561/mp2135/access-om3/MC_25km_jra_iaf+wombatlite_bs1/auxilary_input/MOM_channel_list
+- /home/561/mp2135/access-om3/MC_25km_jra_iaf+wombatlite_bs2/auxilary_input/mask_table.1027.72x48
+- /home/561/mp2135/access-om3/MC_25km_jra_iaf+wombatlite_bs2/auxilary_input/MOM_channel_list
 - /g/data/vk83/prerelease/configurations/inputs/access-om3/cice/grids/global.25km/2026.03.16/kmt.nc
 - /g/data/vk83/configurations/inputs/access-om3/mom/grids/mosaic/global.25km/2025.09.02/ocean_hgrid.nc
 - /g/data/vk83/prerelease/configurations/inputs/access-om3/mom/grids/mosaic/global.25km/2025.09.29/ocean_mosaic.nc
