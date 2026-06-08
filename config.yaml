@@ -10,7 +10,7 @@
 # longer term storage
 sync:
   enable: true     # set path below and change to true
-  path: /g/data/ol01/outputs/access-om3-25km/MC_25km_jra_iaf+wombatlite_bs1-mpudig-backscat1-4c21c151        # Set to location on /g/data (e.g. /g/data/PROJECT/USER/)
+  path: /g/data/ol01/outputs/access-om3-25km/MC_25km_jra_iaf+wombatlite_bs2-mpudig-backscat2-0578cc36        # Set to location on /g/data (e.g. /g/data/PROJECT/USER/)
   restarts: true
   exclude_uncollated: false
 
