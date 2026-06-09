@@ -351,7 +351,7 @@ MEKE_KHCOEFF = 0.0              !   [nondim] default = 1.0
 MEKE_MIN_LSCALE = True          !   [Boolean] default = False
                                 ! If true, use a strict minimum of provided length scales rather than harmonic
                                 ! mean.
-MEKE_VISCOSITY_COEFF_KU = -0.1  !   [nondim] default = 0.0
+MEKE_VISCOSITY_COEFF_KU = -0.2  !   [nondim] default = 0.0
                                 ! If non-zero, is the scaling coefficient in the expression forviscosity used to
                                 ! parameterize harmonic lateral momentum mixing byunresolved eddies represented
                                 ! by MEKE. Can be negative torepresent backscatter from the unresolved eddies.
