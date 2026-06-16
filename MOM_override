@@ -1,2 +1,7 @@
 ! NOTE: User made changes to this file override the settings in MOM_input
 !       This provides a clear record of how your configuration differs from the standard
+
+DO_RIVERMIX = True ! [Boolean] default = False
+RIVERMIX_DEPTH = 40.0 ! [m] default = 0.0
+BAD_VAL_SSS_MAX = 75.0 ! [PPT] default = 45.0
+MAX_DELTA_SRESTORE = 0.5 !
