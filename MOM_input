@@ -211,25 +211,25 @@ USE_IDEAL_AGE_TRACER = True     !   [Boolean] default = False
                                 ! If true, use the ideal_age_example tracer package.
 
 ! Use for month after 1 day restart for tracers
-! USE_REGIONAL_DYES = False 
-! USE_FILE_DYES = True
-! FILE_DYE_TRACERS_ACCUMULATE = False
-! FILE_DYE_TRACERS_FILE = "INPUT/file_north_south_dye_tracers.nc"
-! NUM_FILE_DYE_TRACERS = 3
-! RESTART_CHECKSUMS_REQUIRED = False
+USE_REGIONAL_DYES = False 
+USE_FILE_DYES = True
+FILE_DYE_TRACERS_ACCUMULATE = False
+FILE_DYE_TRACERS_FILE = "INPUT/file_north_south_dye_tracers.nc"
+NUM_FILE_DYE_TRACERS = 3
+RESTART_CHECKSUMS_REQUIRED = False
 
 ! Use the below to get 1 day with tracers
-USE_REGIONAL_DYES = True        ! Line added by Katja. 
-NUM_DYE_TRACERS = 3             ! Added by Katja for North South tracer. 
-RESTART_CHECKSUMS_REQUIRED = False ! Added by Katja for first month after dye has been changed with xarray. Hashed for the first day run. 
+! USE_REGIONAL_DYES = True        ! Line added by Katja. 
+! NUM_DYE_TRACERS = 3             ! Added by Katja for North South tracer. 
+! RESTART_CHECKSUMS_REQUIRED = False ! Added by Katja for first month after dye has been changed with xarray. Hashed for the first day run. 
 
 ! === module segment_tracer_registry_init ===
-DYE_SOURCE_MINLON  = 9999.0, 9999.0, 9999.0  ! One value per tracer, comma-separated. Set these outside your domain's real
-DYE_SOURCE_MAXLON  = 9999.0, 9999.0, 9999.0  ! lon/lat range so the box never actually overlaps any wet cell -- this means
-DYE_SOURCE_MINLAT  = 9999.0, 9999.0, 9999.0  ! dye stays exactly 0.0 everywhere for the whole spin-up, giving you a clean
-DYE_SOURCE_MAXLAT  = 9999.0, 9999.0, 9999.0  ! restart file to overwrite with your masks afterward.
-DYE_SOURCE_MINDEPTH = 0.0, 0.0, 0.0          !
-DYE_SOURCE_MAXDEPTH = 6000.0, 6000.0, 6000.0 ! End of 1-day tracer section.
+! DYE_SOURCE_MINLON  = 9999.0, 9999.0, 9999.0  ! One value per tracer, comma-separated. Set these outside your domain's real
+! DYE_SOURCE_MAXLON  = 9999.0, 9999.0, 9999.0  ! lon/lat range so the box never actually overlaps any wet cell -- this means
+! DYE_SOURCE_MINLAT  = 9999.0, 9999.0, 9999.0  ! dye stays exactly 0.0 everywhere for the whole spin-up, giving you a clean
+! DYE_SOURCE_MAXLAT  = 9999.0, 9999.0, 9999.0  ! restart file to overwrite with your masks afterward.
+! DYE_SOURCE_MINDEPTH = 0.0, 0.0, 0.0          !
+! DYE_SOURCE_MAXDEPTH = 6000.0, 6000.0, 6000.0 ! End of 1-day tracer section.
 
 ! === module ideal_age_example ===
 

@@ -359,18 +359,6 @@ ACCESS-OM3
 "ocean_model", "sos", "sos", "access-om3.mom6.2d.sos.1mon.min.%4yr", "all", "min", "none", 2
 
 
-# daily 3D fields
-
-"access-om3.mom6.3d.dye001.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "dye001", "dye001", "access-om3.mom6.3d.dye001.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.dye002.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "dye002", "dye002", "access-om3.mom6.3d.dye002.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.3d.dye003.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "dye003", "dye003", "access-om3.mom6.3d.dye003.1day.mean.%4yr", "all", "average", "none", 2
-
-
 # daily 2D fields
 
 "access-om3.mom6.2d.tob.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
