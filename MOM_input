@@ -221,7 +221,7 @@ USE_IDEAL_AGE_TRACER = True     !   [Boolean] default = False
 ! Use the below to get 1 day with tracers
 USE_REGIONAL_DYES = True        ! Line added by Katja. 
 NUM_DYE_TRACERS = 3             ! Added by Katja for North South tracer. 
-! RESTART_CHECKSUMS_REQUIRED = False ! Added by Katja for first month after dye has been changed with xarray. Hashed for the first day run. 
+RESTART_CHECKSUMS_REQUIRED = False ! Added by Katja for first month after dye has been changed with xarray. Hashed for the first day run. 
 
 ! === module segment_tracer_registry_init ===
 DYE_SOURCE_MINLON  = 9999.0, 9999.0, 9999.0  ! One value per tracer, comma-separated. Set these outside your domain's real
