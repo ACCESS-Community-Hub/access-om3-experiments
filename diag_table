@@ -79,6 +79,87 @@ ACCESS-OM3
 "access-om3.mom6.3d.rsdoabsorb+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
 "ocean_model_z", "rsdoabsorb", "rsdoabsorb", "access-om3.mom6.3d.rsdoabsorb+z.1mon.mean.%4yr", "all", "average", "none", 2
 
+"access-om3.mom6.3d.T_dfxy_cont_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "T_dfxy_cont_tendency", "T_dfxy_cont_tendency", "access-om3.mom6.3d.T_dfxy_cont_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.S_dfxy_cont_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "S_dfxy_cont_tendency", "S_dfxy_cont_tendency", "access-om3.mom6.3d.S_dfxy_cont_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.age_dfxy_cont_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "age_dfxy_cont_tendency", "age_dfxy_cont_tendency", "access-om3.mom6.3d.age_dfxy_cont_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye001_dfxy_cont_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye001_dfxy_cont_tendency", "dye001_dfxy_cont_tendency", "access-om3.mom6.3d.dye001_dfxy_cont_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye002_dfxy_cont_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye002_dfxy_cont_tendency", "dye002_dfxy_cont_tendency", "access-om3.mom6.3d.dye002_dfxy_cont_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye003_dfxy_cont_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye003_dfxy_cont_tendency", "dye003_dfxy_cont_tendency", "access-om3.mom6.3d.dye003_dfxy_cont_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye001_adx+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye001_adx", "dye001_adx", "access-om3.mom6.3d.dye001_adx+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye001_ady+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye001_ady", "dye001_ady", "access-om3.mom6.3d.dye001_ady+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye001_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye001_tendency", "dye001_tendency", "access-om3.mom6.3d.dye001_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye001_tendency_vert_remap+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye001_tendency_vert_remap", "dye001_tendency_vert_remap", "access-om3.mom6.3d.dye001_tendency_vert_remap+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye001_dfx+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye001_dfx", "dye001_dfx", "access-om3.mom6.3d.dye001_dfx+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye001_dfy+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye001_dfy", "dye001_dfy", "access-om3.mom6.3d.dye001_dfy+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye002_adx+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye002_adx", "dye002_adx", "access-om3.mom6.3d.dye002_adx+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye002_ady+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye002_ady", "dye002_ady", "access-om3.mom6.3d.dye002_ady+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye002_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye002_tendency", "dye002_tendency", "access-om3.mom6.3d.dye002_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye002_tendency_vert_remap+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye002_tendency_vert_remap", "dye002_tendency_vert_remap", "access-om3.mom6.3d.dye002_tendency_vert_remap+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye002_dfx+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye002_dfx", "dye002_dfx", "access-om3.mom6.3d.dye002_dfx+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye002_dfy+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye002_dfy", "dye002_dfy", "access-om3.mom6.3d.dye002_dfy+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye003_adx+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye003_adx", "dye003_adx", "access-om3.mom6.3d.dye003_adx+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye003_ady+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye003_ady", "dye003_ady", "access-om3.mom6.3d.dye003_ady+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye003_tendency+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye003_tendency", "dye003_tendency", "access-om3.mom6.3d.dye003_tendency+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye003_tendency_vert_remap+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye003_tendency_vert_remap", "dye003_tendency_vert_remap", "access-om3.mom6.3d.dye003_tendency_vert_remap+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye003_dfx+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye003_dfx", "dye003_dfx", "access-om3.mom6.3d.dye003_dfx+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye003_dfy+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye003_dfy", "dye003_dfy", "access-om3.mom6.3d.dye003_dfy+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye001+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye001", "dye001", "access-om3.mom6.3d.dye001+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye002+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye002", "dye002", "access-om3.mom6.3d.dye002+z.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.3d.dye003+z.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model_z", "dye003", "dye003", "access-om3.mom6.3d.dye003+z.1mon.mean.%4yr", "all", "average", "none", 2
+
 
 # monthly 3d fields on rho2
 
@@ -214,6 +295,33 @@ ACCESS-OM3
 "access-om3.mom6.2d.h_ML.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
 "ocean_model", "h_ML", "h_ML", "access-om3.mom6.2d.h_ML.1mon.mean.%4yr", "all", "average", "none", 2
 
+"access-om3.mom6.2d.heat_content_surfwater.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "heat_content_surfwater", "heat_content_surfwater", "access-om3.mom6.2d.heat_content_surfwater.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.rsntds.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "rsntds", "rsntds", "access-om3.mom6.2d.rsntds.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.rlntds.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "rlntds", "rlntds", "access-om3.mom6.2d.rlntds.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.hflso.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "hflso", "hflso", "access-om3.mom6.2d.hflso.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.hfsso.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "hfsso", "hfsso", "access-om3.mom6.2d.hfsso.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.seaice_melt_heat.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "seaice_melt_heat", "seaice_melt_heat", "access-om3.mom6.2d.seaice_melt_heat.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.frazil.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "frazil", "frazil", "access-om3.mom6.2d.frazil.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.fprec.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "fprec", "fprec", "access-om3.mom6.2d.fprec.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.lprec.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "lprec", "lprec", "access-om3.mom6.2d.lprec.1mon.mean.%4yr", "all", "average", "none", 2
+
 
 # monthly 2d max fields
 
@@ -286,12 +394,6 @@ ACCESS-OM3
 "access-om3.mom6.2d.net_massin.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
 "ocean_model", "net_massin", "net_massin", "access-om3.mom6.2d.net_massin.1day.mean.%4yr", "all", "average", "none", 2
 
-"access-om3.mom6.2d.massout_flux.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "massout_flux", "massout_flux", "access-om3.mom6.2d.massout_flux.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.2d.massin_flux.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "massin_flux", "massin_flux", "access-om3.mom6.2d.massin_flux.1day.mean.%4yr", "all", "average", "none", 2
-
 
 # daily scalar timeseries
 
@@ -306,7 +408,6 @@ ACCESS-OM3
 "ocean_model", "total_salt_Flux_Added", "total_salt_Flux_Added", "access-om3.mom6.scalar.1day.snap.%4yr", "all", "none", "none", 1
 "ocean_model", "total_salt_Flux_In", "total_salt_Flux_In", "access-om3.mom6.scalar.1day.snap.%4yr", "all", "none", "none", 1
 "ocean_model", "total_salt_flux", "total_salt_flux", "access-om3.mom6.scalar.1day.snap.%4yr", "all", "none", "none", 1
-"ocean_model", "salt_flux_global_restoring_adjustment", "salt_flux_global_restoring_adjustment", "access-om3.mom6.scalar.1day.snap.%4yr", "all", "none", "none", 1
 "ocean_model", "total_wfo", "total_wfo", "access-om3.mom6.scalar.1day.snap.%4yr", "all", "none", "none", 1
 "ocean_model", "total_evs", "total_evs", "access-om3.mom6.scalar.1day.snap.%4yr", "all", "none", "none", 1
 "ocean_model", "total_fsitherm", "total_fsitherm", "access-om3.mom6.scalar.1day.snap.%4yr", "all", "none", "none", 1

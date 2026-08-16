@@ -186,6 +186,33 @@ diag_table:
             KE: # Layer Kinetic energy per unit mass
             Kd_Itidal_Work: # Work done by Internal Tide Diapycnal Mixing
             rsdoabsorb: #  Convergence of Penetrative Shortwave Flux in Sea Water Layer
+            T_dfxy_cont_tendency: # otemppmdiff - tendency of heat content due to parameterized mesoscale diffusion
+            S_dfxy_cont_tendency: # osaltpmdiff - tendency of salt content due to parameterized mesoscale diffusion
+            age_dfxy_cont_tendency: # tendency of age tracer content due to parameterized mesoscale diffusion
+            dye001_dfxy_cont_tendency: # tendency of dye001 content due to parameterized mesoscale diffusion
+            dye002_dfxy_cont_tendency: # tendency of dye002 content due to parameterized mesoscale diffusion
+            dye003_dfxy_cont_tendency: # tendency of dye003 content due to parameterized mesoscale diffusion
+            dye001_adx: # x horizontal advective tendency of dye001
+            dye001_ady: # y advection
+            dye001_tendency: # net tendency of dye001
+            dye001_tendency_vert_remap: # dye001 tendency due to vertical remapping
+            dye001_dfx: # zonal diffusive flux of dye001
+            dye001_dfy: # meridional diffusive flux of dye001
+            dye002_adx: # x horizontal advective tendency of dye002
+            dye002_ady: # y advection
+            dye002_tendency: # net tendency of dye002
+            dye002_tendency_vert_remap: # dye002 tendency due to vertical remapping
+            dye002_dfx: # zonal diffusive flux of dye002
+            dye002_dfy: # meridional diffusive flux of dye002
+            dye003_adx: # x horizontal advective tendency of dye003
+            dye003_ady: # y advection
+            dye003_tendency: # net tendency of dye003
+            dye003_tendency_vert_remap: # dye003 tendency due to vertical remapping
+            dye003_dfx: # zonal diffusive flux of dye003
+            dye003_dfy: # meridional diffusive flux of dye003
+            dye001:
+            dye002:
+            dye003:
 
     'monthly 3d fields on rho2':
         defaults:  # these can be overridden for individual fields below
@@ -248,6 +275,15 @@ diag_table:
             ficeberg: # Frozen runoff (calving) and iceberg melt into ocean
             ePBL_h_ML: # Surface boundary layer depth
             h_ML: # Surface mixed layer depth based on active turbulence
+            heat_content_surfwater:
+            rsntds: # Shortwave radiation flux into ocean
+            rlntds: # Longwave radiation flux into ocean
+            hflso: # Latent heat flux into ocean
+            hfsso: # Sensible heat flux into ocean
+            seaice_melt_heat: # Heat flux into ocean from sea ice melt/formation
+            frazil: # Heat flux from frazil ice formation
+            fprec: # Frozen precipitation into ocean
+            lprec: # Liquid precipitation into ocean
 
     'monthly 2d max fields':
         defaults:  # these can be overridden for individual fields below
@@ -290,8 +326,7 @@ diag_table:
             precip: # Liquid + frozen precipitation into ocean
             net_massout: # Net mass leaving the ocean due to evaporation, seaice formation
             net_massin: # Net mass entering ocean due to precip, runoff, ice melt
-            massout_flux: # Net mass flux of freshwater out of the ocean (used in the boundary flux calculation)
-            massin_flux: # Net mass flux of freshwater into the ocean (used in boundary flux calculation)
+    
 
     'daily scalar timeseries':
         defaults:  # these can be overridden for individual fields below
@@ -329,7 +364,6 @@ diag_table:
             total_salt_Flux_Added: # Area integrated surface salt flux due to restoring or flux adjustment 
             total_salt_Flux_In: # Area integrated surface salt flux at surface from coupler
             total_salt_flux: # Area integrated surface salt flux
-            salt_flux_global_restoring_adjustment: # Adjustment needed to balance net global salt flux into ocean at surface
             total_wfo: # Area integrated net surface water flux (precip+melt+liq runoff+ice calving-evap) total_PRCmE
             total_evs: # Area integrated evap/condense at ocean surface total_evap
             total_fsitherm: # Area integrated sea ice melt (>0) or form (<0) total_icemelt
@@ -345,3 +379,4 @@ diag_table:
             total_precip: # Area integrated liquid+frozen precip into ocean
             total_frunoff: # Area integrated frozen runoff (calving) & iceberg melt into ocean
             total_lrunoff: # Area integrated liquid runoff into ocean
+
