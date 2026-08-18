@@ -69,8 +69,8 @@ metadata:
     enable: true
 manifest:
   reproduce:
-    exe: False
-    input: False
+    exe: True
+    input: True
 # temporarily changed input and exe to false here
 
 mpi:
