@@ -5202,13 +5202,13 @@
     ! units: kg m-2 s-1
     ! standard_name: water_flux_into_sea_water_from_glaciers
     ! cell_methods: xh:mean yh:mean area:mean
-"net_massout"  [Used]
+"net_massout"  [Unused]
     ! modules: {ocean_model,ocean_model_d2}
     ! dimensions: xh, yh
     ! long_name: Net mass leaving the ocean due to evaporation, seaice formation
     ! units: kg m-2 s-1
     ! cell_methods: xh:mean yh:mean area:mean
-"net_massin"  [Used]
+"net_massin"  [Unused]
     ! modules: {ocean_model,ocean_model_d2}
     ! dimensions: xh, yh
     ! long_name: Net mass entering ocean due to precip, runoff, ice melt
