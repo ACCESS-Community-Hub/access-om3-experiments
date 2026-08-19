@@ -238,6 +238,15 @@ ACCESS-OM3
 "access-om3.mom6.2d.speed.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
 "ocean_model", "speed", "speed", "access-om3.mom6.2d.speed.1mon.mean.%4yr", "all", "average", "none", 2
 
+"access-om3.mom6.2d.evs.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "evs", "evs", "access-om3.mom6.2d.evs.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.precip.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "precip", "precip", "access-om3.mom6.2d.precip.1mon.mean.%4yr", "all", "average", "none", 2
+
+"access-om3.mom6.2d.fsitherm.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "fsitherm", "fsitherm", "access-om3.mom6.2d.fsitherm.1mon.mean.%4yr", "all", "average", "none", 2
+
 "access-om3.mom6.2d.zos.1mon.mean.%4yr", 1, "months", 1, "days", "time", 1, "years"
 "ocean_model", "zos", "zos", "access-om3.mom6.2d.zos.1mon.mean.%4yr", "all", "average", "none", 2
 
@@ -378,21 +387,6 @@ ACCESS-OM3
 
 "access-om3.mom6.2d.speed.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
 "ocean_model", "speed", "speed", "access-om3.mom6.2d.speed.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.2d.evs.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "evs", "evs", "access-om3.mom6.2d.evs.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.2d.fsitherm.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "fsitherm", "fsitherm", "access-om3.mom6.2d.fsitherm.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.2d.precip.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "precip", "precip", "access-om3.mom6.2d.precip.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.2d.net_massout.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "net_massout", "net_massout", "access-om3.mom6.2d.net_massout.1day.mean.%4yr", "all", "average", "none", 2
-
-"access-om3.mom6.2d.net_massin.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"ocean_model", "net_massin", "net_massin", "access-om3.mom6.2d.net_massin.1day.mean.%4yr", "all", "average", "none", 2
 
 
 # daily scalar timeseries
