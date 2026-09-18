@@ -116,7 +116,7 @@ identifiers:
 repository-code: 'https://github.com/ACCESS-NRI/access-om3-configs'
 url: 'https://access-om3-configs.access-hive.org.au/'
 repository-artifact: >-
-  https://github.com/ACCESS-NRI/access-om3-configs/archive/refs/tags/release-MC_25km_jra_iaf+wombatlite-1.0-beta.tar.gz
+  https://github.com/ACCESS-NRI/access-om3-configs/archive/refs/tags/release-MC_25km_era_iaf+wombatlite-1.0-beta.tar.gz
 abstract: >-
   This is an initial beta prerelease of a model
   configuration of ACCESS-OM3. This uses a release of the
@@ -124,7 +124,7 @@ abstract: >-
   with 25km nominal resolution, bathymetry generated from
   GEBCO 2024 and initial conditions generated from WOA2023.
   Interannual Forcing (IAF) from the 
-  JRA55-do v1.6 reanalysis is used as input data.
+  ERA5 reanalysis is used as input data.
 
   This configuration also includes the WOMBATlite ocean
   biogeochemistry model with time-varying, globally-
@@ -143,8 +143,8 @@ abstract: >-
   National Unified Operational Prediction Capability),
   infrastructure to connect these model components.
 license: CC-BY-4.0
-version: release-MC_25km_jra_iaf+wombatlite-1.0-beta
-date-released: "2026-07-14"
+version: dev-MC_25km_era_iaf+wombatlite
+date-released: "2026-09-18"
 keywords:
   - access-om3
   - climate
