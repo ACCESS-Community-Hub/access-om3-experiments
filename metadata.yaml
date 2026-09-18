@@ -15,7 +15,7 @@ schema_version: 1-0-4
 description: |-
   25km ACCESS-OM3 global configuration under interannual forcing.
   Initial conditions of temperature and salinity are from WOA23.
-  Run with JRA55-do v1.6.0 interannually-varying forcing, 1 Jan 1958 - 31 Dec 2023.
+  Run with ERA5 interannually-varying forcing, 1 Jan 1958 - 31 Dec 2023.
   This configuration includes WOMBATlite biogeochemistry with time-varying, globally-
   averaged atmospheric CO2 forcing. Initial WOMBATlite prognostic tracer
   concentrations are:
@@ -28,7 +28,7 @@ notes: |-
   following the examples at https://www.access-nri.org.au/resources/acknowledging-us/ 
   and https://cosima.org.au/index.php/get-involved/
 keywords:
-- JRA55
+- ERA5
 - access-om3
 - interannual
 - global
