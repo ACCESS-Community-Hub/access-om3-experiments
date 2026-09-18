@@ -149,6 +149,12 @@ P_REF = 2.0E+07                 !   [Pa] default = 2.0E+07
                                 ! The pressure that is used for calculating the coordinate density.  (1 Pa = 1e4
                                 ! dbar, so 2e7 is commonly used.) This is only used if USE_EOS and
                                 ! ENABLE_THERMODYNAMICS are true.
+NONBLOCKING_P_SURF_BUG = True   !   [Boolean] default = True
+                                ! If true, recover a bug in which the non-blocking halo update of the surface
+                                ! pressure is not completed before the halo points of forces%p_surf are copied
+                                ! into tv%p_surf, so that those halo points hold the surface pressure from the
+                                ! previous coupling step, or zeros on the first step after a restart.  This is
+                                ! only used if NONBLOCKING_UPDATES and USE_PSURF_IN_EOS are true
 FIRST_DIRECTION = 0             ! default = 0
                                 ! An integer that indicates which direction goes first in parts of the code that
                                 ! use directionally split updates, with even numbers (or 0) used for x- first
@@ -1851,7 +1857,7 @@ MIX_BOUNDARY_TRACERS = True     !   [Boolean] default = True
 MIX_BOUNDARY_TRACER_ALE = False !   [Boolean] default = False
                                 ! If true and in ALE mode, mix the passive tracers in massless layers at the
                                 ! bottom into the interior as though a diffusivity of KD_MIN_TR were operating.
-KD_MIN_TR = 1.5E-06             !   [m2 s-1] default = 1.5E-06
+KD_MIN_TR = 1.0E-06             !   [m2 s-1] default = 1.0E-06
                                 ! A minimal diffusivity that should always be applied to tracers, especially in
                                 ! massless layers near the bottom. The default is 0.1*KD.
 KD_BBL_TR = 0.0                 !   [m2 s-1] default = 0.0
@@ -2035,10 +2041,10 @@ SIMPLE_TKE_TO_KD = True         !   [Boolean] default = False
 
 ! === module MOM_bkgnd_mixing ===
 ! Adding static vertical background mixing coefficients
-KD = 1.5E-05                    !   [m2 s-1] default = 0.0
+KD = 1.0E-05                    !   [m2 s-1] default = 0.0
                                 ! The background diapycnal diffusivity of density in the interior. Zero or the
                                 ! molecular value, ~1e-7 m2 s-1, may be used.
-KD_MIN = 2.0E-06                !   [m2 s-1] default = 1.5E-07
+KD_MIN = 2.0E-06                !   [m2 s-1] default = 1.0E-07
                                 ! The minimum diapycnal diffusivity.
 BRYAN_LEWIS_DIFFUSIVITY = False !   [Boolean] default = False
                                 ! If true, use a Bryan & Lewis (JGR 1979) like tanh profile of background
@@ -2118,7 +2124,7 @@ SHEARMIX_RATE = 0.089           !   [nondim] default = 0.089
 MAX_RINO_IT = 25                !   [nondim] default = 50
                                 ! The maximum number of iterations that may be used to estimate the Richardson
                                 ! number driven mixing.
-KD_KAPPA_SHEAR_0 = 1.5E-05      !   [m2 s-1] default = 1.5E-05
+KD_KAPPA_SHEAR_0 = 1.0E-05      !   [m2 s-1] default = 1.0E-05
                                 ! The background diffusivity that is used to smooth the density and shear
                                 ! profiles before solving for the diffusivities.  The default is the greater of
                                 ! KD and 1e-7 m2 s-1.
@@ -2126,7 +2132,7 @@ KD_SEED_KAPPA_SHEAR = 1.0       !   [m2 s-1] default = 1.0
                                 ! A moderately large seed value of diapycnal diffusivity that is used as a
                                 ! starting turbulent diffusivity in the iterations to find an energetically
                                 ! constrained solution for the shear-driven diffusivity.
-KD_TRUNC_KAPPA_SHEAR = 1.5E-07  !   [m2 s-1] default = 1.5E-07
+KD_TRUNC_KAPPA_SHEAR = 1.0E-07  !   [m2 s-1] default = 1.0E-07
                                 ! The value of shear-driven diffusivity that is considered negligible and is
                                 ! rounded down to 0. The default is 1% of KD_KAPPA_SHEAR_0.
 FRI_CURVATURE = -0.97           !   [nondim] default = -0.97
