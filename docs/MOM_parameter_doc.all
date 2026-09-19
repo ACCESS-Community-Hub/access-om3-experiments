@@ -149,7 +149,7 @@ P_REF = 2.0E+07                 !   [Pa] default = 2.0E+07
                                 ! The pressure that is used for calculating the coordinate density.  (1 Pa = 1e4
                                 ! dbar, so 2e7 is commonly used.) This is only used if USE_EOS and
                                 ! ENABLE_THERMODYNAMICS are true.
-NONBLOCKING_P_SURF_BUG = True   !   [Boolean] default = True
+NONBLOCKING_P_SURF_BUG = False  !   [Boolean] default = True
                                 ! If true, recover a bug in which the non-blocking halo update of the surface
                                 ! pressure is not completed before the halo points of forces%p_surf are copied
                                 ! into tv%p_surf, so that those halo points hold the surface pressure from the
