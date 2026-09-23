@@ -220,16 +220,16 @@ USE_IDEAL_AGE_TRACER = True     !   [Boolean] default = False
 
 ! Use the below to get blank tracers
 USE_REGIONAL_DYES = True           ! Line added by Katja. 
-NUM_DYE_TRACERS = 6                ! Added by Katja for North South tracer. 
+NUM_DYE_TRACERS = 9                ! Added by Katja for North South tracer. 
 RESTART_CHECKSUMS_REQUIRED = False !
 
 ! === module segment_tracer_registry_init ===
-DYE_SOURCE_MINLON  = 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0  ! One value per tracer, comma-separated. Set these outside your domain's 
-DYE_SOURCE_MAXLON  = 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0  ! lon/lat range so the box never actually overlaps any wet cell. This means
-DYE_SOURCE_MINLAT  = 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0  ! dye stays exactly 0.0 everywhere for the whole spin-up, giving you a 
-DYE_SOURCE_MAXLAT  = 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0  ! clean restart file to overwrite with your masks afterward.
-DYE_SOURCE_MINDEPTH = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0                   !
-DYE_SOURCE_MAXDEPTH = 6000.0, 6000.0, 6000.0, 6000.0, 6000.0, 6000.0 ! End of 1-day tracer section.
+DYE_SOURCE_MINLON  = 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0  ! One value per tracer, comma-separated. Set these outside your domain's 
+DYE_SOURCE_MAXLON  = 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0  ! lon/lat range so the box never actually overlaps any wet cell. This means
+DYE_SOURCE_MINLAT  = 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0  ! dye stays exactly 0.0 everywhere for the whole spin-up, giving you a 
+DYE_SOURCE_MAXLAT  = 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0, 9999.0  ! clean restart file to overwrite with your masks afterward.
+DYE_SOURCE_MINDEPTH = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0                            !
+DYE_SOURCE_MAXDEPTH = 6000.0, 6000.0, 6000.0, 6000.0, 6000.0, 6000.0, 6000.0, 6000.0, 6000.0 ! End of 1-day tracer section.
 
 ! === module ideal_age_example ===
 
