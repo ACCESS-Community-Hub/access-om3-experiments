@@ -5567,6 +5567,636 @@
     ! units: conc2 s-1
     ! cell_methods: xh:mean yh:mean zl:mean area:mean
     ! variants: {dye006_vardec,dye006_vardec_xyave}
+"dye007"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Dye Tracer 007
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye007,dye007_xyave}
+"dye007_post_horzn"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Dye Tracer 007 after horizontal transport (advection/diffusion) has occurred
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye007_post_horzn,dye007_post_horzn_xyave}
+"dye007_adx"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 007 advective zonal flux
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye007_adx,dye007_adx_xyave}
+"dye007_ady"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 007 advective meridional flux
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye007_ady,dye007_ady_xyave}
+"dye007_dfx"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 007 diffusive zonal flux
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye007_dfx,dye007_dfx_xyave}
+"dye007_dfy"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 007 diffusive meridional flux
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye007_dfy,dye007_dfy_xyave}
+"dye007_hbd_diffx"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 007 diffusive zonal flux from the horizontal boundary diffusion scheme
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye007_hbd_diffx,dye007_hbd_diffx_xyave}
+"dye007_hbd_diffy"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 007 diffusive meridional flux from the horizontal boundary diffusion scheme
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye007_hbd_diffy,dye007_hbd_diffy_xyave}
+"dye007_zint"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Thickness-weighted integral of Dye Tracer 007
+    ! units: conc m
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye007_zint_100m"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Thickness-weighted integral of Dye Tracer 007 over top 100m
+    ! units: conc m
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye007_SURF"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Surface values of Dye Tracer 007
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye007_adx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically Integrated Advective Zonal Flux of Dye Tracer 007
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye007_ady_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically Integrated Advective Meridional Flux of Dye Tracer 007
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye007_diffx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically Integrated Diffusive Zonal Flux of Dye Tracer 007
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye007_diffy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically Integrated Diffusive Meridional Flux of Dye Tracer 007
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye007_hbd_diffx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically-integrated zonal diffusive flux from the horizontal boundary diffusion scheme for Dye Tracer 007
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye007_hbd_diffy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically-integrated meridional diffusive flux from the horizontal boundary diffusion scheme for Dye Tracer 007
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye007_advection_xy"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal convergence of residual mean advective fluxes of dye tracer 007
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye007_advection_xy,dye007_advection_xy_xyave}
+"dye007_advection_xy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of horizontal convergence of residual mean advective fluxes of dye tracer 007
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye007_tendency"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Net time tendency for dye tracer 007
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye007_tendency,dye007_tendency_xyave}
+"dye007_dfxy_cont_tendency"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Neutral diffusion tracer content tendency for dye007
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum zl:sum area:sum
+    ! variants: {dye007_dfxy_cont_tendency,dye007_dfxy_cont_tendency_xyave}
+"dye007_dfxy_cont_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Depth integrated neutral diffusion tracer content tendency for dye007
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum area:sum
+"dye007_hbdxy_cont_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal boundary diffusion tracer content tendency for dye007
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum zl:sum area:sum
+    ! variants: {dye007_hbdxy_cont_tendency,dye007_hbdxy_cont_tendency_xyave}
+"dye007_hbdxy_cont_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Depth integrated horizontal boundary diffusion tracer content tendency for dye007
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum area:sum
+"dye007_dfxy_conc_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Neutral diffusion tracer concentration tendency for dye007
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye007_dfxy_conc_tendency,dye007_dfxy_conc_tendency_xyave}
+"dye007_hbdxy_conc_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal diffusion tracer concentration tendency for dye007
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye007_hbdxy_conc_tendency,dye007_hbdxy_conc_tendency_xyave}
+"dye007h_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Net time tendency for dye tracer 007
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye007h_tendency,dye007h_tendency_xyave}
+"dye007h_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of net time tendency for dye tracer 007
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye007_tendency_vert_remap"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Vertical remapping tracer concentration tendency for dye007
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye007_tendency_vert_remap,dye007_tendency_vert_remap_xyave}
+"dye007h_tendency_vert_remap"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Vertical remapping tracer content tendency for Dye Tracer 007
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye007h_tendency_vert_remap,dye007h_tendency_vert_remap_xyave}
+"dye007h_tendency_vert_remap_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of vertical remapping tracer content tendency for Dye Tracer 007
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye007_vardec"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: ALE variance decay for dye tracer 007
+    ! units: conc2 s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye007_vardec,dye007_vardec_xyave}
+"dye008"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Dye Tracer 008
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye008,dye008_xyave}
+"dye008_post_horzn"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Dye Tracer 008 after horizontal transport (advection/diffusion) has occurred
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye008_post_horzn,dye008_post_horzn_xyave}
+"dye008_adx"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 008 advective zonal flux
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye008_adx,dye008_adx_xyave}
+"dye008_ady"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 008 advective meridional flux
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye008_ady,dye008_ady_xyave}
+"dye008_dfx"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 008 diffusive zonal flux
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye008_dfx,dye008_dfx_xyave}
+"dye008_dfy"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 008 diffusive meridional flux
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye008_dfy,dye008_dfy_xyave}
+"dye008_hbd_diffx"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 008 diffusive zonal flux from the horizontal boundary diffusion scheme
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye008_hbd_diffx,dye008_hbd_diffx_xyave}
+"dye008_hbd_diffy"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 008 diffusive meridional flux from the horizontal boundary diffusion scheme
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye008_hbd_diffy,dye008_hbd_diffy_xyave}
+"dye008_zint"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Thickness-weighted integral of Dye Tracer 008
+    ! units: conc m
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye008_zint_100m"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Thickness-weighted integral of Dye Tracer 008 over top 100m
+    ! units: conc m
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye008_SURF"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Surface values of Dye Tracer 008
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye008_adx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically Integrated Advective Zonal Flux of Dye Tracer 008
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye008_ady_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically Integrated Advective Meridional Flux of Dye Tracer 008
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye008_diffx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically Integrated Diffusive Zonal Flux of Dye Tracer 008
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye008_diffy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically Integrated Diffusive Meridional Flux of Dye Tracer 008
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye008_hbd_diffx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically-integrated zonal diffusive flux from the horizontal boundary diffusion scheme for Dye Tracer 008
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye008_hbd_diffy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically-integrated meridional diffusive flux from the horizontal boundary diffusion scheme for Dye Tracer 008
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye008_advection_xy"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal convergence of residual mean advective fluxes of dye tracer 008
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye008_advection_xy,dye008_advection_xy_xyave}
+"dye008_advection_xy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of horizontal convergence of residual mean advective fluxes of dye tracer 008
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye008_tendency"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Net time tendency for dye tracer 008
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye008_tendency,dye008_tendency_xyave}
+"dye008_dfxy_cont_tendency"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Neutral diffusion tracer content tendency for dye008
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum zl:sum area:sum
+    ! variants: {dye008_dfxy_cont_tendency,dye008_dfxy_cont_tendency_xyave}
+"dye008_dfxy_cont_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Depth integrated neutral diffusion tracer content tendency for dye008
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum area:sum
+"dye008_hbdxy_cont_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal boundary diffusion tracer content tendency for dye008
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum zl:sum area:sum
+    ! variants: {dye008_hbdxy_cont_tendency,dye008_hbdxy_cont_tendency_xyave}
+"dye008_hbdxy_cont_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Depth integrated horizontal boundary diffusion tracer content tendency for dye008
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum area:sum
+"dye008_dfxy_conc_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Neutral diffusion tracer concentration tendency for dye008
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye008_dfxy_conc_tendency,dye008_dfxy_conc_tendency_xyave}
+"dye008_hbdxy_conc_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal diffusion tracer concentration tendency for dye008
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye008_hbdxy_conc_tendency,dye008_hbdxy_conc_tendency_xyave}
+"dye008h_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Net time tendency for dye tracer 008
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye008h_tendency,dye008h_tendency_xyave}
+"dye008h_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of net time tendency for dye tracer 008
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye008_tendency_vert_remap"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Vertical remapping tracer concentration tendency for dye008
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye008_tendency_vert_remap,dye008_tendency_vert_remap_xyave}
+"dye008h_tendency_vert_remap"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Vertical remapping tracer content tendency for Dye Tracer 008
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye008h_tendency_vert_remap,dye008h_tendency_vert_remap_xyave}
+"dye008h_tendency_vert_remap_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of vertical remapping tracer content tendency for Dye Tracer 008
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye008_vardec"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: ALE variance decay for dye tracer 008
+    ! units: conc2 s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye008_vardec,dye008_vardec_xyave}
+"dye009"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Dye Tracer 009
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye009,dye009_xyave}
+"dye009_post_horzn"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Dye Tracer 009 after horizontal transport (advection/diffusion) has occurred
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye009_post_horzn,dye009_post_horzn_xyave}
+"dye009_adx"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 009 advective zonal flux
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye009_adx,dye009_adx_xyave}
+"dye009_ady"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 009 advective meridional flux
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye009_ady,dye009_ady_xyave}
+"dye009_dfx"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 009 diffusive zonal flux
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye009_dfx,dye009_dfx_xyave}
+"dye009_dfy"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 009 diffusive meridional flux
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye009_dfy,dye009_dfy_xyave}
+"dye009_hbd_diffx"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xq, yh, zl
+    ! long_name: Dye Tracer 009 diffusive zonal flux from the horizontal boundary diffusion scheme
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum zl:sum
+    ! variants: {dye009_hbd_diffx,dye009_hbd_diffx_xyave}
+"dye009_hbd_diffy"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yq, zl
+    ! long_name: Dye Tracer 009 diffusive meridional flux from the horizontal boundary diffusion scheme
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point zl:sum
+    ! variants: {dye009_hbd_diffy,dye009_hbd_diffy_xyave}
+"dye009_zint"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Thickness-weighted integral of Dye Tracer 009
+    ! units: conc m
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye009_zint_100m"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Thickness-weighted integral of Dye Tracer 009 over top 100m
+    ! units: conc m
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye009_SURF"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Surface values of Dye Tracer 009
+    ! units: conc
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye009_adx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically Integrated Advective Zonal Flux of Dye Tracer 009
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye009_ady_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically Integrated Advective Meridional Flux of Dye Tracer 009
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye009_diffx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically Integrated Diffusive Zonal Flux of Dye Tracer 009
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye009_diffy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically Integrated Diffusive Meridional Flux of Dye Tracer 009
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye009_hbd_diffx_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xq, yh
+    ! long_name: Vertically-integrated zonal diffusive flux from the horizontal boundary diffusion scheme for Dye Tracer 009
+    ! units: conc m3 s-1
+    ! cell_methods: xq:point yh:sum
+"dye009_hbd_diffy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yq
+    ! long_name: Vertically-integrated meridional diffusive flux from the horizontal boundary diffusion scheme for Dye Tracer 009
+    ! units: conc m3 s-1
+    ! cell_methods: xh:sum yq:point
+"dye009_advection_xy"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal convergence of residual mean advective fluxes of dye tracer 009
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye009_advection_xy,dye009_advection_xy_xyave}
+"dye009_advection_xy_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of horizontal convergence of residual mean advective fluxes of dye tracer 009
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye009_tendency"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Net time tendency for dye tracer 009
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye009_tendency,dye009_tendency_xyave}
+"dye009_dfxy_cont_tendency"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Neutral diffusion tracer content tendency for dye009
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum zl:sum area:sum
+    ! variants: {dye009_dfxy_cont_tendency,dye009_dfxy_cont_tendency_xyave}
+"dye009_dfxy_cont_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Depth integrated neutral diffusion tracer content tendency for dye009
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum area:sum
+"dye009_hbdxy_cont_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal boundary diffusion tracer content tendency for dye009
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum zl:sum area:sum
+    ! variants: {dye009_hbdxy_cont_tendency,dye009_hbdxy_cont_tendency_xyave}
+"dye009_hbdxy_cont_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Depth integrated horizontal boundary diffusion tracer content tendency for dye009
+    ! units: conc m s-1
+    ! cell_methods: xh:sum yh:sum area:sum
+"dye009_dfxy_conc_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Neutral diffusion tracer concentration tendency for dye009
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye009_dfxy_conc_tendency,dye009_dfxy_conc_tendency_xyave}
+"dye009_hbdxy_conc_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Horizontal diffusion tracer concentration tendency for dye009
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye009_hbdxy_conc_tendency,dye009_hbdxy_conc_tendency_xyave}
+"dye009h_tendency"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Net time tendency for dye tracer 009
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye009h_tendency,dye009h_tendency_xyave}
+"dye009h_tendency_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of net time tendency for dye tracer 009
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye009_tendency_vert_remap"  [Used]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Vertical remapping tracer concentration tendency for dye009
+    ! units: conc s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye009_tendency_vert_remap,dye009_tendency_vert_remap_xyave}
+"dye009h_tendency_vert_remap"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: Vertical remapping tracer content tendency for Dye Tracer 009
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean zl:sum area:mean
+    ! variants: {dye009h_tendency_vert_remap,dye009h_tendency_vert_remap_xyave}
+"dye009h_tendency_vert_remap_2d"  [Unused]
+    ! modules: {ocean_model,ocean_model_d2}
+    ! dimensions: xh, yh
+    ! long_name: Vertical sum of vertical remapping tracer content tendency for Dye Tracer 009
+    ! units: conc m s-1
+    ! cell_methods: xh:mean yh:mean area:mean
+"dye009_vardec"  [Unused]
+    ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
+    ! dimensions: xh, yh, zl
+    ! long_name: ALE variance decay for dye tracer 009
+    ! units: conc2 s-1
+    ! cell_methods: xh:mean yh:mean zl:mean area:mean
+    ! variants: {dye009_vardec,dye009_vardec_xyave}
 "u_preale"  [Unused]
     ! modules: {ocean_model,ocean_model_z,ocean_model_rho2,ocean_model_d2,ocean_model_z_d2,ocean_model_rho2_d2}
     ! dimensions: xq, yh, zl

@@ -180,20 +180,20 @@ USE_REGIONAL_DYES = True        !   [Boolean] default = False
 ! === module ideal_age_example ===
 
 ! === module regional_dyes ===
-NUM_DYE_TRACERS = 6             ! default = 0
+NUM_DYE_TRACERS = 9             ! default = 0
                                 ! The number of dye tracers in this run. Each tracer should have a separate
                                 ! region.
-DYE_SOURCE_MINLON = 6*9999.0    !   [degrees_E]
+DYE_SOURCE_MINLON = 9*9999.0    !   [degrees_E]
                                 ! This is the starting longitude at which we start injecting dyes.
-DYE_SOURCE_MAXLON = 6*9999.0    !   [degrees_E]
+DYE_SOURCE_MAXLON = 9*9999.0    !   [degrees_E]
                                 ! This is the ending longitude at which we finish injecting dyes.
-DYE_SOURCE_MINLAT = 6*9999.0    !   [degrees_N]
+DYE_SOURCE_MINLAT = 9*9999.0    !   [degrees_N]
                                 ! This is the starting latitude at which we start injecting dyes.
-DYE_SOURCE_MAXLAT = 6*9999.0    !   [degrees_N]
+DYE_SOURCE_MAXLAT = 9*9999.0    !   [degrees_N]
                                 ! This is the ending latitude at which we finish injecting dyes.
-DYE_SOURCE_MINDEPTH = 6*0.0     !   [m]
+DYE_SOURCE_MINDEPTH = 9*0.0     !   [m]
                                 ! This is the minimum depth at which we inject dyes.
-DYE_SOURCE_MAXDEPTH = 6*6000.0  !   [m]
+DYE_SOURCE_MAXDEPTH = 9*6000.0  !   [m]
                                 ! This is the maximum depth at which we inject dyes.
 
 ! === module MOM_fixed_initialization ===
