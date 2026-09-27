@@ -174,27 +174,22 @@ RESTART_CHECKSUMS_REQUIRED = False !   [Boolean] default = True
 ! === module MOM_tracer_flow_control ===
 USE_IDEAL_AGE_TRACER = True     !   [Boolean] default = False
                                 ! If true, use the ideal_age_example tracer package.
-USE_REGIONAL_DYES = True        !   [Boolean] default = False
-                                ! If true, use the regional_dyes tracer package.
+USE_FILE_DYES = True            !   [Boolean] default = False
+                                ! If true, use the file dyes tracer package.
 
 ! === module ideal_age_example ===
 
-! === module regional_dyes ===
-NUM_DYE_TRACERS = 9             ! default = 0
-                                ! The number of dye tracers in this run. Each tracer should have a separate
-                                ! region.
-DYE_SOURCE_MINLON = 9*9999.0    !   [degrees_E]
-                                ! This is the starting longitude at which we start injecting dyes.
-DYE_SOURCE_MAXLON = 9*9999.0    !   [degrees_E]
-                                ! This is the ending longitude at which we finish injecting dyes.
-DYE_SOURCE_MINLAT = 9*9999.0    !   [degrees_N]
-                                ! This is the starting latitude at which we start injecting dyes.
-DYE_SOURCE_MAXLAT = 9*9999.0    !   [degrees_N]
-                                ! This is the ending latitude at which we finish injecting dyes.
-DYE_SOURCE_MINDEPTH = 9*0.0     !   [m]
-                                ! This is the minimum depth at which we inject dyes.
-DYE_SOURCE_MAXDEPTH = 9*6000.0  !   [m]
-                                ! This is the maximum depth at which we inject dyes.
+! === module file_dyes ===
+FILE_DYE_TRACERS_FILE = "INPUT/file_north_south_dye_tracers.nc" ! default = ""
+                                ! The name of a file from which to read the initial conditions for the tracers
+FILE_DYE_TRACERS_ACCUMULATE = False !   [Boolean] default = True
+                                ! If true, tracer is accumulated in the source region, emulating continuous
+                                ! forcing. Otherwise, the source region is held at the specified concentration.
+NUM_FILE_DYE_TRACERS = 9        ! default = 0
+                                ! The number of file-based dye tracers in this run.
+FILE_DYE_TRACERS_TAU = 3*7200.0, 3*2.25E+04, 3*2.592E+05 !   [s] default = 8.64E+04
+                                ! Restoring timescale for each file dye tracer's sponge region. One value per
+                                ! tracer, comma-separated.
 
 ! === module MOM_fixed_initialization ===
 
