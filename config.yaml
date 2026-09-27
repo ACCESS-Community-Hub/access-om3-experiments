@@ -30,7 +30,7 @@ modules:
         - /g/data/vk83/modules
         - /g/data/vk83/prerelease/modules
     load:
-        - access-om3/pr257-1
+        - access-om3/pr269-1
         - model-tools/mppnccombine-fast/2025.07.000
         #- access-om3/2026.05.002
 
@@ -69,7 +69,7 @@ metadata:
     enable: true
 manifest:
   reproduce:
-    exe: True
+    exe: False
     input: False
 # temporarily changed input and exe to false here
 
@@ -95,5 +95,5 @@ postscript: -v PROJECT,SCRIPTS_DIR=/g/data/vk83/apps/om3-scripts
 
 qsub_flags: -W umask=027
 
-restart_freq: 30D
+restart_freq: 1YS
 payu_minimum_version: 1.3.2
