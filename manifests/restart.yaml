@@ -1,3 +1,63 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/access-om3.cice.r.1959-01-01-00000.nc:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/access-om3.cice.r.1959-01-01-00000.nc
+  hashes:
+    binhash: 3008431145933de7363e1dabfa601641
+    md5: baf212a0b784ae02be98dd9184d7ba04
+work/access-om3.cpl.r.1959-01-01-00000.nc:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/access-om3.cpl.r.1959-01-01-00000.nc
+  hashes:
+    binhash: 518507875dbd3ba7d8d330234c40ddd9
+    md5: 89e4902a222edb60425fe497b526a974
+work/access-om3.datm.r.1959-01-01-00000.nc:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/access-om3.datm.r.1959-01-01-00000.nc
+  hashes:
+    binhash: 591ae967769a56a04a636ddb346c5f10
+    md5: a1e3296722dfc0deda624c984214c087
+work/access-om3.drof.r.1959-01-01-00000.nc:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/access-om3.drof.r.1959-01-01-00000.nc
+  hashes:
+    binhash: 22730e0f1e73ffbade1601403ab4b758
+    md5: 698a7d939284f1a9e91123b9b6db9020
+work/access-om3.mom6.r.1959-01-01-00000.nc:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/access-om3.mom6.r.1959-01-01-00000.nc
+  hashes:
+    binhash: 0be2b83b7af4d5421f8065340f1e298a
+    md5: 7796125fa1a2ccb73a61568f8138fef1
+work/ocean_wombatlite_airsea_flux.res.nc:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/ocean_wombatlite_airsea_flux.res.nc
+  hashes:
+    binhash: 8f52424b6daf60c78e364e83c408942c
+    md5: 72ebd1ff9b54034dda5e00db128e0b97
+work/restart_metadata.yaml:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/restart_metadata.yaml
+  hashes:
+    binhash: 44416e21721269b17fe1493addd9eb44
+    md5: 9f6f3ac9afc59aec6863cd8817b5e504
+work/rpointer.atm:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/rpointer.atm
+  hashes:
+    binhash: 076f744e251b287a817fd289d29959f5
+    md5: 0a2ae7bb9c0bdb93bd185201c27982da
+work/rpointer.cpl:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/rpointer.cpl
+  hashes:
+    binhash: 6bc388b74e8c2433fe56aadfe56cf2da
+    md5: fd6451156afa160af51a137538e90d25
+work/rpointer.ice:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/rpointer.ice
+  hashes:
+    binhash: e567b52d878cb3559eec03d5d34e4085
+    md5: 6ceece26acb16450445d37a0faedd0a6
+work/rpointer.ocn:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/rpointer.ocn
+  hashes:
+    binhash: 473b491e8fecfe2a41b0715526c2cad3
+    md5: 66c10301ff109f34ab05b7dc59438648
+work/rpointer.rof:
+  fullpath: /scratch/tm70/ml0072/access-om3/archive/MC_100km_jra_iaf+wombatlite-test1-MC_100km_jra_iaf+wombatlite-test1-e1de2a94/restart000/rpointer.rof
+  hashes:
+    binhash: bcb39502ddfe5ab7d4f10e982dd44627
+    md5: 2325c0531137653e4e138ac64399453b
