@@ -9,8 +9,8 @@
 # Using payu sync is recommend to copy data from ephemeral scratch space to 
 # longer term storage
 sync:
-    enable: False   # set path below and change to true
-    base_path: null # Set to location on /g/data (e.g. /g/data/PROJECT/USER/)
+    enable: False
+    base_path: null
     restarts: True
     exclude_uncollated: False
 
@@ -55,9 +55,10 @@ input:
     - /g/data/av17/access-nri/OM3/era5_rechunked_1h_yearly/
 
 collate: false
-runlog: false
-metadata: 
-    enable: false
+runlog: true
+metadata:
+    enable: true
+experiment_prefix: MCW_100km_era_iaf
 manifest:
   reproduce:
     exe: true
