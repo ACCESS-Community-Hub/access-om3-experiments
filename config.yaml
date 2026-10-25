@@ -52,9 +52,10 @@ input:
     - /g/data/av17/access-nri/OM3/era5_rechunked_1h_yearly/
 
 collate: false
-runlog: false
-metadata: 
-    enable: false
+runlog: true
+metadata:
+    enable: true
+experiment_prefix: MC_100km_era_iaf
 manifest:
   reproduce:
     exe: false
