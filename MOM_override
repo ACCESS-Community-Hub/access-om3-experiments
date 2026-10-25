@@ -1,2 +1,6 @@
 ! NOTE: User made changes to this file override the settings in MOM_input
 !       This provides a clear record of how your configuration differs from the standard
+
+! #1779 MC ERA5 cold start: stop if more than 300 velocity truncations occur between energy saves
+! (checking interval = ENERGYSAVEDAYS, 1.0 day in this configuration)
+MAXTRUNC = 300

@@ -1,3 +1,58 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/access-om3.cice.r.1999-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/access-om3.cice.r.1999-01-01-00000.nc
+  hashes:
+    binhash: bbd4eb050a330a176fa3e72fefd91013
+    md5: e5783314071dc99574d560920c39aae5
+work/access-om3.cpl.r.1999-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/access-om3.cpl.r.1999-01-01-00000.nc
+  hashes:
+    binhash: f4b5fd2e7f732bb47f3bc756cd3caa75
+    md5: 8b539f33c376a2afc8bb45f8ffe0f3ad
+work/access-om3.datm.r.1999-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/access-om3.datm.r.1999-01-01-00000.nc
+  hashes:
+    binhash: 0ac4bade5fb368741715ed9a0c2f4fde
+    md5: 47297e529cd5f2c2d71a3d2228e5fafa
+work/access-om3.drof.r.1999-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/access-om3.drof.r.1999-01-01-00000.nc
+  hashes:
+    binhash: 608c4f75a6b7c38827f96660f5a823f0
+    md5: 26e738c4a1eb3952fe824ab57c7e9282
+work/access-om3.mom6.r.1999-01-01-00000.nc:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/access-om3.mom6.r.1999-01-01-00000.nc
+  hashes:
+    binhash: 0b44030bf252662d19cc8ddcae0bab00
+    md5: 4b83702dfbefa1bdcc0e9935ffd541eb
+work/restart_metadata.yaml:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/restart_metadata.yaml
+  hashes:
+    binhash: d10daa48aba1480204ca6f8374a3f596
+    md5: 50b384f3ceb5c2ff23e39780b781ba74
+work/rpointer.atm:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/rpointer.atm
+  hashes:
+    binhash: 972c27c18fba32a8d1b2be6fbae3da8b
+    md5: 9f492bc51fba64a3857dfc48fef0c00c
+work/rpointer.cpl:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/rpointer.cpl
+  hashes:
+    binhash: 5a1e73e0b25d52668ab2d5181f13e4d6
+    md5: 102aa0faed6bc02e452eca150955f1fc
+work/rpointer.ice:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/rpointer.ice
+  hashes:
+    binhash: a7fdb421201744175a7fde157e3b8e7d
+    md5: 1a731dd1090b91de680171c3d8ce5c85
+work/rpointer.ocn:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/rpointer.ocn
+  hashes:
+    binhash: 1d09423cff29525440dd00556d56fd9f
+    md5: 5888d4ff6c20c9d9727f9ce82e1e48f4
+work/rpointer.rof:
+  fullpath: /scratch/tm70/ek4684/access-om3/archive/mc100_era5_cold/restart040/rpointer.rof
+  hashes:
+    binhash: cef5dcd801af6abf1f843f0d29344742
+    md5: 9f866e3c793cb27497abc6f915317721
