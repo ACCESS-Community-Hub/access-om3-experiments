@@ -9,8 +9,8 @@
 # Using payu sync is recommend to copy data from ephemeral scratch space to 
 # longer term storage
 sync:
-    enable: False
-    base_path: null
+    enable: True
+    base_path: /g/data/ol01/outputs/access-om3-100km
     restarts: True
     exclude_uncollated: False
 
