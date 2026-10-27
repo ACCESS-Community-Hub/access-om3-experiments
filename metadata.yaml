@@ -14,9 +14,8 @@ schema_version: 1-0-4
 # ---- User feel free to update. ----
 description: |-
   100 km ACCESS-OM3 global configuration with MOM6 (ocean) and CICE6 (sea ice, C-grid dynamics, no floe size distribution) coupled through CMEPS, without a wave model.
-  Langmuir turbulence enters the ePBL scheme through the Li et al. (2016) enhancement (no coupled waves).
   Initial ocean temperature and salinity are from WOA23. The run is a cold start on 1 Jan 1958.
-  Run under interannually varying forcing, using hourly ERA5 atmospheric forcing and JRA55-do v1.6.0 river and land-ice runoff, 1 Jan 1958 - 31 Dec 2024 (planned).
+  Run under interannually varying forcing, using hourly ERA5 atmospheric forcing and JRA55-do v1.6.0 river and land-ice runoff, 1 Jan 1958 - 31 Dec 2024.
   The coupling interval and CICE timestep are 3600 s, the MOM6 baroclinic timestep is 3600 s and DT_THERM is 7200 s.
   No biogeochemistry.
 notes: |-
@@ -28,4 +27,4 @@ realm: [ocean, seaIce]
 nominal_resolution: 100 km
 license: CC-BY-4.0
 version: 0.0
-long_description: "MC 100 km ERA5 IAF cold start (config dev-MC_100km_jra_iaf @ febff464 converted to ERA5, 312 cores, MAXTRUNC=300). 1958-1999 (output000-041) were run before the experiment had a UUID/metadata; this experiment continues that run in place from restart041 (2000-01-01) in the same archive, renamed to the experiment name."
+long_description: "MC 100 km ERA5 IAF cold start (config dev-MC_100km_jra_iaf @ febff464 converted to ERA5, 312 cores, MAXTRUNC=300)."
