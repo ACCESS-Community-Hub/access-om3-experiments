@@ -27,7 +27,7 @@ queue: normalsr
 ncpus: 2704
 jobfs: 10GB
 mem: 13000GB
-walltime: 8:00:00
+walltime: 4:30:00
 jobname: 25km_ERA5_iaf_wombatlite
 
 model: access-om3
