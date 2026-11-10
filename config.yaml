@@ -6,6 +6,10 @@ project: ol01
 # Force payu to always find, and save, files in this scratch project directory
 shortpath: /scratch/x77
 
+storage:
+   gdata:
+      - tm70
+
 # Using payu sync is recommend to copy data from ephemeral scratch space to 
 # longer term storage
 sync:
@@ -59,8 +63,8 @@ metadata:
     enable: true
 manifest:
   reproduce:
-    exe: True
-    input: True
+    exe: False
+    input: False
 
 mpi:
   flags:
