@@ -1,0 +1,72 @@
+laboratory path:  /scratch/x77/kc5856/access-om3
+binary path:  /scratch/x77/kc5856/access-om3/bin
+input path:  /scratch/x77/kc5856/access-om3/input
+work path:  /scratch/x77/kc5856/access-om3/work
+archive path:  /scratch/x77/kc5856/access-om3/archive
+Found experiment archive: /scratch/x77/kc5856/access-om3/archive/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+Writing manifests/restart.yaml
+payu: warning: Current restart pruning frequency of 1YS would result in following restarts being pruned: restart001 restart002 restart003 restart005 restart006 restart008 restart009 restart011 restart012 restart014 restart015 restart017 restart018 restart020 restart021 restart023 restart024 restart026 restart027 restart029 restart030 restart032 restart033 restart035 restart036 restart037 restart038
+If this is expected, use --force-prune-restarts flag at next run or archive (if running archive manually), e.g.:
+     payu run --force-prune-restarts, or
+     payu archive --force-prune-restarts
+Otherwise, no restarts will be pruned
+mod access-om3/dependencies/pr269-1/access3-share/2026.03.002-eale5gm
+mod access-om3/dependencies/pr269-1/access-cice/CICE6.6.3-2-huasrvo
+mod access-om3/dependencies/pr269-1/access-mocsy/2025.07.002-saj7rvh
+mod access-om3/dependencies/pr269-1/access-generic-tracers/2026.05.000-p2exrrl
+mod access-om3/dependencies/pr269-1/access-mom6/96027adda84f72a2056e6d40b07cc6c8d6dba086-p226yyt
+mod access-om3/dependencies/pr269-1/access-ww3/2026.03.001-bjzidie
+mod access-om3/dependencies/pr269-1/access3/2026.03.002-emb4oyq
+mod access-om3/pr269-1
+mod model-tools/mppnccombine-fast/2025.07.000
+2026-10-12 22:56:51: Run 90
+mpirun --mca mpi_yield_when_idle true -wdir /scratch/x77/kc5856/access-om3/work/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb -np 2704  /scratch/x77/kc5856/access-om3/work/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb/access-om3-MOM6-CICE6
+payu: warning: Current restart pruning frequency of 1YS would result in following restarts being pruned: restart001 restart002 restart003 restart005 restart006 restart008 restart009 restart011 restart012 restart014 restart015 restart017 restart018 restart020 restart021 restart023 restart024 restart026 restart027 restart029 restart030 restart032 restart033 restart035 restart036 restart037 restart038
+If this is expected, use --force-prune-restarts flag at next run or archive (if running archive manually), e.g.:
+     payu run --force-prune-restarts, or
+     payu archive --force-prune-restarts
+Otherwise, no restarts will be pruned
+Provenance information is written to restarts: /scratch/x77/kc5856/access-om3/archive/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb/restart090/restart_metadata.yaml
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+laboratory path:  /scratch/x77/kc5856/access-om3
+binary path:  /scratch/x77/kc5856/access-om3/bin
+input path:  /scratch/x77/kc5856/access-om3/input
+work path:  /scratch/x77/kc5856/access-om3/work
+archive path:  /scratch/x77/kc5856/access-om3/archive
+Found experiment archive: /scratch/x77/kc5856/access-om3/archive/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+------ Job submitted ------
+Submitted command: qsub -P g40 -l walltime=4:00:00 -l ncpus=4 -l mem=30GB -l jobfs=10GB -N 25km_iaf_c2_c_c -l wd -j n -W umask=027 -W depend=afterok:181070760.gadi-pbs -q normalsr -l storage=scratch/x77+gdata/e14+gdata/qv56+gdata/vk83+gdata/g40+gdata/xp65 -v PAYU_PATH=/containerised_envs/payu/1.3.6_1/bin,PAYU_CURRENT_RUN=90,PAYU_EXIST_WORKFLOW=True,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data/vk83/prerelease/modules:/g/data/vk83/modules:/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -- /g/data/vk83/apps/containerised_envs/envs/payu/1.3.6_1/bin/launcher.sh /containerised_envs/payu/1.3.6_1/bin/python3.10 /containerised_envs/payu/1.3.6_1/bin/payu-collate
+Job ID: 181079701.gadi-pbs
+laboratory path:  /scratch/x77/kc5856/access-om3
+binary path:  /scratch/x77/kc5856/access-om3/bin
+input path:  /scratch/x77/kc5856/access-om3/input
+work path:  /scratch/x77/kc5856/access-om3/work
+archive path:  /scratch/x77/kc5856/access-om3/archive
+Found experiment archive: /scratch/x77/kc5856/access-om3/archive/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb
+------ Job submitted ------
+Submitted command: qsub -N payu_postscript -W depend=afterok:181079701.gadi-pbs -v PAYU_CURRENT_OUTPUT_DIR=/scratch/x77/kc5856/access-om3/archive/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb/output090,PAYU_CURRENT_RESTART_DIR=/scratch/x77/kc5856/access-om3/archive/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb/restart090,PAYU_ARCHIVE_DIR=/scratch/x77/kc5856/access-om3/archive/OM3_MC_25km_jra_iaf_cycle2_control-expt-74114deb,PAYU_CURRENT_RUN=90 -v PROJECT,SCRIPTS_DIR=/g/data/vk83/apps/om3-scripts -lstorage=gdata/e14+gdata/xp65+gdata/vk83+scratch/x77+gdata/qv56+gdata/g40+scratch/g40+gdata/xp65 /g/data/vk83/apps/om3-scripts/payu_config/postscript.sh
+Job ID: 181079702.gadi-pbs
+payu: Found modules in /opt/Modules/v4.3.0
+
+======================================================================================
+                  Resource Usage on 2026-10-13 02:23:22:
+   Job Id:             181070760.gadi-pbs
+   Project:            g40
+   Exit Status:        0
+   Service Units:      18719.19
+   NCPUs Requested:    2704                CPU Time Used: 9134:26:06      
+   Memory Requested:   12.7TB                Memory Used: 2.4TB           
+   Walltime Requested: 06:00:00            Walltime Used: 03:27:41        
+   JobFS Requested:    10.0GB                 JobFS Used: 8.32MB          
+======================================================================================

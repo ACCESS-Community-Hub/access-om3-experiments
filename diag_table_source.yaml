@@ -174,12 +174,13 @@ diag_table:
             module_name: ocean_model_z
             file_name_diag_coord: "z"
         fields:
+            diftrelo:
+            diftrblo:
             thkcello: # Cell Thickness
             agessc: # Sea water age since surface contact
             rhopot0: # Potential density referenced to surface
             rhopot2: # Potential density referenced to 2000 dbar
             thetao: # Potential Temperature
-            bigthetao: # Conservative Temperature
             so: # Salinity
             uo: # u velocity
             vo: # v velocity
@@ -192,6 +193,12 @@ diag_table:
             dye001_dfxy_cont_tendency: # tendency of dye001 content due to parameterized mesoscale diffusion
             dye002_dfxy_cont_tendency: # tendency of dye002 content due to parameterized mesoscale diffusion
             dye003_dfxy_cont_tendency: # tendency of dye003 content due to parameterized mesoscale diffusion
+            dye004_dfxy_cont_tendency: # tendency of dye003 content due to parameterized mesoscale diffusion
+            dye005_dfxy_cont_tendency: # tendency of dye003 content due to parameterized mesoscale diffusion
+            dye006_dfxy_cont_tendency: # tendency of dye003 content due to parameterized mesoscale diffusion
+            dye007_dfxy_cont_tendency:
+            dye008_dfxy_cont_tendency:
+            dye009_dfxy_cont_tendency:
             dye001_adx: # x horizontal advective tendency of dye001
             dye001_ady: # y advection
             dye001_tendency: # net tendency of dye001
@@ -210,9 +217,51 @@ diag_table:
             dye003_tendency_vert_remap: # dye003 tendency due to vertical remapping
             dye003_dfx: # zonal diffusive flux of dye003
             dye003_dfy: # meridional diffusive flux of dye003
+            dye004_adx: # x horizontal advective tendency
+            dye004_ady: # y advection
+            dye004_tendency: # net tendency
+            dye004_tendency_vert_remap: # tendency due to vertical remapping
+            dye004_dfx: # zonal diffusive flux
+            dye004_dfy: # meridional diffusive flux
+            dye005_adx: # x horizontal advective tendency
+            dye005_ady: # y advection
+            dye005_tendency: # net tendency
+            dye005_tendency_vert_remap: # tendency due to vertical remapping
+            dye005_dfx: # zonal diffusive flux
+            dye005_dfy: # meridional diffusive flux
+            dye006_adx: # x horizontal advective tendency
+            dye006_ady: # y advection
+            dye006_tendency: # net tendency
+            dye006_tendency_vert_remap: # tendency due to vertical remapping
+            dye006_dfx: # zonal diffusive flux
+            dye006_dfy: # meridional diffusive flux
+            dye007_adx: # x horizontal advective tendency
+            dye007_ady: # y advection
+            dye007_tendency: # net tendency
+            dye007_tendency_vert_remap: # tendency due to vertical remapping
+            dye007_dfx: # zonal diffusive flux
+            dye007_dfy: # meridional diffusive flux
+            dye008_adx: # x horizontal advective tendency
+            dye008_ady: # y advection
+            dye008_tendency: # net tendency
+            dye008_tendency_vert_remap: # tendency due to vertical remapping
+            dye008_dfx: # zonal diffusive flux
+            dye008_dfy: # meridional diffusive flux
+            dye009_adx: # x horizontal advective tendency
+            dye009_ady: # y advection
+            dye009_tendency: # net tendency
+            dye009_tendency_vert_remap: # tendency due to vertical remapping
+            dye009_dfx: # zonal diffusive flux
+            dye009_dfy: # meridional diffusive flux
             dye001:
             dye002:
             dye003:
+            dye004:
+            dye005:
+            dye006:
+            dye007:
+            dye008:
+            dye009:
 
     'monthly 3d fields on rho2':
         defaults:  # these can be overridden for individual fields below
@@ -222,7 +271,6 @@ diag_table:
             file_name_diag_coord: "rho2"
         fields:  # comment out all of these if not needed, as remapping to density slows model by ~30% - see https://github.com/ACCESS-NRI/access-om3-configs/pull/622#issuecomment-3031962668
             thkcello: # Cell Thickness
-            e: # Interface height relative to mean sea level
             umo: # Ocean Mass X Transport
             vmo: # Ocean Mass Y Transport
             uhGM: # Time Mean Diffusive Zonal Thickness Flux
@@ -234,7 +282,6 @@ diag_table:
             file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
         fields:
-            e: # Interface height relative to mean sea level
             thkcello: # Cell Thickness
             Kd_interface: # Total diapycnal diffusivity at interfaces
             Kd_ePBL: # ePBL diapycnal diffusivity at interfaces
@@ -256,6 +303,9 @@ diag_table:
             salt_flux_added: # Salt flux into ocean at surface due to restoring or flux adjustment
             mlotst: # Mixed layer depth (delta rho = 0.03) MLD_003
             speed: # Sea Surface Speed
+            evs: # evap
+            precip: # precipitation
+            fsitherm: # seaice freshwater flux
             zos: # Sea surface height above geoid
             zossq: # Square of sea surface height above geoid
             tauuo: # surface_downward_x_stress taux
@@ -315,17 +365,7 @@ diag_table:
             output_freq_units: days  # time units for output: years, months, days, hours, minutes, or seconds
             reduction_method: mean # mean, snap, rms, pow##, min, max, or diurnal##
         fields:
-            tob: # Sea Water Potential Temperature at Sea Floor
             mlotst: # Mixed layer depth (delta rho = 0.03) MLD_003
-            tos: # Sea Surface Temperature
-            conSST: # Sea Surface Conservative Temperature
-            sos: # Sea Surface Salinity
-            speed: # Sea Surface Speed
-            evs: # Evaporation/condensation at ocean surface (evaporation is negative)
-            fsitherm: # water flux to ocean from snow/sea ice melting(> 0) or formation(< 0)
-            precip: # Liquid + frozen precipitation into ocean
-            net_massout: # Net mass leaving the ocean due to evaporation, seaice formation
-            net_massin: # Net mass entering ocean due to precip, runoff, ice melt
     
 
     'daily scalar timeseries':

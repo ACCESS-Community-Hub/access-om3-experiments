@@ -1,0 +1,436 @@
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+NOTE from PE     0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to  5000000.
+NOTE from PE     0: field_manager_init:: You are using the legacy version of the field_table
+ 
+ Dumping coupler_mod/types tree
+types/
+      air_sea_gas_flux_generic/
+            implementation/
+                  ocmip2/
+                        num_parameters = 2
+                  duce/
+                        num_parameters = 1
+                  johnson/
+                        num_parameters = 2
+            num_flags = 0
+            use_atm_pressure = T
+            use_10m_wind_speed = T
+            pass_through_ice = F
+            atm/
+                  name[1] = 'pcair'
+                  name[2] = 'u10'
+                  name[3] = 'psurf'
+                  long_name[1] = 'Atmospheric concentration'
+                  long_name[2] = 'Wind speed at 10 m'
+                  long_name[3] = 'Surface atmospheric pressure'
+                  units[1] = 'mol/mol'
+                  units[2] = 'm/s'
+                  units[3] = 'Pa'
+            ice/
+                  name[1] = 'alpha'
+                  name[2] = 'csurf'
+                  name[3] = 'sc_no'
+                  long_name[1] = 'Solubility w.r.t. atmosphere'
+                  long_name[2] = 'Ocean concentration'
+                  long_name[3] = 'Schmidt number'
+                  units[1] = 'mol/m^3/atm'
+                  units[2] = 'mol/m^3'
+                  units[3] = 'dimensionless'
+            flux/
+                  name[1] = 'flux'
+                  name[2] = 'deltap'
+                  name[3] = 'kw'
+                  name[4] = 'flux0'
+                  long_name[1] = 'Surface flux'
+                  long_name[2] = 'Ocean-air delta pressure'
+                  long_name[3] = 'Piston velocity'
+                  long_name[4] = 'Surface flux no atm'
+                  units[1] = 'mol/m^2/s'
+                  units[2] = 'uatm'
+                  units[3] = 'm/s'
+                  units[4] = 'mol/m^2/s'
+      air_sea_gas_flux/
+            implementation/
+                  ocmip2/
+                        num_parameters = 2
+                  ocmip2_data/
+                        num_parameters = 2
+                  linear/
+                        num_parameters = 3
+            num_flags = 0
+            use_atm_pressure = T
+            use_10m_wind_speed = T
+            pass_through_ice = F
+            atm/
+                  name[1] = 'pcair'
+                  name[2] = 'u10'
+                  name[3] = 'psurf'
+                  long_name[1] = 'Atmospheric concentration'
+                  long_name[2] = 'Wind speed at 10 m'
+                  long_name[3] = 'Surface atmospheric pressure'
+                  units[1] = 'mol/mol'
+                  units[2] = 'm/s'
+                  units[3] = 'Pa'
+            ice/
+                  name[1] = 'alpha'
+                  name[2] = 'csurf'
+                  long_name[1] = 'Solubility from atmosphere times Schmidt number term'
+                  long_name[2] = 'Ocean concentration times Schmidt number term'
+                  units[1] = 'mol/m^3/atm'
+                  units[2] = 'mol/m^3'
+            flux/
+                  name = 'flux'
+                  long_name = 'Surface flux'
+                  units = 'mol/m^2/s'
+      air_sea_deposition/
+            implementation/
+                  dry/
+                        num_parameters = 1
+                  wet/
+                        num_parameters = 1
+            num_flags = 0
+            use_atm_pressure = F
+            use_10m_wind_speed = F
+            pass_through_ice = T
+            atm/
+                  name = 'deposition'
+                  long_name = 'Atmospheric deposition'
+                  units = 'kg/m^2/s'
+            ice/
+                  name = NULL
+                  long_name = NULL
+                  units = NULL
+            flux/
+                  name = 'flux'
+                  long_name = 'Surface deposition'
+                  units = 'mol/m^2/s'
+      land_sea_runoff/
+            implementation/
+                  river/
+                        num_parameters = 1
+            num_flags = 0
+            use_atm_pressure = F
+            use_10m_wind_speed = F
+            pass_through_ice = T
+            atm/
+                  name = 'runoff'
+                  long_name = 'Concentration in land runoff'
+                  units = 'mol/m^3'
+            ice/
+                  name = NULL
+                  long_name = NULL
+                  units = NULL
+            flux/
+                  name = 'flux'
+                  long_name = 'Concentration in land runoff'
+                  units = 'mol/m^3'
+NOTE from PE     0: open_param_file: MOM_input has been opened successfully.
+NOTE from PE     0: open_param_file: MOM_override has been opened successfully.
+NOTE from PE     0: close_param_file: MOM_input has been closed successfully.
+NOTE from PE     0: close_param_file: MOM_override has been closed successfully.
+ ==>Note from atmos_ocean_fluxes_mod(atmos_ocean_fluxes_init): No gas fluxes
+NOTE from PE     0: callTree: ---> ocean_model_init(), ocean_model_MOM.F90
+NOTE from PE     0: open_param_file: MOM_input has been opened successfully.
+NOTE from PE     0: open_param_file: MOM_override has been opened successfully.
+NOTE from PE     0: MOM_domains_init: reading maskmap information from ./auxiliary_input/mask_table.1027.72x48
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =  206 206 206 204 206 206 206
+  Y-AXIS =    4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   2   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4
+ MOM_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =  103 103 103 102 103 103 103
+  Y-AXIS =    2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1
+ parse_mask_table: Number of domain regions masked in MOM_in =         1027
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+  Y-AXIS =   24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+             24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+ MOM_inc domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =   10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+             10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+             10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+  Y-AXIS =   12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12
+             12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12
+NOTE from PE     0: diag_manager_mod::diag_manager_init: prepend_date only supported when diag_manager_init is called with time_init present.
+NOTE from PE     0: diag_manager_mod::diag_manager_init: You are using the legacy version of the diag table
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+  Y-AXIS =   24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+             24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =   10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+             10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+             10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+  Y-AXIS =   12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12
+             12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12
+ MOM_MOSAIC domain decomposition
+whalo =    9, ehalo =    9, shalo =    9, nhalo =    9
+  X-AXIS =   40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40
+             40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40
+             40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40  40
+  Y-AXIS =   48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48
+             48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48  48
+ MOM_MOSAIC domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+  Y-AXIS =   24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+             24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+read_face_lengths_list : Modifying dy_Cu gridpoint at    40.60   26.50 (   40.40   40.80   26.30   26.70) to   5000.00m
+read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+read_face_lengths_list : G%mask2dCu=0 at    40.79   26.50 (   40.40   40.80   26.30   26.70) so grid metric is unmodified.
+read_face_lengths_list : G%mask2dCv=0 at    41.07   28.62 (   41.00   41.20   28.60   29.20) so grid metric is unmodified.
+read_face_lengths_list : Modifying dx_Cv gridpoint at    41.07   28.88 (   41.00   41.20   28.60   29.20) to   1000.00m
+read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+read_face_lengths_list : G%mask2dCv=0 at    41.07   29.12 (   41.00   41.20   28.60   29.20) so grid metric is unmodified.
+read_face_lengths_list : G%mask2dCu=0 at    40.41   26.50 (   40.40   40.80   26.30   26.70) so grid metric is unmodified.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =  206 206 206 204 206 206 206
+  Y-AXIS =    4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   2   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =  103 103 103 102 103 103 103
+  Y-AXIS =    2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+              2   2   2   2   2   2   2   2   2   2   2   2   2   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1
+              1   1   1   1   1   1   1   1   1   1   1
+ MOM_MOSAIC domain decomposition
+whalo =    9, ehalo =    9, shalo =    9, nhalo =    9
+  X-AXIS =  412 412 412 408 412 412 412
+  Y-AXIS =    8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8
+              8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8
+              8   8   8   8   8   8   8   8   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   4   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6   6
+              6   6   6   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8
+              8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8
+              8   8   8   8   8   8   8   8   8   8   8
+ MOM_MOSAIC domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =  206 206 206 204 206 206 206
+  Y-AXIS =    4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   2   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+              3   3   3   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+              4   4   4   4   4   4   4   4   4   4   4
+read_face_lengths_list : G%mask2dCu=0 at    40.41   26.50 (   40.40   40.80   26.30   26.70) so grid metric is unmodified.
+read_face_lengths_list : Modifying dy_Cu gridpoint at    40.60   26.50 (   40.40   40.80   26.30   26.70) to   5000.00m
+read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+read_face_lengths_list : G%mask2dCu=0 at    40.79   26.50 (   40.40   40.80   26.30   26.70) so grid metric is unmodified.
+read_face_lengths_list : G%mask2dCv=0 at    41.07   28.62 (   41.00   41.20   28.60   29.20) so grid metric is unmodified.
+read_face_lengths_list : Modifying dx_Cv gridpoint at    41.07   28.88 (   41.00   41.20   28.60   29.20) to   1000.00m
+read_face_lengths_list : Porous Topography parameters: Dmin, Dmax, Davg (    0.00    0.00    0.00)m
+read_face_lengths_list : G%mask2dCv=0 at    41.07   29.12 (   41.00   41.20   28.60   29.20) so grid metric is unmodified.
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+  Y-AXIS =   24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+             24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =   10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+             10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+             10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+  Y-AXIS =   12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12
+             12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12
+NOTE from PE     0: MOM_restart: MOM run restarted using decomposed fileset: ./access-om3.mom6.r.1958-05-02-00000.nc
+NOTE from PE     0: MOM_restart: MOM run restarted using decomposed fileset: ./access-om3.mom6.r.1958-05-02-00000_1.nc
+NOTE from PE     0: MOM_restart: MOM run restarted using decomposed fileset: ./access-om3.mom6.r.1958-05-02-00000_2.nc
+NOTE from PE     0: MOM_restart: MOM run restarted using decomposed fileset: ./access-om3.mom6.r.1958-05-02-00000_3.nc
+NOTE from PE     0: MOM_restart: MOM run restarted using decomposed fileset: ./access-om3.mom6.r.1958-05-02-00000_4.nc
+ MOM_in domain decomposition
+whalo =    4, ehalo =    4, shalo =    4, nhalo =    4
+  X-AXIS =   20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+  Y-AXIS =   24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+             24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+ MOM_in domain decomposition
+whalo =    2, ehalo =    2, shalo =    2, nhalo =    2
+  X-AXIS =   10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+             10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+             10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10  10
+  Y-AXIS =   12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12
+             12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12  12
+
+WARNING from PE     0: set_diffusivity_init: SIMPLE_TKE_TO_KD can not be used reliably with USE_REGRIDDING.
+
+
+WARNING from PE     0: read_field_3d:The variable dye001 has an unlimited dimension in ./INPUT/file_north_south_dye_tracers.nc but no time level is specified.
+
+
+WARNING from PE     0: read_field_3d:The variable dye002 has an unlimited dimension in ./INPUT/file_north_south_dye_tracers.nc but no time level is specified.
+
+
+WARNING from PE     0: read_field_3d:The variable dye003 has an unlimited dimension in ./INPUT/file_north_south_dye_tracers.nc but no time level is specified.
+
+ MOM_in domain decomposition
+whalo =    0, ehalo =    0, shalo =    0, nhalo =    0
+  X-AXIS =   20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+             20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20  20
+  Y-AXIS =   24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+             24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24  24
+NOTE from PE     0: data_override_init: You are using the legacy version of the data table.
+NOTE from PE     0: data_override_mod: File data_table does not exist.
+NOTE from PE     0: data_table is empty, not doing any data_overrides
+NOTE from PE     0: data_override_init: You are using the legacy version of the data table.
+NOTE from PE     0: data_override_mod: File data_table does not exist.
+NOTE from PE     0: data_table is empty, not doing any data_overrides
+-------->(med_phases_restart_read) mediating for: 1958  5  2  0  0  0   0
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
+  max rss=1025662976.0 MB
